@@ -26,7 +26,7 @@ export const navLinks = [
 		to: "/services",
 		submenu: [
 			{
-				title: "WebDesign",
+				title: "WebDe",
 				to: "/services/web-design", // corrected to include the full path
 			},
 		],
