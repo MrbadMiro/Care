@@ -13,13 +13,23 @@ import {
 	About_sign,
 	About_man,
 } from "../../assets";
+import { delay, motion } from "framer-motion";
 const About = () => {
 	return (
 		<div className="w-full flex flex-col sm:px-12 px-3 my-24 items-center justify-center">
 			<div className="w-full grid md:grid-cols-2">
 				{/* 1st div */}
 				<div className="relative flex sm:pl-[100px] sm:pr-[10px] py">
-					<img
+					<motion.img
+						initial={{ x:-100, opacity: 0 }}
+						animate={{ x: 0, opacity: 1 }}
+						transition={{
+							delay: 0.2,
+							x: { type: "spring", stiffness: 60 },
+							opacity: { duration: 1 },
+							ease: "easeIn",
+							duration: 1,
+						}}
 						src={About_mimg}
 						alt=""
 						className=" object-cover w-full h-[598px] rounded-[30px]  "
@@ -48,30 +58,65 @@ const About = () => {
 
 				{/* 2nd div */}
 				<div className="flex flex-col px-[15px] mt-24 md:mt-0 ">
-					<div className="flex w-full gap-2 ">
-					<div className="flex  ">
+					<motion.div 
+					initial={{ x: 100, opacity: 0 }}
+					animate={{ x: 0, opacity: 1 }}
+					transition={{
+						delay: 0.2,
+						x: { type: "spring", stiffness: 60 },
+						opacity: { duration: 0.6 },
+						ease: "easeIn",
+						duration: 1,
+					}} 
+					className="flex w-full gap-2 ">
+						<div className="flex  ">
 							<img src={A_1_icon} alt="" />
-							<img src={A_2_icon} alt=""  className="animate-bounce"/>
+							<img src={A_2_icon} alt="" className="animate-bounce" />
 						</div>
 
 						<p className="font-caveat font-bold text-Orange  text-[22px] leading-[22px] tracking-[2.2px]">
 							OUR ABOUT US
 						</p>
-					</div>
-					
+					</motion.div>
+
 					<div className="flex w-full">
-						<p className="font-nunito font-bold text-[#122F2A] text-[32px] md:text-[40px] leading-[50px] mt-[16px]">
+						<motion.p initial={{ x: 100, opacity: 0 }}
+						animate={{ x: 0, opacity: 1 }}
+						transition={{
+							delay: 0.5,
+							x: { type: "spring", stiffness: 60 },
+							opacity: { duration: 0.6 },
+							ease: "easeIn",
+							
+						}}  className="font-nunito font-bold text-[#122F2A] text-[32px] md:text-[40px] leading-[50px] mt-[16px]">
 							We Believe This Lifes About Give For Poor People.
-						</p>
+						</motion.p>
 					</div>
 					<div className="flex w-full">
-						<p className="font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-[16px]">
+						<motion.p initial={{ x: 100, opacity: 0 }}
+						whileInView={{ x: 0, opacity: 1 }}
+						transition={{
+							delay: 0.6,
+							x: { type: "spring", stiffness: 60 },
+							opacity: { duration: 1 },
+							ease: "easeIn",
+							duration: 0.6,
+						}} className="font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-[16px]">
 							Poor address a range of simply application and infrastructure this
 							of passages of available, but the majority have suffered poor
 							alteration in some form.
-						</p>
+						</motion.p>
 					</div>
-					<div className="flex flex-cols-3 mt-5 justify-between py-5 border-b border-b-[#DDDDDD] ">
+					<motion.div
+					initial={{ x: 100, opacity: 0 }}
+					whileInView={{ x: 0, opacity: 1 }}
+					transition={{
+						delay: 0.2,
+						x: { type: "spring", stiffness: 60 },
+						opacity: { duration: 1 },
+						ease: "easeIn",
+						duration: 0.3,
+					}} className="flex flex-cols-3 mt-5 justify-between py-5 border-b border-b-[#DDDDDD] ">
 						<div className="flex flex-col items-center justify-center gap-3 px-[15px]">
 							<img
 								src={About_icon3}
@@ -111,21 +156,34 @@ const About = () => {
 								1,193,210
 							</p>
 						</div>
-					</div>
-					<div className="flex flex-cols-2 my-10 items-center justify-between ">
+					</motion.div>
+					<motion.div
+					initial={{ x: 100, opacity: 0 }}
+					whileInView={{ x: 0, opacity: 1 }}
+					transition={{
+						delay: 0.2,
+						x: { type: "spring", stiffness: 60 },
+						opacity: { duration: 1 },
+						ease: "easeIn",
+						duration: 0.1,
+					}} className="flex flex-cols-2 my-10 items-center justify-between ">
 						<div className="flex flex-cols-2 gap-3 items-center justify-center ">
 							<div className="flex  rounded-full border-dotted border-2 border-[#FF5528] p-1 ">
-								<img src={About_man} alt=""  className=""/>
+								<img src={About_man} alt="" className="" />
 							</div>
 							<div className="flex flex-col ">
-								<p className="font-nunito font-extrabold text-[#122F2A] text-[24px] leading-[28.4px] tracking-[0.33px]">Kiri</p>
-								<p className="font-rubik font-normal text-[#122F2A] text-[16px] leading-[28px] ">Founder</p>
+								<p className="font-nunito font-extrabold text-[#122F2A] text-[24px] leading-[28.4px] tracking-[0.33px]">
+									Kiri
+								</p>
+								<p className="font-rubik font-normal text-[#122F2A] text-[16px] leading-[28px] ">
+									Founder
+								</p>
 							</div>
 						</div>
-            <div>
-              <img src={About_sign} alt="" />
-            </div>
-					</div>
+						<div>
+							<img src={About_sign} alt="" />
+						</div>
+					</motion.div>
 				</div>
 			</div>
 		</div>

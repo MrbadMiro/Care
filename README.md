@@ -214,3 +214,16 @@ background: rgba(255, 255, 255, 1); /_ Customize active dot color and opacity _/
 		</div>
 
 <!-- .....................Absoulute Div Width......................................... -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- Framer MOTION -->
+npm i framer-motion
