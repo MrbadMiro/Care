@@ -1,5 +1,6 @@
 import logo from './logo.png';
-
+import A_1_icon from './A_1_icon.svg';
+import A_2_icon from './A_2_icon.svg';
 // Home Page 
 
 //home hero Section image
@@ -33,8 +34,36 @@ import About_icon3 from './About_icon3.svg'
 import About_icon4 from './About_icon4.svg'
 import About_man from './About_man.svg'
 import About_sign from './About_sign.svg'
- 
 
+
+//Services Section 
+import Services_icon from './Services_icon.svg';
+import Services_icon1 from './Services_icon2.svg';
+import Services_icon2 from './Services_icon3.svg';
+import Services_img from './Services_img.svg';
+import Services_img2 from './Services_img2.svg';
+import Service_Arrow from './Service_Arrow.svg';
+ 
+//Event Sectioin
+import Eventimg from './Event.svg'
+import Event_img1 from './Event_img1.svg'
+import Event_img2 from './Event_img2.svg'
+import Event_img3 from './Event_img3.svg'
+import Event_img4 from './Event_img4.svg'
+import Event_img5 from './Event_img5.svg'
+import Event_img6 from './Event_img6.svg'
+
+
+
+//Partner
+import Partner from './Partner.svg'
+
+//Testimonial Section
+import Review from './Review.svg'
+import Testimonial_hand from './Testimonial_hand.svg'
+import Testimonial_flower from './Testimonial_flower.svg'
+import man1 from './man1.svg'
+import man2 from './man2.svg'
 
 // Footer img section
 import arrow   from './arrow-1.svg';
@@ -44,7 +73,8 @@ import Footer_icon_1 from './Footer_icon_1.svg';
 
 export{
     logo,
-    
+    A_1_icon,
+    A_2_icon,
     // Home page Section image Export
 
     //Hero Section
@@ -78,7 +108,35 @@ export{
     About_man,
     About_sign,
 
+    //Home Page Services Section
+    Services_icon,
+    Services_icon1,
+    Services_icon2,
+    Services_img,
+    Services_img2,
+    Service_Arrow,
     
+    //Home Page Event Section
+    Eventimg,
+    Event_img1,
+    Event_img2,
+    Event_img3,
+    Event_img4,
+    Event_img5,
+    Event_img6,
+
+    //Partner
+    Partner,
+
+
+    //Testimonial Section Home Page
+    Review,
+    Testimonial_hand,
+    Testimonial_flower,
+    man1,
+    man2,
+
+    //Footer Section 
     footerimg,
     footerupimg,
     arrow,

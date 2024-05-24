@@ -36,6 +36,7 @@ const Progress = () => {
 								</p>
 							</div>
 						</div>
+						<div class="absolute inset-x-0 bottom-0 h-0 z-10 bg-Orange transition duration-300 ease-in-out hover:h-full"></div>
 					</div>
 					<div className="flex items-center justify-center  absolute    left-1/2 transform -translate-x-1/2 top-6 py-4  w-[calc(100%-30px)] md:w-[calc(100%-30px)]">
                         <div className="w-[75px] h-[60px] bg-[#F1F6F7] rounded-t-0 rounded-b-[50px] flex items-center justify-center">

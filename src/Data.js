@@ -4,40 +4,56 @@ import {
 	HeroIcon1,
 	HeroIcon2,
 	HeroIcon3,
+	Partner,
 } from "./assets/index";
 
 export const navLinks = [
 	{
 		title: "Home",
-		to: "/",
+		to: "/Care/",
 	},
+	// {
+	// 	title: "Page 2",
+	// 	to: "/services",
+	// 	submenu: [
+	// 		{
+	// 			title: "page2",
+	// 			to: "/services/web-design", // corrected to include the full path
+	// 		},
+	// 	],
+	// },
+	// {
+	// 	title: "About Us",
+	// 	to: "/services",
+	// 	submenu: [
+	// 		{
+	// 			title: "WebDesd",
+	// 			to: "/services/web-design", // corrected to include the full path
+	// 		},
+	// 	],
+	// },
 	{
-		title: "Page 2",
-		to: "/services",
-		submenu: [
-			{
-				title: "page2",
-				to: "/services/web-design", // corrected to include the full path
-			},
-		],
-	},
-	{
-		title: "Page3",
-		to: "/services",
-		submenu: [
-			{
-				title: "WebDesd",
-				to: "/services/web-design", // corrected to include the full path
-			},
-		],
-	},
-	{
-		title: "Page4",
+		title: "About Us",
 		to: "/about",
 	},
 	{
-		title: "Page5",
+		title: "Contact Us",
 		to: "/about",
+	},
+	{
+		title: "Services",
+		to: "/about",
+	},
+
+	{
+		title: "career",
+		to: "/services",
+		submenu: [
+			{
+				title: "volunteer",
+				to: "/services/web-design", // corrected to include the full path
+			},
+		],
 	},
 ];
 
@@ -48,7 +64,7 @@ export const HeroSlider = [
 		icon1: HeroIcon1,
 		icon2: HeroIcon2,
 		icon3: HeroIcon3,
-		title:"Hello",
+		title: "Hello",
 	},
 	{
 		id: 2,
@@ -56,7 +72,7 @@ export const HeroSlider = [
 		icon1: HeroIcon1,
 		icon2: HeroIcon2,
 		icon3: HeroIcon3,
-		title:"Hello",
+		title: "Hello",
 	},
 	{
 		id: 3,
@@ -64,6 +80,48 @@ export const HeroSlider = [
 		icon1: HeroIcon1,
 		icon2: HeroIcon2,
 		icon3: HeroIcon3,
-		title:"Hello",
+		title: "Hello",
+	},
+];
+
+export const clients = [
+	{
+		id: 1,
+		image: Partner,
+	},
+	{
+		id: 2,
+		image: Partner,
+	},
+	{
+		id: 3,
+		image: Partner,
+	},
+	{
+		id: 4,
+		image: Partner,
+	},
+	{
+		id: 5,
+		image: Partner,
+	},
+];
+
+export const TestimonialData = [
+	{
+		id: 1,
+        name: "JOSEPH VIJAY",
+		position: "Founder",
+		Description:"Poor address a range of simply application and infrastructure this of passages of available, but the majority have suffered pooralteration in some form.",
+	},
+	{
+		id: 2,
+        name: "Miro",
+		position: "Hr",
+	},
+	{
+		id: 3,
+        name: "Miro",
+		position: "Hr",
 	},
 ];

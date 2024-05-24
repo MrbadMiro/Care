@@ -14,6 +14,7 @@ border-b border-b-white border-opacity-20
 npm install animated-tailwindcss
 https://github.com/dumptyd/tailwind-animatecss/
 https://dumptyd.github.io/tailwind-animatecss/
+https://github.com/bentzibentz/tailwindcss-animate.css
 
 <!-- BG Image Add  -->
 

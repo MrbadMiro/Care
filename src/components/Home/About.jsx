@@ -1,5 +1,7 @@
 import React from "react";
 import {
+	A_1_icon,
+	A_2_icon,
 	About_mimg,
 	About_Simg,
 	About_S2img,
@@ -46,11 +48,17 @@ const About = () => {
 
 				{/* 2nd div */}
 				<div className="flex flex-col px-[15px] mt-24 md:mt-0 ">
-					<div className="flex w-full">
+					<div className="flex w-full gap-2 ">
+					<div className="flex  ">
+							<img src={A_1_icon} alt="" />
+							<img src={A_2_icon} alt=""  className="animate-bounce"/>
+						</div>
+
 						<p className="font-caveat font-bold text-Orange  text-[22px] leading-[22px] tracking-[2.2px]">
 							OUR ABOUT US
 						</p>
 					</div>
+					
 					<div className="flex w-full">
 						<p className="font-nunito font-bold text-[#122F2A] text-[32px] md:text-[40px] leading-[50px] mt-[16px]">
 							We Believe This Lifes About Give For Poor People.

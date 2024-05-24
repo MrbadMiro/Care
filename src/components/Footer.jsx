@@ -21,7 +21,7 @@ const Footer = () => {
 	};
 
 	return (
-		<section className="w-full flex flex-col py-9 ">
+		<section className="w-full flex flex-col  ">
 			<div className="flex flex-col  w-ful">
 				{/* upper div */}
 				<div className="bg-Orange w-full md:px-24 px-6  " style={sectionStyle2}>

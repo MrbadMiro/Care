@@ -9,11 +9,15 @@ const Hero = () => {
 	var settings = {
 		dots: true,
 		infinite: true,
-		speed: 500,
+		
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		initialSlide: 0,
 		arrows: false,
+		autoplay: true,
+		speed: 500,
+		autoplaySpeed: 3000,
+		cssEase: "linear",
 		responsive: [
 			{
 				breakpoint: 1024,
@@ -55,6 +59,7 @@ const Hero = () => {
 								backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(${item.image})`,
 								backgroundSize: "cover",
 								backgroundPosition: "center",
+								
 							}}>
 							<img
 								src={HeroIcon1}
@@ -64,7 +69,7 @@ const Hero = () => {
 							<img
 								src={HeroIcon2}
 								alt=""
-								className="absolute -right-20 overflow-hidden -z-5 -bottom-5 w-[300px] h-[400px]  animate-bounce-slow"
+								className="absolute -right-20 overflow-hidden -z-8 -bottom-5 w-[300px] h-[400px]  animate-bounce-slow"
 							/>
 							<img
 								src={HeroIcon3}
