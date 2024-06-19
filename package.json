@@ -16,6 +16,7 @@
 		"@formkit/auto-animate": "^0.8.2",
 		"animate.css": "^4.1.1",
 		"animated-tailwindcss": "^4.0.0",
+		"aos": "^2.3.4",
 		"framer-motion": "^11.2.6",
 		"lodash.debounce": "^4.0.8",
 		"react": "^18.2.0",

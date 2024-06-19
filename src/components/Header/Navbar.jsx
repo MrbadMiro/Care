@@ -75,7 +75,7 @@ const Navbar = () => {
 
                                 {/* Dropdown */}
                                 {d.submenu && (
-                                    <div className="absolute right-0 z-50 top-10 hidden w-auto flex-col gap-1 rounded-lg bg-white py-3 shadow-md transition-all group-hover:flex">
+                                    <div data-aos="fade-up" className="absolute right-0 z-50 top-10 hidden w-auto flex-col gap-1 rounded-lg bg-white py-3 shadow-md transition-all group-hover:flex">
                                         {d.submenu.map((ch, i) => (
                                             <Link
                                                 key={i}
@@ -100,7 +100,7 @@ const Navbar = () => {
                     </button>
 
                     <select id="language" className="hidden md:flex bg-Orange p-2 outline-none ">
-                        <option value="english">English</option>
+                        <option  value="english">English</option>
                         <option value="tamil">Tamil</option>
                         <option value="sinhala">Sinhala</option>
                     </select>

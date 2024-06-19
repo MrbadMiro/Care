@@ -12,7 +12,7 @@ const SingleNavItem = ({ title, to, submenu, closeSideMenu }) => {
   };
 
   return (
-    <div className="z-80 relative px-2 py-3 transition-all">
+    <div data-aos="fade-down"  className="z-80 relative px-2 py-3 transition-all">
       <div
         onClick={toggleItem}
         className="flex cursor-pointer items-center gap-2 text-neutral-400 group-hover:text-black"

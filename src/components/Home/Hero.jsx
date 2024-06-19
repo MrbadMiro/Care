@@ -157,7 +157,7 @@ const Hero = () => {
 					} flex w-full  `}>
 					<div className="w-full h-[110vh]  relative  flex  items-center">
 						<img
-							src={item.image}
+							
 							alt=""
 							className=" -z-10 h-full w-full absolute zoom-in"
 							style={{
@@ -170,47 +170,47 @@ const Hero = () => {
 						<img
 							src={item.icon1}
 							alt=""
-							className="absolute  bg-opacity-80 top-0 -left-20 h-[213px] animate-bounce-horizontal"
+							className="hidden md:flex  absolute  bg-opacity-80 top-0 -left-20 h-[213px] animate-bounce-horizontal"
 						/>
 						<img
 							src={item.icon2}
 							alt=""
-							className="absolute -right-20 overflow-hidden -z-8 -bottom-8 w-[300px] h-[400px]  animate-bounce-slow"
+							className="hidden md:flex  absolute -right-20 overflow-hidden -z-8 -bottom-8 w-[300px] h-[400px]  animate-bounce-slow"
 						/>
 						<img
 							src={item.icon3}
 							alt=""
-							className="absolute bg-opacity-80  left-[35px] bottom-0 w-[205px] animate-bounce-horizontal "
+							className="hidden md:flex absolute bg-opacity-80  left-[35px] bottom-0 w-[205px] animate-bounce-horizontal "
 						/>
 						{/*Absolute icons */}
 
 						<div className=" flex flex-col w-full my-[200px]  z-4  px-6 md:px-24">
 							<div className="w-full flex flex-col  ">
 								<div   className="w-full animate-slideContent2">
-									<p className="font-nunito font-extrabold text-white text-[50px] flex flex-row leading-[68px] w-full ">
+									<p className="font-nunito font-extrabold text-white text-[30px] leading-[40px] md:text-[50px] flex flex-row md:leading-[68px] w-full ">
 										Making{" "}
 										<span className="text-[#FFA415]  underline mx-4">Charity</span>{" "}
 										The
 									</p>
 								</div>
 								<div>
-									<p className="font-nunito font-extrabold animate-slideContent2 flex flex-row text-white text-[50px] leading-[68px] animate-shakeX w-full ">
+									<p className="font-nunito font-extrabold animate-slideContent2 flex flex-row text-white text-[30px] leading-[40px] md:text-[50px] md:leading-[68px] animate-shakeX w-full ">
 										Poor People Get
 									</p>
 								</div>
 								<div>
-									<p className="font-nunito font-extrabold animate-slideContent2 flex flex-row text-white text-[50px] leading-[68px]    justify-between w-full ">
+									<p className="font-nunito font-extrabold animate-slideContent2 flex flex-row text-white  text-[30px] leading-[40px] md:text-[50px] md:leading-[68px]    justify-between w-full ">
 										<span>Helping Now.</span>
 										<img
 											src={HeroIcon4}
 											alt=""
-											className="p-[22px] bg-white rounded-full animate-smoothPing"
+											className="p-[22px] hidden md:flex bg-white rounded-full animate-smoothPing"
 										/>
 									</p>
 								</div>
 
-								<div className="flex flex-col animate-slideContent">
-									<p className="font-rubik font-normal text-white text-[18px] leading-[31.5px] tracking-[0.27px]">
+								<div className="flex flex-col animate-slideContent mt-4">
+									<p className="font-rubik font-normal text-white md:text-[18px] text-[16px] md:leading-[31.5px] leading-[28px] tracking-[0.27px]">
 										Poor can only be as strong as our people & because of team{" "}
 										<br />
 										have designed game changing products.
