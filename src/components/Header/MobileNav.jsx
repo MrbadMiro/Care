@@ -1,11 +1,17 @@
 import SingleNavItem from "./SingleNavItem";
 import { AiOutlineClose } from "react-icons/ai";
 import { navLinks } from "../../Data";
-import React, { useState } from "react";
-
+import { Link, useNavigate } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { FaHeart } from "react-icons/fa";
 const MobileNav = ({ closeSideMenu }) => {
+
+  const navigate = useNavigate();
+    const handleDonateClick = () => {
+        navigate("/donate");
+    };
 	return (
-		<div className="fixed z-20 left-0 top-0 flex h-full min-h-screen w-full justify-end bg-black/60 md:hidden ">
+		<div className="fixed overflow-y-hidden z-20 left-0 top-0 flex h-[100vh]  w-full justify-end bg-black/60 md:hidden ">
 			<div className="h-full w-[65%] z-50 bg-white px-4 py-4">
 				<section className="flex justify-end">
 					<AiOutlineClose
@@ -14,6 +20,15 @@ const MobileNav = ({ closeSideMenu }) => {
 					/>
 				</section>
 				<div className="flex flex-col text-base gap-2 transition-all">
+          <div className="flex">
+          <select id="language" className="bg-Orange px-4 py-2 outline-none ">
+						<option value="english">English</option>
+						<option value="tamil">Tamil</option>
+						<option value="sinhala">Sinhala</option>
+					</select> 
+
+          </div>
+      
 					{navLinks.map((d, i) => (
 						<SingleNavItem
 							key={i}
@@ -33,17 +48,13 @@ const MobileNav = ({ closeSideMenu }) => {
               Register
             </button> */}
 					<button
-						className="hidden px-4 py-2 bg-Orange text-white font-bold rounded-full md:flex items-center gap-1"
+						className=" px-4 py-2 bg-Orange flex text-white font-bold rounded-full  items-center justify-center gap-1"
 						onClick={handleDonateClick}>
 						<FaHeart />
 						Donate Now
 					</button>
 
-					<select id="language" className="bg-Orange p-2 ">
-						<option value="english">English</option>
-						<option value="tamil">Tamil</option>
-						<option value="sinhala">Sinhala</option>
-					</select>
+					
 				</section>
 			</div>
 		</div>
