@@ -22,10 +22,7 @@ export default {
 				  '50%': { transform: 'translateX(calc(100% - 10px))' }, // Ensures dot stays within bounds
 				},
 			  },
-			  animation: {
-				moveLeftRight: 'moveLeftRight 2s infinite',
-				'bounce-horizontal': 'bounce-horizontal 3s linear infinite',
-			  },
+			 
 			colors: {
 				primary: "#ffffff",
 				Orange: "#ff5528",
@@ -39,8 +36,9 @@ export default {
 			},
 
 			animation: {
-				"bounce-slow": " bounce 3s linear infinite",
+				"bounce-slow": " bounce 10s linear infinite",
 				"pulse-slow": " pulse 3s linear infinite",
+				'bounce-horizontal': 'bounce_horizontal 10s linear infinite',
 			},
 		},
 		screens: {

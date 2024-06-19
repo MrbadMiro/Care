@@ -168,48 +168,48 @@ const Hero = () => {
 						/>
 						{/*Absolute icons */}
 						<img
-							src={HeroIcon1}
+							src={item.icon1}
 							alt=""
-							className="absolute  bg-opacity-80 top-0 h-[213px] animate-bounce-horizontal"
+							className="absolute  bg-opacity-80 top-0 -left-20 h-[213px] animate-bounce-horizontal"
 						/>
 						<img
-							src={HeroIcon2}
+							src={item.icon2}
 							alt=""
-							className="absolute -right-20 overflow-hidden -z-8 -bottom-5 w-[300px] h-[400px]  animate-bounce-slow"
+							className="absolute -right-20 overflow-hidden -z-8 -bottom-8 w-[300px] h-[400px]  animate-bounce-slow"
 						/>
 						<img
-							src={HeroIcon3}
+							src={item.icon3}
 							alt=""
-							className="absolute bg-opacity-80  left-[35px] bottom-0 w-[205px] animatecss animatecss-shakeX-slow animatecss-infinite  h-[193px] "
+							className="absolute bg-opacity-80  left-[35px] bottom-0 w-[205px] animate-bounce-horizontal "
 						/>
 						{/*Absolute icons */}
 
 						<div className=" flex flex-col w-full my-[200px]  z-4  px-6 md:px-24">
-							<div className="w-full flex flex-col ">
-								<div className="w-full">
+							<div className="w-full flex flex-col  ">
+								<div   className="w-full animate-slideContent2">
 									<p className="font-nunito font-extrabold text-white text-[50px] flex flex-row leading-[68px] w-full ">
 										Making{" "}
-										<span className="text-[#FFA415] underline">Charity</span>{" "}
+										<span className="text-[#FFA415]  underline mx-4">Charity</span>{" "}
 										The
 									</p>
 								</div>
 								<div>
-									<p className="font-nunito font-extrabold flex flex-row text-white text-[50px] leading-[68px] animate-shakeX w-full ">
+									<p className="font-nunito font-extrabold animate-slideContent2 flex flex-row text-white text-[50px] leading-[68px] animate-shakeX w-full ">
 										Poor People Get
 									</p>
 								</div>
 								<div>
-									<p className="font-nunito font-extrabold flex flex-row text-white text-[50px] leading-[68px]    justify-between w-full ">
+									<p className="font-nunito font-extrabold animate-slideContent2 flex flex-row text-white text-[50px] leading-[68px]    justify-between w-full ">
 										<span>Helping Now.</span>
 										<img
 											src={HeroIcon4}
 											alt=""
-											className="p-[22px] bg-white rounded-full"
+											className="p-[22px] bg-white rounded-full animate-smoothPing"
 										/>
 									</p>
 								</div>
 
-								<div className="flex flex-col">
+								<div className="flex flex-col animate-slideContent">
 									<p className="font-rubik font-normal text-white text-[18px] leading-[31.5px] tracking-[0.27px]">
 										Poor can only be as strong as our people & because of team{" "}
 										<br />
@@ -217,7 +217,7 @@ const Hero = () => {
 									</p>
 								</div>
 								<div className="flex mt-4">
-									<button class="join-button relative px-6 py-2 bg-[#FFA415] rounded-full font-nunito font-bold text-white text-[17px] leading-[29.8px] tracking-[0.25px] overflow-hidden">
+									<button class="join-button animate-slideImage2  relative px-6 py-2 bg-[#FFA415] rounded-full font-nunito font-bold text-white text-[17px] leading-[29.8px] tracking-[0.25px] overflow-hidden">
 										<span class="relative z-10">Join With Us</span>
 									</button>
 								</div>
