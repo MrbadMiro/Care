@@ -73,15 +73,7 @@ export const HeroSlider = [
 		icon2: HeroIcon2,
 		icon3: HeroIcon3,
 		title: "Hello",
-	},
-	{
-		id: 3,
-		image: Hero_imgb1,
-		icon1: HeroIcon1,
-		icon2: HeroIcon2,
-		icon3: HeroIcon3,
-		title: "Hello",
-	},
+	}
 ];
 
 export const clients = [

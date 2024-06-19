@@ -13,6 +13,10 @@ export default {
 		},
 		extend: {
 			keyframes: {
+				bounce_horizontal: {
+					"0%, 100%": { transform: "translateX(0)" },
+					"50%": { transform: "translateX(50px)" },
+				},
 				moveLeftRight: {
 				  '0%, 100%': { transform: 'translateX(0)' },
 				  '50%': { transform: 'translateX(calc(100% - 10px))' }, // Ensures dot stays within bounds
@@ -20,6 +24,7 @@ export default {
 			  },
 			  animation: {
 				moveLeftRight: 'moveLeftRight 2s infinite',
+				'bounce-horizontal': 'bounce-horizontal 3s linear infinite',
 			  },
 			colors: {
 				primary: "#ffffff",
