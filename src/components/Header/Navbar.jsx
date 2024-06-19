@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import MobileNav from "./MobileNav";
 import { logo } from "../../assets";
 import { navLinks } from "../../Data";
@@ -13,7 +13,10 @@ const Navbar = () => {
     const [scrollY, setScrollY] = useState(window.scrollY);
     const [scrollDirection, setScrollDirection] = useState("up");
     const [isVisible, setIsVisible] = useState(true);
-
+    const navigate = useNavigate();
+    const handleDonateClick = () => {
+        navigate("/donate");
+    };
     const handleScroll = () => {
         const currentScrollY = window.scrollY;
 
@@ -91,7 +94,7 @@ const Navbar = () => {
 
                 {/* Right Section */}
                 <div className="flex gap-2">
-                    <button className="hidden px-4 py-2 bg-Orange text-white font-bold rounded-full md:flex items-center gap-1">
+                    <button className="hidden px-4 py-2 bg-Orange text-white font-bold rounded-full md:flex items-center gap-1"  onClick={handleDonateClick}>
                         <FaHeart />
                         Donate Now
                     </button>

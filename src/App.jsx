@@ -1,4 +1,4 @@
-import { About, Hero, Progress, Services,Event, Partners, Testimonial } from "./components"
+import { Home_About, Hero, Progress, Services,Event, Partners, Testimonial } from "./components"
 
 function App() {
 
@@ -8,7 +8,7 @@ function App() {
        
         <Hero className=""/>
         <Progress/>
-        <About/>
+        <Home_About/>
         <Services/>
         <Event/>
         <Partners/>

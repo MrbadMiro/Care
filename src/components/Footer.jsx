@@ -85,7 +85,7 @@ const Footer = () => {
 							<div className="flex items-center justify-between bg-white rounded-md px-4 my-2 mt ">
 								<input
 									type="email"
-									className="bg-white p-2 font-rubik text-[16x]   rounded-md justify-end  items-end"
+									className="bg-white p-2 font-rubik text-[16x] outline-none  rounded-md justify-end  items-end"
 									placeholder="Enter Email Address "
 								/>
 								<FaTelegramPlane className="text-[#ffA415]" />

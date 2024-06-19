@@ -12,9 +12,20 @@ export default {
 			classes: ["shakeX", "heartBeat"],
 		},
 		extend: {
+			keyframes: {
+				moveLeftRight: {
+				  '0%, 100%': { transform: 'translateX(0)' },
+				  '50%': { transform: 'translateX(calc(100% - 10px))' }, // Ensures dot stays within bounds
+				},
+			  },
+			  animation: {
+				moveLeftRight: 'moveLeftRight 2s infinite',
+			  },
 			colors: {
 				primary: "#ffffff",
 				Orange: "#ff5528",
+				green2:"#122F2A"
+				
 			},
 			fontFamily: {
 				nunito: ["Nunito Sans", "sans-serif"],

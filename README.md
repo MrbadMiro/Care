@@ -24,15 +24,28 @@ backgroundSize: "cover",
 backgroundPosition: "center",
 };
 
-
 <!-- Section Style -->
 <div className='w-full flex flex-col md:px-12 px-12 my-24 items-center justify-center'></div>
 
+<!-- grid 2x x width -->
+<div className="flex flex-col md:px-12 px-6">
+			<div className="grid md:grid-cols-3 gap-4  ">
+				<div className="w-full md:col-span-2 bg-blue-500">div1</div>
+				<div className="w-full bg-green-500">div2</div>
+			</div>
+</div>
 
+<!-- absolute -->
+<div className="flex items-center justify-center Flex-col absolute rounded-[58px] bg-[#F1F6F7]  left-1/2 transform -translate-x-1/2 -top-10 py-4  w-[calc(100%-30px)] md:w-[calc(100%-30px)]">
+flex items-center justify-center left-1/2 transform -translate-x-1/2 -top-10
 <!-- Text Style -->
 className="font-caveat font-bold text-white text-[22px] leading-[22px] tracking-[2.2px]"
 
 className="font-nunito font-extrabold text-white text-[22px] leading-[26.4px] tracking-[0.33px]"
+
+className="font-rubik font-normal text-[#636363] text-[16px] leading-[28px] text-justify"
+
+font-rubik font-normal text-[#636363] text-[16px]
 
 font-thin font-weight: 100;
 font-extralight font-weight: 200;
@@ -45,6 +58,8 @@ font-extrabold font-weight: 800;
 font-black font-weight: 900;
 
 text-[#BCBCBC]
+
+<!-- react slider -->
 
 import React from "react";
 import Slider from "react-slick";
@@ -132,6 +147,8 @@ border: none;
 background: rgba(255, 255, 255, 1); /_ Customize active dot color and opacity _/
 }
 
+ <!-- react slider end -->
+
 <!-- .....................Absoulute Div Width......................................... -->
 <div className="flex flex-col md:px-12 px-12 w-full mt-24 md:mt-0">
 			<div className="grid md:grid-cols-3 relative w-full ">
@@ -215,15 +232,21 @@ background: rgba(255, 255, 255, 1); /_ Customize active dot color and opacity _/
 
 <!-- .....................Absoulute Div Width......................................... -->
 
-
-
-
-
-
-
-
-
-
-
 <!-- Framer MOTION -->
+
 npm i framer-motion
+
+<!-- text -->
+
+motion.p initial={{ x: 100, opacity: 0 }}
+whileInView={{ x: 0, opacity: 1 }}
+transition={{
+							delay: 0.6,
+							x: { type: "spring", stiffness: 60 },
+							opacity: { duration: 1 },
+							ease: "easeIn",
+							duration: 0.6,
+						}}
+
+About Section
+https://bracketweb.com/careox-html/donations-details.html

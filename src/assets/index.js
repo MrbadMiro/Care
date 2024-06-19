@@ -71,6 +71,18 @@ import footerimg from './footer_img.svg';
 import footerupimg from './footer_A_img.svg';
 import Footer_icon_1 from './Footer_icon_1.svg';
 
+
+
+//About Section
+import about_1 from './about-1.svg';
+import about_2 from './about-arrow_i.svg';
+import about_3 from './about-dot_i.svg';
+import about_4 from './about_circle.svg';
+
+
+//Donate Section
+import Donate_bg from './Donate_bg.svg'
+
 export{
     logo,
     A_1_icon,
@@ -141,6 +153,18 @@ export{
     footerupimg,
     arrow,
     Footer_icon_1,
+
+
+    //About Section
+    about_1,
+    about_2,
+    about_3,
+    about_4,
+
+
+    //Donate Section
+    Donate_bg,
+
 
 }
 

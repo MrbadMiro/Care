@@ -9,7 +9,7 @@ const Hero = () => {
 	var settings = {
 		dots: true,
 		infinite: true,
-		
+
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		initialSlide: 0,
@@ -59,7 +59,6 @@ const Hero = () => {
 								backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(${item.image})`,
 								backgroundSize: "cover",
 								backgroundPosition: "center",
-								
 							}}>
 							<img
 								src={HeroIcon1}
@@ -110,10 +109,10 @@ const Hero = () => {
 										</p>
 									</div>
 									<div className="flex mt-4">
-
-                                      <button className="px-6 py-2 bg-[#FFA415] rounded-full font-nunito font-bold text-white text-[17px] leading-[29.8px] tracking-[0.25px]">Join With Us</button>
+										<button class="join-button relative px-6 py-2 bg-[#FFA415] rounded-full font-nunito font-bold text-white text-[17px] leading-[29.8px] tracking-[0.25px] overflow-hidden">
+											<span class="relative z-10">Join With Us</span>
+										</button>
 									</div>
-		
 								</div>
 								<div></div>
 							</div>

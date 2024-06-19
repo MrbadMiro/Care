@@ -20,7 +20,7 @@ const Services = () => {
 				</p>
 			</div>
 			<div className="grid md:grid-cols-3 w-full mt-5  gap-5">
-				<div className="flex flex-col w-full px-[15px] rounded-xl py-[15px] bg-white items-center justify-center text-center">
+				<div className="flex flex-col w-full px-[15px] boxShadow2 rounded-xl py-[15px] bg-white items-center justify-center text-center">
 					<img src={Services_img} alt="" className=" object-cover w-full" />
 					<div>
 						<p className="font-nunito font-extrabold text-[#122F2A] text-[24px] leading-[28.8px] mt-2 tracking-[0.33px]">
@@ -37,7 +37,7 @@ const Services = () => {
                         <p className="font-rubik font-normal text-[#636363] text-[16px] leading-[17px]  ">Read More </p> <img src={Service_Arrow} alt="" />
                     </div>
 				</div>
-                <div className="flex flex-col w-full px-[15px] rounded-xl py-[15px] bg-white items-center justify-center text-center">
+                <div className="flex flex-col w-full px-[15px] boxShadow2 rounded-xl py-[15px] bg-white items-center justify-center text-center">
 					<img src={Services_img} alt="" className=" object-cover w-full" />
 					<div>
 						<p className="font-nunito font-extrabold text-[#122F2A] text-[24px] leading-[28.8px] mt-2 tracking-[0.33px]">
@@ -54,7 +54,7 @@ const Services = () => {
                         <p className="font-rubik font-normal text-[#636363] text-[16px] leading-[17px]  ">Read More </p> <img src={Service_Arrow} alt="" />
                     </div>
 				</div>
-                <div className="flex flex-col w-full px-[15px] rounded-xl py-[15px] bg-white items-center justify-center text-center">
+                <div className="flex flex-col w-full px-[15px] boxShadow2 rounded-xl py-[15px] bg-white items-center justify-center text-center">
 					<img src={Services_img} alt="" className=" object-cover w-full" />
 					<div>
 						<p className="font-nunito font-extrabold text-[#122F2A] text-[24px] leading-[28.8px] mt-2 tracking-[0.33px]">
@@ -71,7 +71,7 @@ const Services = () => {
                         <p className="font-rubik font-normal text-[#636363] text-[16px] leading-[17px]  ">Read More </p> <img src={Service_Arrow} alt="" />
                     </div>
 				</div>
-                <div className="flex flex-col w-full px-[15px] rounded-xl py-[15px] bg-white items-center justify-center text-center">
+                <div className="flex flex-col w-full px-[15px] boxShadow2 rounded-xl py-[15px] bg-white items-center justify-center text-center">
 					<img src={Services_img} alt="" className=" object-cover w-full" />
 					<div>
 						<p className="font-nunito font-extrabold text-[#122F2A] text-[24px] leading-[28.8px] mt-2 tracking-[0.33px]">
@@ -88,7 +88,7 @@ const Services = () => {
                         <p className="font-rubik font-normal text-[#636363] text-[16px] leading-[17px]  ">Read More </p> <img src={Service_Arrow} alt="" />
                     </div>
 				</div>
-                <div className="flex flex-col w-full px-[15px] rounded-xl py-[15px] bg-white items-center justify-center text-center">
+                <div className="flex flex-col w-full px-[15px] boxShadow2 rounded-xl py-[15px] bg-white items-center justify-center text-center">
 					<img src={Services_img} alt="" className=" object-cover w-full" />
 					<div>
 						<p className="font-nunito font-extrabold text-[#122F2A] text-[24px] leading-[28.8px] mt-2 tracking-[0.33px]">
@@ -105,7 +105,7 @@ const Services = () => {
                         <p className="font-rubik font-normal text-[#636363] text-[16px] leading-[17px]  ">Read More </p> <img src={Service_Arrow} alt="" />
                     </div>
 				</div>
-                <div className="flex flex-col w-full px-[15px] rounded-xl py-[15px] bg-white items-center justify-center text-center">
+                <div className="flex flex-col w-full px-[15px] boxShadow2 rounded-xl py-[15px] bg-white items-center justify-center text-center">
 					<img src={Services_img} alt="" className=" object-cover w-full" />
 					<div>
 						<p className="font-nunito font-extrabold text-[#122F2A] text-[24px] leading-[28.8px] mt-2 tracking-[0.33px]">

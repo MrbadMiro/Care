@@ -38,20 +38,20 @@ export const navLinks = [
 	},
 	{
 		title: "Contact Us",
-		to: "/about",
+		to: "/contact",
 	},
 	{
 		title: "Services",
-		to: "/about",
+		to: "/services",
 	},
 
 	{
-		title: "career",
-		to: "/services",
+		title: "Career",
+		to: "/career/volunteer",
 		submenu: [
 			{
 				title: "volunteer",
-				to: "/services/web-design", // corrected to include the full path
+				to: "/career/volunteer", // corrected to include the full path
 			},
 		],
 	},
@@ -116,12 +116,14 @@ export const TestimonialData = [
 	},
 	{
 		id: 2,
-        name: "Miro",
+        name: "Miro2",
 		position: "Hr",
+		Description:"Poor address a range of simply application and infrastructure this of passages of available, but the majority have suffered pooralteration in some form.",
 	},
 	{
 		id: 3,
-        name: "Miro",
+        name: "Miro3",
 		position: "Hr",
+		Description:"Poor address a range of simply application and infrastructure this of passages of available, but the majority have suffered pooralteration in some form.",
 	},
 ];
