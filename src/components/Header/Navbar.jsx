@@ -99,7 +99,7 @@ const Navbar = () => {
                         Donate Now
                     </button>
 
-                    <select id="language" className="bg-Orange p-4 ">
+                    <select id="language" className="bg-Orange p-2 ">
                         <option value="english">English</option>
                         <option value="tamil">Tamil</option>
                         <option value="sinhala">Sinhala</option>
