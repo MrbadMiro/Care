@@ -136,6 +136,13 @@ const Ourstory = () => {
 							Our Core Values:
 						</p>
 					</div>
+					<div className="flex mt-4">
+						<p className="font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] text-justify">
+							The Poor address a range of simply application and infrastructure
+							this of passages of available, majority have suffered poor in some
+							form.Lorem Ipsum is simply dummy text.
+						</p>
+					</div>
 					<div className="flex flex-col">
 						<div className="grid md:grid-cols-2 gap-4 mt-8">
 							<div className=" flex flex-cols-2  gap-2 items-center ">
@@ -192,13 +199,7 @@ const Ourstory = () => {
 						</div>
 
 					</div>
-					<div className="flex mt-4">
-						<p className="font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] text-justify">
-							The Poor address a range of simply application and infrastructure
-							this of passages of available, majority have suffered poor in some
-							form.Lorem Ipsum is simply dummy text.
-						</p>
-					</div>
+					
 					<div>
 
 					</div>
