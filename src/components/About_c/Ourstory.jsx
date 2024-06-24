@@ -7,7 +7,11 @@ import { FaInstagram } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io";
 import {
+	about_4,
 	about_1,
+	About_icon1,
+	About_icon2,
+	About_icon3,
 	A_1_icon,
 	A_2_icon,
 	Progress_img1,
@@ -24,7 +28,7 @@ const Ourstory = () => {
 				</div>
 
 				<p className="font-caveat font-bold text-Orange   text-[22px] leading-[22px] tracking-[2.2px]">
-					OUR STORY
+					WHY CHOOSE US?
 				</p>
 			</div>
 			<div className="grid grid-cols-1 md:grid-cols-3  gap-4 ">
@@ -50,26 +54,63 @@ const Ourstory = () => {
 							</div>
 							<div className="flex items-center justify-between">
 								<span className="title block text-base font-semibold text-green2">
-								$13,000 Goals
+									$13,000 Goals
 								</span>
 								<span className="title block text-base font-semibold text-green2">
-								$5,000 Donate
+									$5,000 Donate
 								</span>
 							</div>
 							<div className="mt-8 h-[2px] bg-[#DDDDDD] w-full relative">
-                               <div className="w-[10px] top-[-4px] h-[10px] rounded-full bg-Orange absolute  animate-moveLeftRight">
-
-							   </div>
+								<div className="w-[10px] top-[-4px] h-[10px] rounded-full bg-Orange absolute  animate-bounce-horizontal2"></div>
 							</div>
 							<div className="flex items-center justify-center py-6 ">
-						<button className="px-4 py-2 bg-[#FFA415] font-nunito  rounded-full font-normal text-[#ffffff] text-[16px] leading-[28px] ">
-							Donate Now
-						</button>
-					</div>
+								<button className="px-4 py-2 bg-[#FFA415] font-nunito  rounded-full font-normal text-[#ffffff] text-[16px] leading-[28px] ">
+									Donate Now
+								</button>
+							</div>
 						</div>
 					</div>
-					<div className="flex mt-4">
-						<p className="font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] text-justify">
+					<div className="flex mt-4 flex-col">
+						<div className="mb-0 flex flex-col">
+							<p className="flex  flex-col font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-[16px]">
+								{" "}
+								<p className="flex gap-2 font-nunito font-extrabold text-[#122f2A]  text-[20px] leading-[28px] text-left ">
+									<img src={about_4} alt="" /> Unified Investments:
+								</p>
+								<p className="flex px-5">
+									<p>
+										We bring together micro-investors to create a unified
+										platform for growth and development.
+									</p>{" "}
+								</p>
+							</p>
+							<p className="flex  flex-col font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-[16px]">
+								{" "}
+								<p className="flex gap-2 font-nunito font-extrabold text-[#122f2A]  text-[20px] leading-[28px] text-left">
+									<img src={about_4} alt="" /> Professional Administration:
+								</p>
+								<p className="flex px-5">
+									<p>
+										Our commitment to professional standards ensures efficient
+										and effective management of resources.
+									</p>{" "}
+								</p>
+							</p>
+							<p className="flex  flex-col font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-[16px]">
+								{" "}
+								<p className="flex gap-2 font-nunito font-extrabold text-[#122f2A]  text-[20px] leading-[28px] text-left ">
+									<img src={about_4} alt="" /> Strong Community Leadership:
+								</p>
+								<p className="flex px-5">
+									<p>
+										We nurture and develop strong leaders who are dedicated to
+										the success and well-being of our community.
+									</p>{" "}
+								</p>
+							</p>
+						</div>
+
+						{/* <p className="font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] text-justify">
 							Poor address a range of simply application and infrastructure this
 							of passages of available, but the majority have suffered poor in
 							some form.Lorem Ipsum is simply dummy text of the printing and
@@ -80,20 +121,76 @@ const Ourstory = () => {
 							electronic typesetting, remaining essentially unchanged. It was
 							popularised in the 1960s with the release of Letraset sheets
 							containing Lorem Ipsum passages, and more recently with desktop.
-						</p>
+						</p> */}
 					</div>
 					<div className="flex mt-4">
 						<p className="font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] text-justify">
-							The Poor address a range of simply application and infrastructure
-							this of passages of available, majority have suffered poor in some
-							form.Lorem Ipsum is simply dummy text of the printing industry has
-							been the industry’s standard dummy text ever since the
+							At Mangatha Pvt Ltd, we understand that the true value of seamless
+							coordination extends beyond financial profits. It encompasses the
+							significant social value that we aim to create and uphold within
+							our community.
 						</p>
 					</div>
 					<div className="flex mt-4">
 						<p className="font-nunito font-extrabold text-[#122f2A]  text-[40px] leading-[48px] text-left">
-							Poor Summary :
+							Our Core Values:
 						</p>
+					</div>
+					<div className="flex flex-col">
+						<div className="grid md:grid-cols-2 gap-4 mt-8">
+							<div className=" flex flex-cols-2  gap-2 items-center ">
+                                <div>
+									<div className=" bg-Orange p-4 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
+
+									</div>
+								</div>
+								<div> <p>Professional Administration</p></div>
+							</div>
+							<div className=" flex flex-cols-2 gap-2 items-center ">
+                                <div>
+									<div className=" bg-Orange p-4 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
+
+									</div>
+								</div>
+								<div> <p>Unified Micro-Investors: </p></div>
+							</div>
+							<div className=" flex flex-cols-2  gap-2 items-center ">
+                                <div>
+									<div className=" bg-Orange p-4 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
+
+									</div>
+								</div>
+								<div> <p>Community Engagement:</p></div>
+							</div>
+							<div className=" flex flex-cols-2 gap-2 items-center ">
+                                <div>
+									<div className=" bg-Orange p-4 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
+
+									</div>
+								</div>
+								<div> <p>Consolidation of Resources:</p></div>
+							</div>
+							<div className=" flex flex-cols-2  gap-2 items-center ">
+                                <div>
+									<div className=" bg-Orange p-4 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
+
+									</div>
+								</div>
+								<div> <p>Self-Sufficiency:</p></div>
+							</div>
+							<div className=" flex flex-cols-2 gap-2 items-center ">
+                                <div>
+									<div className=" bg-Orange p-4 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
+
+									</div>
+								</div>
+								<div> <p>Leadership Development</p></div>
+							</div>
+						
+							
+
+						</div>
+
 					</div>
 					<div className="flex mt-4">
 						<p className="font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] text-justify">
@@ -102,61 +199,56 @@ const Ourstory = () => {
 							form.Lorem Ipsum is simply dummy text.
 						</p>
 					</div>
-					<div className="grid md:grid-cols-2 gap-4 mt-2">
-						<div className="flex">
-							<img src={Progress_img1} alt="" className=" object-cover" />
-						</div>
-						<div>
-							<img src={Progress_img2} alt="" className=" object-cover" />
-						</div>
+					<div>
+
 					</div>
-					<div className="flex items-center justify-center py-6 ">
-						<button className="px-4 py-2 bg-[#FFA415] font-nunito  rounded-full font-normal text-[#ffffff] text-[16px] leading-[28px] ">
-							Donate Now
-						</button>
-					</div>
+					
 				</div>
 
 				{/* div2 */}
 				<div className=" w-full  px-6 flex flex-col ">
 					<div className="w-full bg-Orange rounded-md flex ">
 						<div className=" w-full rounded-md bg-[#F1F6F7] mt-2  py-6">
-							<div className="flex flex-col w-full">
-								<div className="flex  w-full items-center justify-center gap-4 py-6 border-b-2">
-									<div>
-										<img src={man1} alt="" className="w-[71px] h-[71px]" />
-									</div>
-									<div className="flex flex-col ">
-										<p className="font-nunito font-extrabold text-[#122F2A]  text-[24px] leading-[28px] text-justify">
-											Phillip Haris
-										</p>
-
-										<p className="font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] text-justify">
-											Founder
-										</p>
-									</div>
+							<div className="flex flex-col w-full gap-4">
+								<div className="flex flex-col items-center justify-center gap-3 px-[15px] pb-2 border-b-2">
+									<img
+										src={About_icon3}
+										alt=""
+										className=" object-cover w-[50px] h-[50px]"
+									/>
+									<p className="font-nunito font-extrabold text-[#122F2A] text-[18px] leading-[21px] ">
+										Join Our Team
+									</p>
+									<p className="font-caveat font-bold text-[#FFA415] text-[26px] leading-[26px] tracking-[2.2px]">
+										5,472
+									</p>
 								</div>
-								<div className="flex flex-col mt-4 justify-center items-center gap-2">
-									<div className="flex gap-2">
-										<SlCalender className="text-[#ffa415]" />
-										<p className="font-rubik font-normal text-[#636363]  text-[16px]    ">
-											Sep 2024
-										</p>{" "}
-									</div>
-									<div className="flex gap-2">
-										<FaFolder className="text-[#ffa415]" />{" "}
-										<p className="font-rubik font-normal text-[#636363]  text-[16px]    ">
-											Environment
-										</p>{" "}
-									</div>
-									<div className="flex gap-2">
-										<MdLocationOn className="text-[#ffa415]" />
-										<p className="font-rubik font-normal text-[#636363]  text-[16px]    ">
-											London, Canada
-										</p>
-									</div>
+								<div className="flex flex-col items-center justify-center gap-3 px-[15px] pb-2 border-b-2">
+									<img
+										src={About_icon2}
+										alt=""
+										className=" object-cover w-[50px] h-[50px]"
+									/>
+									<p className="font-nunito font-extrabold text-[#122F2A] text-[18px] leading-[21px] ">
+										Donate Now
+									</p>
+									<p className="font-caveat font-bold text-Orange text-[26px] leading-[26px] tracking-[2.2px]">
+										$30,768
+									</p>
 								</div>
-								<div></div>
+								<div className="flex flex-col items-center justify-center gap-3 px-[15px] pb-2 ">
+									<img
+										src={About_icon1}
+										alt=""
+										className=" object-cover w-[50px] h-[50px]"
+									/>
+									<p className="font-nunito font-extrabold text-[#122F2A] text-[18px] leading-[21px] ">
+										Total Fund Raised
+									</p>
+									<p className="font-caveat font-bold text-[#8742E8] text-[26px] leading-[26px] ">
+										1,193,210
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -184,6 +276,19 @@ const Ourstory = () => {
 								</div>
 							</div>
 						</div>
+					</div>
+					<div className="flex flex-col mt-8">
+					
+						<div>
+							<img src={Progress_img2} alt="" className=" object-cover" />
+						</div>
+					
+					<div className="flex items-center justify-center py-6 ">
+						<button className="px-4 py-2 bg-[#FFA415] font-nunito  rounded-full font-normal text-[#ffffff] text-[16px] leading-[28px] ">
+							Donate Now
+						</button>
+					</div>
+
 					</div>
 				</div>
 			</div>

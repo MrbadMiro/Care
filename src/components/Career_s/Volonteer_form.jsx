@@ -11,10 +11,10 @@ const Volonteer_form = () => {
 			  {/* div1 */}
 				<div className="flex flex-col justify-start gap-4 pr-2">
 					<div className="flex   4">
-						<p className="font-nunito font-extrabold text-[#122f2A] text-[24px] leading-[28.4px] tracking-[0.33px]">Volunteer Requirements</p>
+						<p className="font-nunito font-extrabold text-[#122f2A] text-[24px] leading-[28.4px] tracking-[0.33px]">Join Us in Building a Better Future</p>
 					</div>
 					<div>
-						<p className="font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] text-left">Poor address a range of simply application and infrastructure this of passages of available, but the majority have suffered poor alteration in some form.</p>
+						<p className="font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] text-left">Together, we can build a community where trust, social value, and economic prosperity go hand in hand. <br /> Join us at Mangatha Pvt Ltd as we work towards a brighter future for Valvetithurai.</p>
 					</div>
 					<div>
                         <p className="font-caveat font-bold text-[#636363] text-[16px] leading-[28px] ">HELPED FUND 589,537 PROJECTS IN 24 COUNTRIES, BENEFITING OVER

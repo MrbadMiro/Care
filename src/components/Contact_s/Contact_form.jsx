@@ -129,9 +129,7 @@ const Contact_form = () => {
 									duration: 0.6,
 								}}
 								className="font-rubik font-normal text-[#636363]  text-[16px] leading-[28px]  mt-[16px]">
-								Poor address a range of simply application and infrastructure
-								this of passages of available, but the majority have suffered
-								poor alteration in some form.
+								Have questions or want to get involved? Contact us today to learn more about our initiatives and how you can contribute to our community's success.
 							</motion.p>
 						</div>
 

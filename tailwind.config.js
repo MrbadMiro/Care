@@ -17,6 +17,10 @@ export default {
 					"0%, 100%": { transform: "translateX(0)" },
 					"50%": { transform: "translateX(50px)" },
 				},
+				bounce_horizontal2: {
+					"0%, 100%": { transform: "translateX(0)" },
+					"50%": { transform: "translateX(700px)" },
+				},
 				moveLeftRight: {
 				  '0%, 100%': { transform: 'translateX(0)' },
 				  '50%': { transform: 'translateX(calc(100% - 10px))' }, // Ensures dot stays within bounds
@@ -39,6 +43,7 @@ export default {
 				"bounce-slow": " bounce 10s linear infinite",
 				"pulse-slow": " pulse 3s linear infinite",
 				'bounce-horizontal': 'bounce_horizontal 10s linear infinite',
+				'bounce-horizontal2': 'bounce_horizontal2 29s linear infinite',
 			},
 		},
 		screens: {

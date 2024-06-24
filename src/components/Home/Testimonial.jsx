@@ -16,7 +16,7 @@ import { TestimonialData } from "../../Data"; // Ensure this is correctly import
 // Custom Arrows
 const CustomPrevArrow = ({ onClick }) => (
 	<div
-		className="absolute left-[-25px] top-[50%] rounded-full bg-[#122F2A] p-2 transform -translate-y-1/2 cursor-pointer z-20"
+		className="absolute left-[-25px] top-[50%] rounded-full bg-[#122F2A] p-2 transform -translate-y-1/2 cursor-pointer z-10"
 		onClick={onClick}>
 		<FaArrowLeft className="text-white text-[20px]" />
 	</div>
@@ -24,7 +24,7 @@ const CustomPrevArrow = ({ onClick }) => (
 
 const CustomNextArrow = ({ onClick }) => (
 	<div
-		className="absolute right-[-25px] top-[50%] rounded-full bg-[#122F2A] p-2 transform -translate-y-1/2 cursor-pointer z-20"
+		className="absolute right-[-25px] top-[50%] rounded-full bg-[#122F2A] p-2 transform -translate-y-1/2 cursor-pointer z-10"
 		onClick={onClick}>
 		<FaArrowRight className="text-white text-[20px]" />
 	</div>
@@ -128,18 +128,18 @@ const Testimonial = () => {
 							<div
 								id="Slider-Boxes"
 								key={index}
-								className="p-8 mt-10 w-full bg-white flex flex-row border boxShadow rounded-[80px] border-[#DDDDDD] relative py-12">
+								className="p-8 mt-10 w-full bg-white flex flex-row border   rounded-[80px] border-[#DDDDDD] relative py-12">
 								<div className="flex flex-col w-full  gap-1">
 									<p className="font-nunito text-center mt-2 text-[24px] font-extrabold text-[#122F2A]">
 										{item.name}
 									</p>
-									<p className="font-rubik text-center text-[16px] font-normal mt-4 text-[#636363]">
+									{/* <p className="font-rubik text-center text-[16px] font-normal mt-4 text-[#636363]">
 										{item.position}
-									</p>
+									</p> */}
 									<p className="font-rubik text-center text-[16px] font-normal px-[] mt-4 text-[#636363]">
 										{item.Description}
 									</p>
-									<div className="flex w-full items-center justify-center py-4">
+									<div className="flex w-full items-center text-[20px] justify-center py-4">
 										<img src={Review} alt="" />
 									</div>
 								</div>

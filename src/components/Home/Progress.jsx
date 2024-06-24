@@ -26,8 +26,8 @@ const Progress = () => {
 				<div
 					className="relative flex items-center justify-center px-[15px] py-24 md:rounded-b-md boxShadow w-full"
 					style={sectionStyle}>
-					<p className=" text-center text-white">
-						A brief statement summarizing the charity's primary objectives.
+					<p className=" text-center text-white  ">
+					To unite micro-investors, foster professional administration, and nurture strong leaders, driving social value and trust within our community.
 					</p>
 					<div className="flex items-center justify-center Flex-col  absolute rounded-[58px] bg-[#F1F6F7]  left-1/2 transform -translate-x-1/2 -top-10 py-4  w-[calc(100%-30px)] md:w-[calc(100%-30px)]">
 						<div className="flex flex-row md:flex-row items-center gap-5 justify-center">
@@ -69,9 +69,9 @@ const Progress = () => {
 						alt=""
 						className="object-cover w-full "
 					/> */}
-					<p className=" text-center text-white">
+					<p className=" text-center text-white  ">
 						{" "}
-						A glimpse into the ideal future state the charity aims to create.
+						Empowering Valvetithurai through unified investments, professional administration, and strong leadership, fostering a prosperous and resilient community.
 					</p>
 					<div className="absolute rounded-[58px] bg-[#F1F6F7]  left-1/2 transform -translate-x-1/2 -top-10 py-4  w-[calc(100%-30px)] md:w-[calc(100%-30px)]">
 						<div className="flex flex-row md:flex-row items-center gap-5 justify-center">
@@ -104,7 +104,7 @@ const Progress = () => {
 					className="relative flex items-center py-24 md:rounded-b-md justify-center px-[15px] boxShadow sm:mt-10 md:mt-0 w-full"
 					style={sectionStyle3}>
 					<p className=" text-center text-white mt-2">
-						A brief statement summarizing the charity's primary objectives.
+					Community Engagement | Unified Micro-Investors | Consolidation of Resources | Self-Sufficiency | Leadership Development
 					</p>
 					<div className="absolute rounded-[58px] bg-[#F1F6F7]  left-1/2 transform -translate-x-1/2 -top-10 py-4  w-[calc(100%-30px)] md:w-[calc(100%-30px)]">
 						<div className="flex flex-row md:flex-row items-center gap-5 justify-center">

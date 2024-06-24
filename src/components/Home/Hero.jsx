@@ -184,23 +184,23 @@ const Hero = () => {
 						/>
 						{/*Absolute icons */}
 
-						<div className=" flex flex-col w-full my-[200px]  z-4  px-6 md:px-24">
+						<div className=" flex flex-col w-full my-[200px]  z-4  px-6 md:px-12">
 							<div className="w-full flex flex-col  ">
 								<div   className="w-full animate-slideContent2">
 									<p className="font-nunito font-extrabold text-white text-[30px] leading-[40px] md:text-[50px] flex flex-row md:leading-[68px] w-full ">
-										Making{" "}
-										<span className="text-[#FFA415]  underline mx-4">Charity</span>{" "}
-										The
+									Building Prosperity & Community: 
+										{/* <span className="text-[#FFA415]  underline mx-4">Charity</span>{" "}
+										The */}
 									</p>
 								</div>
-								<div>
+								{/* <div>
 									<p className="font-nunito font-extrabold animate-slideContent2 flex flex-row text-white text-[30px] leading-[40px] md:text-[50px] md:leading-[68px] animate-shakeX w-full ">
-										Poor People Get
+									The Mangatha Pvt Ltd Way
 									</p>
-								</div>
+								</div> */}
 								<div>
-									<p className="font-nunito font-extrabold animate-slideContent2 flex flex-row text-white  text-[30px] leading-[40px] md:text-[50px] md:leading-[68px]    justify-between w-full ">
-										<span>Helping Now.</span>
+									<p className="font-nunito font-extrabold animate-slideContent2 flex flex-row text-white  text-[30px] leading-[40px] md:text-[50px] md:leading-[68px] items-center   justify-between w-full ">
+										<span>The Mangatha Pvt Ltd Way</span>
 										<img
 											src={HeroIcon4}
 											alt=""
@@ -211,12 +211,10 @@ const Hero = () => {
 
 								<div className="flex flex-col animate-slideContent mt-4">
 									<p className="font-rubik font-normal text-white md:text-[18px] text-[16px] md:leading-[31.5px] leading-[28px] tracking-[0.27px]">
-										Poor can only be as strong as our people & because of team{" "}
-										<br />
-										have designed game changing products.
+									Empowering Valvetithurai through Unified Investments and Leadership
 									</p>
 								</div>
-								<div className="flex mt-4">
+								<div className="flex mt-6">
 									<button class="join-button animate-slideImage2  relative px-6 py-2 bg-[#FFA415] rounded-full font-nunito font-bold text-white text-[17px] leading-[29.8px] tracking-[0.25px] overflow-hidden">
 										<span class="relative z-10">Join With Us</span>
 									</button>

@@ -20,9 +20,9 @@ function App() {
         <Hero className=""/>
         <Progress/>
         <Home_About/>
-        <Services/>
-        <Event/>
-        <Partners/>
+        {/* <Services/> */}
+        {/* <Event/> */}
+        {/* <Partners/> */}
         <Testimonial/>
       
      </div> 
