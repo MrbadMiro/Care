@@ -78,6 +78,12 @@ import about_1 from './about-1.svg';
 import about_2 from './about-arrow_i.svg';
 import about_3 from './about-dot_i.svg';
 import about_4 from './about_circle.svg';
+import Adminstration from './Adminstration.svg';
+import investor from './investor.svg';
+import community from './community.svg';
+import organization from './organization.svg';
+import self from './self.svg';
+import leadership from './leadership.svg';
 
 
 //Donate Section
@@ -160,6 +166,12 @@ export{
     about_2,
     about_3,
     about_4,
+    Adminstration,
+    investor,
+    community,
+    organization,
+    self,
+    leadership,
 
 
     //Donate Section

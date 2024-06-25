@@ -6,6 +6,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io";
+
 import {
 	about_4,
 	about_1,
@@ -16,6 +17,12 @@ import {
 	A_2_icon,
 	Progress_img1,
 	Progress_img2,
+	Adminstration,
+	organization,
+	community,
+	investor,
+	leadership,
+	self,
 	man1,
 } from "../../assets";
 const Ourstory = () => {
@@ -144,54 +151,54 @@ const Ourstory = () => {
 						</p>
 					</div>
 					<div className="flex flex-col">
-						<div className="grid md:grid-cols-2 gap-4 mt-8">
+						<div className="grid md:grid-cols-2 gap-6 mt-8">
 							<div className=" flex flex-cols-2  gap-2 items-center ">
                                 <div>
-									<div className=" bg-Orange p-4 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
-
+									<div className=" bg-Orange p-3 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
+                                        <img src={Adminstration} alt=""  className="w-[30px] h-[30px] -rotate-45"/>
 									</div>
 								</div>
-								<div> <p>Professional Administration</p></div>
+								<div> <p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  ">Professional Administration</p></div>
 							</div>
 							<div className=" flex flex-cols-2 gap-2 items-center ">
                                 <div>
-									<div className=" bg-Orange p-4 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
-
+									<div className=" bg-[#ffa415] p-3 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
+                                        <img src={investor} alt="" className="w-[30px] h-[30px] -rotate-45" />
 									</div>
 								</div>
-								<div> <p>Unified Micro-Investors: </p></div>
+								<div> <p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  ">Unified Micro-Investors: </p></div>
 							</div>
 							<div className=" flex flex-cols-2  gap-2 items-center ">
                                 <div>
-									<div className=" bg-Orange p-4 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
-
+									<div className=" bg-[#8139e7] p-3 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
+									<img src={community} alt="" className="w-[30px] h-[30px] -rotate-45" />
 									</div>
 								</div>
-								<div> <p>Community Engagement:</p></div>
+								<div> <p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  ">Community Engagement:</p></div>
 							</div>
 							<div className=" flex flex-cols-2 gap-2 items-center ">
                                 <div>
-									<div className=" bg-Orange p-4 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
-
+									<div className=" bg-[#44c895] p-3 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
+									<img src={organization} alt="" className="w-[30px] h-[30px] -rotate-45" />
 									</div>
 								</div>
-								<div> <p>Consolidation of Resources:</p></div>
+								<div> <p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  ">Consolidation of Resources:</p></div>
 							</div>
 							<div className=" flex flex-cols-2  gap-2 items-center ">
                                 <div>
-									<div className=" bg-Orange p-4 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
-
+									<div className=" bg-Orange p-3 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
+									<img src={self} alt="" className="w-[30px] h-[30px] -rotate-45" />
 									</div>
 								</div>
-								<div> <p>Self-Sufficiency:</p></div>
+								<div> <p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  "	>Self-Sufficiency:</p></div>
 							</div>
 							<div className=" flex flex-cols-2 gap-2 items-center ">
                                 <div>
-									<div className=" bg-Orange p-4 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
-
+									<div className=" bg-[#ffa415]  p-3 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
+									<img src={leadership} alt="" className="w-[30px] h-[30px] -rotate-45" />
 									</div>
 								</div>
-								<div> <p>Leadership Development</p></div>
+								<div> <p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  ">Leadership Development:</p></div>
 							</div>
 						
 							
