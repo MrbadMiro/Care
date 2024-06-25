@@ -20,7 +20,7 @@ const Footer = () => {
 		<section className="w-full flex flex-col  ">
 			<div className="flex flex-col  w-ful">
 				{/* upper div */}
-				<div className="bg-Orange w-full md:px-24 px-6   relative " >
+				<div className="bg-Orange w-full md:px-12 px-6   relative " >
 					<img src={footerupimg} alt=""  className="hidden md:flex absolute left-1/4  bottom-0 =z-10 animate-bounce-horizontal  " />
 					<div className="grid md:grid-cols-2  w-full my-[50px]">
 						{/* left side */}
@@ -58,7 +58,7 @@ const Footer = () => {
 				</div>
 
 				{/* down div */}
-				<div className="w-full md:px-24 px-6 mt" style={sectionStyle}>
+				<div className="w-full md:px-12 px-6 mt" style={sectionStyle}>
 					<div className="flex flex-col">
 						{/* top div */}
 						<div className="grid grid-col-1 md:grid-cols-2 items-center justify-between  border-b-[0.1px] ">
