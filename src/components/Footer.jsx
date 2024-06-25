@@ -7,15 +7,11 @@ import { CiLocationOn } from "react-icons/ci";
 import { MdForwardToInbox } from "react-icons/md";
 
 import { logo } from "../assets";
-import styles from "../style";
+ 
+ 
 const Footer = () => {
 	const sectionStyle = {
 		backgroundImage: ` url(${footerimg})`,
-		backgroundSize: "cover",
-		backgroundPosition: "center",
-	};
-	const sectionStyle2 = {
-		backgroundImage: ` url(${footerupimg})`,
 		backgroundSize: "cover",
 		backgroundPosition: "center",
 	};
@@ -24,7 +20,8 @@ const Footer = () => {
 		<section className="w-full flex flex-col  ">
 			<div className="flex flex-col  w-ful">
 				{/* upper div */}
-				<div className="bg-Orange w-full md:px-24 px-6  " style={sectionStyle2}>
+				<div className="bg-Orange w-full md:px-24 px-6   relative " >
+					<img src={footerupimg} alt=""  className="hidden md:flex absolute left-1/4  bottom-0 =z-10 animate-bounce-horizontal  " />
 					<div className="grid md:grid-cols-2  w-full my-[50px]">
 						{/* left side */}
 						<div className="flex flex-col gap-[16px]">

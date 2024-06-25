@@ -22,16 +22,30 @@ export default {
 					"50%": { transform: "translateX(700px)" },
 				},
 				moveLeftRight: {
-				  '0%, 100%': { transform: 'translateX(0)' },
-				  '50%': { transform: 'translateX(calc(100% - 10px))' }, // Ensures dot stays within bounds
+					"0%, 100%": { transform: "translateX(0)" },
+					"50%": { transform: "translateX(calc(100% - 10px))" }, // Ensures dot stays within bounds
 				},
-			  },
-			 
+				bounce_horizontal3: {
+					"0%, 100%": { transform: "translateX(0) translateY(0)" },
+					"50%": { transform: "translateX(50px) translateY(-30px)" },
+				},
+				wiggle: {
+					"0%, 100%": { transform: "rotate(-5deg)" },
+					"50%": { transform: "rotate(5deg)" },
+				},
+				wiperAnimation: {
+					"0%": { transform: "rotate(-10deg)" },
+					"25%": { transform: "rotate(10deg)" },
+					"50%": { transform: "rotate(-10deg)" },
+					"75%": { transform: "rotate(10deg)" },
+					"100%": { transform: "rotate(-10deg)" },
+				  },
+			},
+
 			colors: {
 				primary: "#ffffff",
 				Orange: "#ff5528",
-				green2:"#122F2A"
-				
+				green2: "#122F2A",
 			},
 			fontFamily: {
 				nunito: ["Nunito Sans", "sans-serif"],
@@ -42,8 +56,11 @@ export default {
 			animation: {
 				"bounce-slow": " bounce 10s linear infinite",
 				"pulse-slow": " pulse 3s linear infinite",
-				'bounce-horizontal': 'bounce_horizontal 10s linear infinite',
-				'bounce-horizontal2': 'bounce_horizontal2 29s linear infinite',
+				"bounce-horizontal": "bounce_horizontal 10s linear infinite",
+				"bounce-horizontal2": "bounce_horizontal2 29s linear infinite",
+				"bounce-horizontal3": "bounce_horizontal3 10s linear infinite",
+				"wiggle": "wiggle 5s ease-in-out infinite",
+				"wiperAnimation": "wiperAnimation 10s linear infinite",
 			},
 		},
 		screens: {
@@ -56,7 +73,7 @@ export default {
 		},
 	},
 	plugins: [
-		require('tailwindcss-animatecss'),
+		require("tailwindcss-animatecss"),
 		require("tailwindcss-debug-screens"),
 	],
 };

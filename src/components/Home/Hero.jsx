@@ -180,7 +180,7 @@ const Hero = () => {
 						<img
 							src={item.icon3}
 							alt=""
-							className="hidden md:flex absolute bg-opacity-80  left-[35px] bottom-0 w-[205px] animate-bounce-horizontal "
+							className="hidden md:flex absolute bg-opacity-80  left-[35px] bottom-0 w-[205px] animate-wiperAnimation "
 						/>
 						{/*Absolute icons */}
 

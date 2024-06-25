@@ -138,6 +138,48 @@ html, body {
        1px  1px 0 #000; /* Shadow effect for non-WebKit browsers */
   -webkit-text-stroke: 0.2px white; /* Stroke effect for WebKit browsers */
 }
+/* TestimonialComponent.css */
+@keyframes wiperAnimation {
+  0% {
+    transform: rotate(-10deg);
+    transform-origin: bottom center; /* Rotate around the bottom center */
+  }
+  25% {
+    transform: rotate(10deg);
+    transform-origin: bottom center; /* Rotate around the bottom center */
+  }
+  50% {
+    transform: rotate(-10deg);
+    transform-origin: bottom center; /* Rotate around the bottom center */
+  }
+  75% {
+    transform: rotate(10deg);
+    transform-origin: bottom center; /* Rotate around the bottom center */
+  }
+  100% {
+    transform: rotate(-10deg);
+    transform-origin: bottom center; /* Rotate around the bottom center */
+  }
+}
+
+.animate-wiper {
+  animation: wiperAnimation 10s linear infinite;
+}
+
+
+@keyframes bounce_horizontal {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(50px);
+  }
+}
+
+.bounce_horizontal{
+  animations: bounce_horizontal 10s linear infinite;
+}
+
 
 
 
