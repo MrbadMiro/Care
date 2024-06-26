@@ -157,7 +157,6 @@ const Hero = () => {
 					} flex w-full  `}>
 					<div className="w-full h-[110vh]  relative overflow-hidden  flex  items-center">
 						<img
-							
 							alt=""
 							className=" -z-10 h-full  w-full absolute zoom-in"
 							style={{
@@ -182,13 +181,13 @@ const Hero = () => {
 							alt=""
 							className="hidden md:flex absolute bg-opacity-80  left-[35px] bottom-0 w-[205px] animate-wiperAnimation "
 						/>
-						{/*Absolute icons */}
+						{/*Absolute icons */} 	
 
 						<div className=" flex flex-col w-full my-[200px]  z-4  px-6 md:px-12">
 							<div className="w-full flex flex-col  ">
-								<div   className="w-full animate-slideContent2">
-									<p className="font-nunito font-extrabold text-white text-[30px] leading-[40px] md:text-[50px] flex flex-row md:leading-[68px] w-full ">
-									Building Prosperity & Community
+								<div className="w-full animate-slideContent2">
+									<p className="font-nunito font-extrabold text-white text-[30px] leading-[40px] md:text-[70px] flex flex-row md:leading-[68px] w-full ">
+										Building Prosperity & Community
 										{/* <span className="text-[#FFA415]  underline mx-4">Charity</span>{" "}
 										The */}
 									</p>
@@ -199,22 +198,23 @@ const Hero = () => {
 									</p>
 								</div> */}
 								<div>
-									<p className="font-nunito font-extrabold animate-slideContent2 flex flex-row text-white  text-[30px] leading-[40px] md:text-[50px] md:leading-[68px] items-center   justify-between w-full ">
+									<p className="font-nunito font-extrabold animate-slideContent2 flex flex-row text-white  text-[30px] leading-[40px] md:text-[70px] md:leading-[70px] items-center   justify-between w-full ">
 										<span>The Mankatha Way</span>
 										<img
 											src={HeroIcon4}
 											alt=""
-											className="p-[22px] hidden md:flex bg-white rounded-full animate-smoothPing"
+											className="p-[44px] hidden md:flex bg-white rounded-full animate-smoothPing"
 										/>
 									</p>
 								</div>
 
 								<div className="flex flex-col animate-slideContent mt-4">
 									<p className="font-rubik font-normal text-white md:text-[18px] text-[16px] md:leading-[31.5px] leading-[28px] tracking-[0.27px]">
-									Empowering Valvetithurai through Unified Investments and Leadership
+										Empowering Valvetithurai through Unified Investments and
+										Leadership
 									</p>
 								</div>
-								<div className="flex mt-6">
+								<div className="flex mt-8">
 									<button class="join-button animate-slideImage2  relative px-6 py-2 bg-[#FFA415] rounded-full font-nunito font-bold text-white text-[17px] leading-[29.8px] tracking-[0.25px] overflow-hidden">
 										<span class="relative z-10">Join With Us</span>
 									</button>
