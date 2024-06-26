@@ -200,7 +200,7 @@ const Hero = () => {
 								</div> */}
 								<div>
 									<p className="font-nunito font-extrabold animate-slideContent2 flex flex-row text-white  text-[30px] leading-[40px] md:text-[50px] md:leading-[68px] items-center   justify-between w-full ">
-										<span>The Mangatha Pvt Ltd Way</span>
+										<span>The Mankatha Way</span>
 										<img
 											src={HeroIcon4}
 											alt=""
