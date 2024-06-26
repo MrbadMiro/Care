@@ -1,4 +1,4 @@
-import logo from './logo.png';
+import logo from './logo.svg';
 import A_1_icon from './A_1_icon.svg';
 import A_2_icon from './A_2_icon.svg';
 // Home Page 
