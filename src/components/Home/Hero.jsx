@@ -188,7 +188,7 @@ const Hero = () => {
 							<div className="w-full flex flex-col  ">
 								<div   className="w-full animate-slideContent2">
 									<p className="font-nunito font-extrabold text-white text-[30px] leading-[40px] md:text-[50px] flex flex-row md:leading-[68px] w-full ">
-									Building Prosperity & Community: 
+									Building Prosperity & Community
 										{/* <span className="text-[#FFA415]  underline mx-4">Charity</span>{" "}
 										The */}
 									</p>
