@@ -33,6 +33,18 @@ import About_icon2 from './About_icon2.svg'
 import About_icon3 from './About_icon3.svg'
 import About_icon4 from './About_icon4.svg'
 import About_man from './About_man.png'
+import About_man1 from './About_man1.jpg'
+import About_man2 from './About_man2.png'
+import About_man3 from './About_man3.jpg'
+import About_man4 from './About_man4.jpg'
+import About_man5 from './About_man5.jpg'
+import About_man6 from './About_man6.png'
+import Gallery_img1 from './Gallery_img1.jpg'
+import Gallery_img2 from './Gallery_img2.jpg'
+import Gallery_img3 from './Gallery_img3.jpg'
+import Gallery_img4 from './Gallery_img4.jpg'
+import Gallery_img5 from './Gallery_img5.jpg'
+import Gallery_img6 from './Gallery_img6.jpg'
 import About_sign from './About_sign.svg'
 
 
@@ -125,6 +137,18 @@ export{
     About_icon3,
     About_icon4,
     About_man,
+    About_man1,
+    About_man2,
+    About_man3,
+    About_man4,
+    About_man5,
+    About_man6,
+    Gallery_img1,
+    Gallery_img2,
+    Gallery_img3,
+    Gallery_img4,
+    Gallery_img5,
+    Gallery_img6,
     About_sign,
 
     //Home Page Services Section

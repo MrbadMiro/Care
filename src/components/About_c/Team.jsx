@@ -7,6 +7,13 @@ import {
 	about_4,
 	A_1_icon,
 	A_2_icon,
+	About_man,
+	About_man1,
+	About_man2,
+	About_man3,
+	About_man4,
+	About_man5,
+	About_man6,
 } from "../../assets";
 
 const Team = () => {
@@ -38,25 +45,91 @@ const Team = () => {
 					Meet The Team Member
 				</p>
 			</div>
-			<div className="w-full h-fit mt-2 mb-24 md:mb-0 relative overflow-hidden">
-				<div
-					className="flex transition-transform duration-300 ease-out"
-					style={{ transform: `translateX(-${currentSlide * slideWidth}%)` }}
-				>
-					{team.map((member, index) => (
-						<div
-							key={index}
-							className="slide flex-shrink-0 w-full"
-							style={{ width: `${slideWidth}%` }}
-						>
-							<img src={member.photo} alt={member.name} className="w-full" />
-							<p>{member.name}</p>
-							<p>{member.position}</p>
-						</div>
-					))}
+			<div className="w-full grid md:grid-cols-3 mt-8 items-center justify-center gap-y-16">
+				<div className="flex flex-col items-center justify-center">
+					<div className="flex">
+						<img
+							src={About_man}
+							alt=""
+							className="h-[300px]  w-[300px]  object-cover"
+						/>
+					</div>
+					<div className="flex">
+						<p className="font-nunito font-bold text-[#122F2A] text-[18px] md:text-[24px] leading-[20px] mt-[16px]">
+							Thevarajah Gnanaraj
+						</p>
+					</div>
 				</div>
-				<button onClick={prevSlide} className="absolute left-0">Prev</button>
-				<button onClick={nextSlide} className="absolute right-0">Next</button>
+				<div className="flex flex-col items-center justify-center">
+					<div className="flex">
+						<img
+							src={About_man1}
+							alt=""
+							className="h-[300px]  w-[300px] object-cover"
+						/>
+					</div>
+					<div className="flex">
+						<p className="font-nunito font-bold text-[#122F2A] text-[18px] md:text-[24px] leading-[20px] mt-[16px]">
+							S.Aravinthan
+						</p>
+					</div>
+				</div>
+				<div className="flex flex-col items-center justify-center">
+					<div className="flex">
+						<img
+							src={About_man2}
+							alt=""
+							className="h-[300px]  w-[300px]  object-cover"
+						/>
+					</div>
+					<div className="flex">
+						<p className="font-nunito font-bold text-[#122F2A] text-[18px] md:text-[24px] leading-[20px] mt-[16px]">
+							Thevarajah Sivakumarasamy
+						</p>
+					</div>
+				</div>
+				<div className="flex flex-col items-center justify-center">
+					<div className="flex">
+						<img
+							src={About_man3}
+							alt=""
+							className="h-[300px]  w-[300px]  object-cover"
+						/>
+					</div>
+					<div className="flex">
+						<p className="font-nunito font-bold text-[#122F2A] text-[18px] md:text-[24px] leading-[20px] mt-[16px]">
+							Kavichelven
+						</p>
+					</div>
+				</div>
+				<div className="flex flex-col items-center justify-center">
+					<div className="flex">
+						<img
+							src={About_man4}
+							alt=""
+							className="h-[300px]  w-[300px]  object-cover"
+						/>
+					</div>
+					<div className="flex">
+						<p className="font-nunito font-bold text-[#122F2A] text-[18px] md:text-[24px] leading-[20px] mt-[16px]">
+							R.Luxmy
+						</p>
+					</div>
+				</div>
+				<div className="flex flex-col items-center justify-center">
+					<div className="flex">
+						<img
+							src={About_man5}
+							alt=""
+							className="h-[300px]  w-[300px] object-cover"
+						/>
+					</div>
+					<div className="flex">
+						<p className="font-nunito font-bold text-[#122F2A] text-[18px] md:text-[24px] leading-[20px] mt-[16px]">
+							Hemaratha
+						</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
