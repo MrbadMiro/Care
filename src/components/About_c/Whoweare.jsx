@@ -30,7 +30,7 @@ const Whoweare = () => {
 							<img src={A_2_icon} alt="" className="animate-bounce" />
 						</div>
 
-						<p className="font-caveat font-bold text-Orange  text-[22px] leading-[22px] tracking-[2.2px]">
+						<p className="font-caveat font-bold text-[#1EA8DF]  text-[22px] leading-[22px] tracking-[2.2px]">
 							WHO WE ARE
 						</p>
 					</div>

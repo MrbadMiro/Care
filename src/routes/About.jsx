@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "../components/About_c/Banner";
 import Whoweare from "../components/About_c/Whoweare";
 import Ourstory from "../components/About_c/Ourstory";
+import Team from "../components/About_c/Team";
 import Ourvalue from "../components/About_c/Ourvalue";
 import Testimonial from "../components/Home/Testimonial"
 const About = () => {
@@ -9,6 +10,7 @@ const About = () => {
           <div className="w-full h-full flex flex-col">
 		  <Banner/>
 		  <Whoweare/>
+		  <Team/>
 		  <Ourstory/>
 		  {/* <Ourvalue/> */}
 		  {/* <Testimonial/> */}
