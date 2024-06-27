@@ -35,7 +35,7 @@ const Ourstory = () => {
 					<img src={A_2_icon} alt="" className="animate-bounce" />
 				</div>
 
-				<p className="font-caveat font-bold text-Orange   text-[22px] leading-[22px] tracking-[2.2px]">
+				<p className="font-caveat font-bold text-[#1EA8DF]   text-[22px] leading-[22px] tracking-[2.2px]">
 					WHY CHOOSE US?
 				</p>
 			</div>
@@ -53,9 +53,9 @@ const Ourstory = () => {
 						<div className="skill-box my-6">
 							<div className="skill-bar mt-2 w-full h-2 bg-gray-300 rounded-lg">
 								<span
-									className="skill-per html relative block h-full bg-Orange rounded-lg"
+									className="skill-per html relative block h-full bg-[#1EA8DF] rounded-lg"
 									style={{ width: "85%" }}>
-									<span className="tooltip absolute right-[-14px] top-[-40px] text-xs font-medium text-white bg-Orange py-1 px-2 rounded-md">
+									<span className="tooltip absolute right-[-14px] top-[-40px] text-xs font-medium text-white bg-[#1EA8DF]  py-1 px-2 rounded-md">
 										85%
 									</span>
 								</span>
@@ -69,10 +69,10 @@ const Ourstory = () => {
 								</span>
 							</div>
 							<div className="mt-8 h-[2px] bg-[#DDDDDD] w-full relative">
-								<div className="w-[10px] top-[-4px] h-[10px] rounded-full bg-Orange absolute  animate-bounce-horizontal2"></div>
+								<div className="w-[10px] top-[-4px] h-[10px] rounded-full bg-[#1EA8DF]  absolute  animate-bounce-horizontal2"></div>
 							</div>
 							<div className="flex items-center justify-center py-6 ">
-								<button className="px-4 py-2 bg-[#FFA415] font-nunito  rounded-full font-normal text-[#ffffff] text-[16px] leading-[28px] ">
+								<button className="px-4 py-2 bg-[#213F96]  font-nunito  rounded-full font-normal text-[#ffffff] text-[16px] leading-[28px] ">
 									Donate Now
 								</button>
 							</div>
@@ -83,7 +83,7 @@ const Ourstory = () => {
 							<p className="flex  flex-col font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-[16px]">
 								{" "}
 								<p className="flex gap-2 font-nunito font-extrabold text-[#122f2A]  text-[20px] leading-[28px] text-left ">
-									<img src={about_4} alt="" /> Unified Investments:
+									<img src={about_4} alt="" /> Unified Investments
 								</p>
 								<p className="flex px-5">
 									<p>
@@ -95,7 +95,7 @@ const Ourstory = () => {
 							<p className="flex  flex-col font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-[16px]">
 								{" "}
 								<p className="flex gap-2 font-nunito font-extrabold text-[#122f2A]  text-[20px] leading-[28px] text-left">
-									<img src={about_4} alt="" /> Professional Administration:
+									<img src={about_4} alt="" /> Professional Administration
 								</p>
 								<p className="flex px-5">
 									<p>
@@ -107,7 +107,7 @@ const Ourstory = () => {
 							<p className="flex  flex-col font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-[16px]">
 								{" "}
 								<p className="flex gap-2 font-nunito font-extrabold text-[#122f2A]  text-[20px] leading-[28px] text-left ">
-									<img src={about_4} alt="" /> Strong Community Leadership:
+									<img src={about_4} alt="" /> Strong Community Leadership
 								</p>
 								<p className="flex px-5">
 									<p>
@@ -134,7 +134,7 @@ const Ourstory = () => {
 					 
 					<div className="flex mt-4">
 						<p className="font-nunito font-extrabold text-[#122f2A]  text-[40px] leading-[48px] text-left">
-							Our Core Values:
+							Our Core Values
 						</p>
 					</div>
 					<div className="flex mt-4">
@@ -158,7 +158,7 @@ const Ourstory = () => {
                                         <img src={investor} alt="" className="w-[30px] h-[30px] -rotate-45" />
 									</div>
 								</div>
-								<div> <p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  ">Unified Micro-Investors: </p></div>
+								<div> <p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  ">Unified Micro-Investors </p></div>
 							</div>
 							<div className=" flex flex-cols-2  gap-4 items-center ">
                                 <div>
@@ -166,7 +166,7 @@ const Ourstory = () => {
 									<img src={community} alt="" className="w-[30px] h-[30px] -rotate-45" />
 									</div>
 								</div>
-								<div> <p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  ">Community Engagement:</p></div>
+								<div> <p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  ">Community Engagement</p></div>
 							</div>
 							<div className=" flex flex-cols-2 gap-4 items-center ">
                                 <div>
@@ -174,7 +174,7 @@ const Ourstory = () => {
 									<img src={organization} alt="" className="w-[30px] h-[30px] -rotate-45" />
 									</div>
 								</div>
-								<div> <p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  ">Consolidation of Resources:</p></div>
+								<div> <p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  ">Consolidation of Resources</p></div>
 							</div>
 							<div className=" flex flex-cols-2  gap-4 items-center ">
                                 <div>
@@ -182,7 +182,7 @@ const Ourstory = () => {
 									<img src={self} alt="" className="w-[30px] h-[30px] -rotate-45" />
 									</div>
 								</div>
-								<div> <p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  "	>Self-Sufficiency:</p></div>
+								<div> <p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  "	>Self-Sufficiency</p></div>
 							</div>
 							<div className=" flex flex-cols-2 gap-4 items-center ">
                                 <div>
@@ -190,7 +190,7 @@ const Ourstory = () => {
 									<img src={leadership} alt="" className="w-[30px] h-[30px] -rotate-45" />
 									</div>
 								</div>
-								<div> <p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  ">Leadership Development:</p></div>
+								<div> <p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  ">Leadership Development</p></div>
 							</div>
 						
 							

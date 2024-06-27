@@ -122,3 +122,17 @@ export const TestimonialData = [
 		Description:"Thanks to Mangatha Pvt Ltd, our community is thriving. Their self-sufficient business model and dedication to nurturing strong community leaders have created opportunities we never thought possible. They truly care about our success and well-being.",
 	},
 ];
+
+
+
+export const team = [
+	{
+		id: 1,
+		image: HeroIcon2,
+		category: " Beauty & Hair dressing ",
+		title: "Look like those professional beauticians and hairdressers. Get full beauty treatment here from hair cutting to facial.",
+		price:"LKR.59000",
+		aosDelay: "0",
+	},
+
+]
