@@ -44,11 +44,16 @@ export const navLinks = [
 
 	{
 		title: "Career",
-		to: "/career/volunteer",
+		// to: "/career/volunteer",
 		submenu: [
 			{
 				title: "volunteer",
-				to: "/career/volunteer", // corrected to include the full path
+				// to: "/career/volunteer", // corrected to include the full path
+				 to: "volunteer", // corrected to include the full path
+			},
+			{
+				title: "Career",
+				to: "Careerr", // corrected to include the full path
 			},
 		],
 	},

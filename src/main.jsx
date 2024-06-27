@@ -8,6 +8,7 @@ import ErrorPage from "./ErrorPage";
 import About from "./routes/About.jsx";
 import Contact from "./routes/Contact.jsx";
 import Volonteer from "./routes/Volonteer.jsx";
+import Career from "./routes/Career.jsx";
 import WebDev from "./routes/WebDev";
 import Services_m from "./routes/Services_m";
 import Donate from "./routes/Donate";
@@ -34,8 +35,12 @@ const router = createBrowserRouter([
 				element: <Services_m/>,
 			},
 			{
-				path: "career/volunteer",
+				path: "volunteer",
 				element: <Volonteer />,
+			},
+			{
+				path: "Careerr",
+				element: <Career />,
 			},
 			
 			{
