@@ -32,7 +32,7 @@ const Home_About = () => {
 						}}
 						src={About_mimg}
 						alt=""
-						className=" object-cover w-full h-[598px] rounded-[30px]  "
+						className=" object-cover w-full h-[690px] rounded-[30px]  "
 					/>
 
 					<div className="hidden md:flex absolute border-10 border-white top-[80px] animate-bounce-slow -left-[4px]">

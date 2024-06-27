@@ -34,7 +34,7 @@ const Progress = () => {
 							<img
 								src={Progress_icon1}
 								alt=""
-								className=" md:w-[60px] md:h-[60px] w-[40px] h-[40px]"
+								className=" md:w-[60px] md:h-[60px] w-[40px] h-[40px] "
 							/>
 							<div className="flex flex-col gap-[9px]">
 								<p className="font-nunito font-extrabold text-[#122F2A] text-[20px] md:text-[24px] leading-[24px] md:leading-[28.8px]">
@@ -55,7 +55,7 @@ const Progress = () => {
 					</div>
 					<div className="  flex items-center justify-center  absolute    left-1/2 transform -translate-x-1/2 -bottom-5   w-[calc(100%-30px)] md:w-[calc(100%-30px)]">
 						<div className="flex items-center justify-center bg-[#1EA8DF] rounded-full w-[42px] h-[42px]">
-							<img src={Progress_Arrow_img} alt="" className=" " />
+							<img src={Progress_Arrow_img} alt="" className=" hover:-rotate-[45] " />
 						</div>
 					</div>
 				</div>

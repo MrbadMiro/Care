@@ -32,16 +32,49 @@ const Donate_form = () => {
 							</p>
 						</div>
 					</div> */}
-					<div className="flex   4">
-						<p className="font-nunito font-extrabold text-[#122f2A] text-[32px] leading-[32px] tracking-[0.33px]">Join Our Team at Mangatha Pvt Ltd</p>
+					<div className="flex   mb-4">
+						<p className="font-nunito font-extrabold text-[#122f2A] text-[20px] leading-[32px] tracking-[0.33px]">
+							Support Our Mission: Donate to Mangatha Pvt Ltd
+						</p>
+					</div>
+					<div className="flex   ">
+						<p className="font-nunito font-extrabold text-[#122f2A] text-[32px] leading-[32px] tracking-[0.33px]">
+							Join Our Team at Mangatha Pvt Ltd
+						</p>
+					</div>
+					<div className="flex   ">
+						<p className="flex gap-2 font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-8">
+							Your donation to Mangatha Pvt Ltd plays a crucial role in
+							empowering and uplifting the Valvetithurai community. We are
+							committed to creating a self-sufficient environment where every
+							individual can thrive. Your support enables us to fund essential
+							projects, drive social value, and foster sustainable growth
+							in our community.
+						</p>
+					</div>
+					<div className="flex   ">
+						<p className="flex gap-2 font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-8">
+							Your donation to Mangatha Pvt Ltd plays a crucial role in
+							empowering and uplifting the Valvetithurai community. We are
+							committed to creating a self-sufficient environment where every
+							individual can thrive. Your support enables us to fund essential
+							projects, drive social value, and foster sustainable growth
+							in our community.
+						</p>
 					</div>
 
 					<div className="flex flex-col mt-4">
 						<div className="flex">
 							<p className="font-nunito text-[30px] leading-[36px] font-extrabold text-green2">
-								Personal Info
+							How to Donate:
+
 							</p>
 						</div>
+						<div className="flex   ">
+						<p className="flex gap-2 font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-8 mb-6">
+						Your support is vital to our mission. To make a donation or learn more about our initiatives, please contact us using the form below. Together, we can build a brighter future for Valvetithurai.
+						</p>
+					</div>
 						<div className="flex flex-col my-3">
 							<div className="grid md:grid-cols-2 gap-3">
 								<input
@@ -68,7 +101,7 @@ const Donate_form = () => {
 									required
 								/>
 							</div>
-                            <div className="w-full flex fle-col mt-2">
+							<div className="w-full flex fle-col mt-2">
 								<button
 									className="overflow mt-4 bg-[#FFA415] rounded-md group relative overflow-hidden text-[12px] text-white px-8 py-3 before:absolute before:top-0 before:-left-full before:h-full before:w-full before:bg-[#ff5f35] before:transition-transform before:duration-500 hover:before:translate-x-full"
 									type="submit">
@@ -79,7 +112,6 @@ const Donate_form = () => {
 							</div>
 						</div>
 					</div>
-
 				</div>
 
 				{/* div2 */}
