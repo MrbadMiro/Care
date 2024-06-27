@@ -71,7 +71,7 @@ const Footer = () => {
 							<div className="flex flex-col col-span-2	 items-start">
 								<img src={logo} alt="" />
 								<p className="font-rubik font-normal text-[#BCBCBC] text-[16px] leading-[29px] tracking-[0.24px] mt-2 text-wrap">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam perspiciatis accusamus quasi tempore adipisci error neque laudantium ducimus, provident inventore aut quaerat, blanditiis tempora, omnis earum ea? Aspernatur sed asperiores nisi aut nesciunt, iusto, aliquid vel beatae cumque illum voluptas.
+								We are committed to cultivating a self-sustaining and thriving community in Valvetithurai. Built upon the pillars of unity, effective governance, and robust leadership, our goal is to foster substantial social benefits and trust among our community.
 								</p>
 								<div className="flex flex-cols-2 mt-2 gap-3 items-center">
 									<FaPhoneVolume className="text-[34px] text-[#FFA415]" />

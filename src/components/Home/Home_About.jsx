@@ -90,7 +90,7 @@ const Home_About = () => {
 								ease: "easeIn",
 							}}
 							className="font-nunito font-bold text-[#122F2A] text-[32px] md:text-[40px] leading-[50px] mt-[16px]">
-							We Believe This Lifes About Give For Poor People.
+							Building a Self-Sufficient Community
 						</motion.p>
 					</div>
 					<div className="flex w-full">
@@ -105,9 +105,7 @@ const Home_About = () => {
 								duration: 0.6,
 							}}
 							className="font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-[16px]">
-							Poor address a range of simply application and infrastructure this
-							of passages of available, but the majority have suffered poor
-							alteration in some form.
+							At Mangatha Pvt Ltd, We are dedicated to creating a self-sufficient business model that unites micro-investors, fosters professional administration, and nurtures strong community leaders, driving significant social value and trust within our community.
 						</motion.p>
 					</div>
 					<motion.div

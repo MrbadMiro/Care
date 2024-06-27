@@ -1,6 +1,7 @@
 import React from "react";
 import {
 	Hero_imgb1,
+	Hero_imgb2,
 	about_4,
 	
 } from "../../assets";
@@ -14,30 +15,42 @@ const Volonteer_form = () => {
 						<p className="font-nunito font-extrabold text-[#122f2A] text-[24px] leading-[28.4px] tracking-[0.33px]">Join Us in Building a Better Future</p>
 					</div>
 					<div>
-						<p className="font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] text-left">Together, we can build a community where trust, social value, and economic prosperity go hand in hand. <br /> Join us at Mangatha Pvt Ltd as we work towards a brighter future for Valvetithurai.</p>
+						<p className="font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] text-left">Together, we can build a community where trust, social value, and economic prosperity go hand in hand. <br /></p>
 					</div>
 					<div>
+						<p className="font-nunito font-extrabold text-[#122f2A] text-[24px] leading-[28.4px] tracking-[0.33px]"> Join us at Mangatha Pvt Ltd as we work towards a brighter future for Valvetithurai. <br /></p>
+					</div>
+					{/* <div>
                         <p className="font-caveat font-bold text-[#636363] text-[16px] leading-[28px] ">HELPED FUND 589,537 PROJECTS IN 24 COUNTRIES, BENEFITING OVER
 						45K+ MILLION PEOPLE.</p>
-					</div>
+					</div>*/}
 					<div className="mb-4 flex flex-col ">
 						<p className="flex gap-2 font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-2">
 							{" "}
-							<img src={about_4} alt="" /> We help companies develop powerful corporate social Responsibility,
+							<img src={about_4} alt="" /> Help empower and develop the Valvetithurai community.
 						</p>
 						<p className="flex gap-2 font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-2">
 							{" "}
-							<img src={about_4} alt="" /> No matter what you you have.
+							<img src={about_4} alt="" /> Gain valuable leadership and management experience.
 						</p>
 						<p className="flex gap-2 font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-2">
 							{" "}
-							<img src={about_4} alt="" /> Helped fund 3,265 Project powerful
+							<img src={about_4} alt="" /> Connect with passionate, like-minded individuals.
 							corporate poor.
 						</p>
-					</div>
-					<div className="grid md:grid-cols-2 gap-2 px-1 ">
+						<p className="flex gap-2 font-rubik font-normal text-[#636363]   text-[16px] leading-[28px] mt-2">
+							{" "}
+							<img src={about_4} alt="" /> Join a team dedicated to driving meaningful change.
+						</p>
+						<p className="flex gap-2 font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-2">
+							{" "}
+							<img src={about_4} alt="" /> Highlight your commitment to social responsibility.
+
+						</p>
+					</div> 
+					<div className="grid md:grid-cols-2 gap-2 ">
 						<div className="rounded-md overflow-hidden   "><img src={Hero_imgb1} alt=""  className="object-cover h-[200px] "/></div>
-						<div className="rounded-md overflow-hidden  "><img src={Hero_imgb1} alt=""  className="object-cover h-[200px]"/></div>
+						<div className="rounded-md overflow-hidden  "><img src={Hero_imgb2} alt=""  className="object-cover h-[200px]"/></div>
 						 
  
 					</div>

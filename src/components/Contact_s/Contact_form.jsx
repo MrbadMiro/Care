@@ -79,9 +79,9 @@ const Contact_form = () => {
 						</div>
 					</div>
 					<div className="  h-[40px] w-[200px] gap-2 absolute flex justify-center items-center bottom-0 -right-2 md:right-24 transform -rotate-45">
-						<FiPhoneCall className="text-Orange transform rotate-45 animate-pulse " />
+						<FiPhoneCall className="text-[#1EA8DF] transform rotate-45 animate-pulse " />
 						<div className="flex flex-col transform rotate-45 gap-2 items-center  ">
-							<p className="font-rubik text-Orange font-bold transform -rotate-45 text-[18px] text-left">
+							<p className="font-rubik text-[#1EA8DF] font-bold transform -rotate-45 text-[18px] text-left">
 								Need Help Now?
 							</p>
 							<p className="font-rubik font-bold text-green2 tracking-[1px] transform -rotate-45 text-[14px] text-left ">
@@ -92,13 +92,13 @@ const Contact_form = () => {
 				</div>
 				<div>
 					<div>
-						<div className="flex  items-center ">
+						<div className="flex  items-center gap-1 ">
 							<div className="flex items-center ">
 								<img src={A_1_icon} alt="" />
 								<img src={A_2_icon} alt="" className="animate-bounce" />
 							</div>
 
-							<p className="font-caveat font-bold text-Orange  text-[22px] leading-[22px] tracking-[2.2px]">
+							<p className="font-caveat font-bold text-[#1EA8DF]  text-[22px] leading-[22px] tracking-[2.2px]">
 								OUR CONTACT NOW
 							</p>
 						</div>
@@ -114,7 +114,24 @@ const Contact_form = () => {
 									ease: "easeIn",
 								}}
 								className="font-nunito font-bold text-[#122F2A] text-[32px] md:text-[40px] leading-[50px] mt-[16px]">
-								Our Volunteer Become Us This Contact Now!
+								Reach Out Today!
+
+							</motion.p>
+						</div>
+						<div className="flex w-full">
+							<motion.p
+								initial={{ x: 100, opacity: 0 }}
+								animate={{ x: 0, opacity: 1 }}
+								transition={{
+									delay: 0.5,
+									x: { type: "spring", stiffness: 60 },
+									opacity: { duration: 0.6 },
+									ease: "easeIn",
+								}}
+								className="font-nunito font-bold text-[#122F2A] text-[32px] md:text-[24px] leading-[50px] mt-[16px]">
+								Join Us in Building a Thriving Community
+
+
 							</motion.p>
 						</div>
 						<div className="flex ">

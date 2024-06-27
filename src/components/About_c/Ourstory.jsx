@@ -131,14 +131,7 @@ const Ourstory = () => {
 							containing Lorem Ipsum passages, and more recently with desktop.
 						</p> */}
 					</div>
-					<div className="flex mt-4">
-						<p className="font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] text-justify">
-							At Mangatha Pvt Ltd, we understand that the true value of seamless
-							coordination extends beyond financial profits. It encompasses the
-							significant social value that we aim to create and uphold within
-							our community.
-						</p>
-					</div>
+					 
 					<div className="flex mt-4">
 						<p className="font-nunito font-extrabold text-[#122f2A]  text-[40px] leading-[48px] text-left">
 							Our Core Values:
@@ -146,14 +139,12 @@ const Ourstory = () => {
 					</div>
 					<div className="flex mt-4">
 						<p className="font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] text-justify">
-							The Poor address a range of simply application and infrastructure
-							this of passages of available, majority have suffered poor in some
-							form.Lorem Ipsum is simply dummy text.
+						At Mangatha Pvt Ltd, we understand that the true value of seamless coordination extends beyond financial profits. It encompasses the significant social value that we aim to create and uphold within our community.
 						</p>
 					</div>
 					<div className="flex flex-col">
 						<div className="grid md:grid-cols-2 gap-6 mt-8">
-							<div className=" flex flex-cols-2  gap-2 items-center ">
+							<div className=" flex flex-cols-2  gap-4 items-center ">
                                 <div>
 									<div className=" bg-Orange p-3 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
                                         <img src={Adminstration} alt=""  className="w-[30px] h-[30px] -rotate-45"/>
@@ -161,7 +152,7 @@ const Ourstory = () => {
 								</div>
 								<div> <p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  ">Professional Administration</p></div>
 							</div>
-							<div className=" flex flex-cols-2 gap-2 items-center ">
+							<div className=" flex flex-cols-2 gap-4 items-center ">
                                 <div>
 									<div className=" bg-[#ffa415] p-3 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
                                         <img src={investor} alt="" className="w-[30px] h-[30px] -rotate-45" />
@@ -169,7 +160,7 @@ const Ourstory = () => {
 								</div>
 								<div> <p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  ">Unified Micro-Investors: </p></div>
 							</div>
-							<div className=" flex flex-cols-2  gap-2 items-center ">
+							<div className=" flex flex-cols-2  gap-4 items-center ">
                                 <div>
 									<div className=" bg-[#8139e7] p-3 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
 									<img src={community} alt="" className="w-[30px] h-[30px] -rotate-45" />
@@ -177,7 +168,7 @@ const Ourstory = () => {
 								</div>
 								<div> <p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  ">Community Engagement:</p></div>
 							</div>
-							<div className=" flex flex-cols-2 gap-2 items-center ">
+							<div className=" flex flex-cols-2 gap-4 items-center ">
                                 <div>
 									<div className=" bg-[#44c895] p-3 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
 									<img src={organization} alt="" className="w-[30px] h-[30px] -rotate-45" />
@@ -185,7 +176,7 @@ const Ourstory = () => {
 								</div>
 								<div> <p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  ">Consolidation of Resources:</p></div>
 							</div>
-							<div className=" flex flex-cols-2  gap-2 items-center ">
+							<div className=" flex flex-cols-2  gap-4 items-center ">
                                 <div>
 									<div className=" bg-Orange p-3 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
 									<img src={self} alt="" className="w-[30px] h-[30px] -rotate-45" />
@@ -193,7 +184,7 @@ const Ourstory = () => {
 								</div>
 								<div> <p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  "	>Self-Sufficiency:</p></div>
 							</div>
-							<div className=" flex flex-cols-2 gap-2 items-center ">
+							<div className=" flex flex-cols-2 gap-4 items-center ">
                                 <div>
 									<div className=" bg-[#ffa415]  p-3 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
 									<img src={leadership} alt="" className="w-[30px] h-[30px] -rotate-45" />
