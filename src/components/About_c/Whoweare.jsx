@@ -1,4 +1,7 @@
-import React from "react";
+ 
+import { Link, useNavigate } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+ 
 import {
 	about_1,
 	about_2,
@@ -8,7 +11,13 @@ import {
 	A_2_icon,
 } from "../../assets";
 import { motion } from "framer-motion";
+
 const Whoweare = () => {
+	 
+	const navigate = useNavigate();
+    const handleDonateClick = () => {
+        navigate("/donate");
+    };
 	return (
 		<div className="w-full md:px-12 px-6 py-12">
 			<div className="grid md:grid-cols-2 ">
@@ -100,8 +109,7 @@ const Whoweare = () => {
 					</div>
 					<div className="flex w-full flex-col">
 						<p className="font-nunito font-bold text-[#122F2A] text-[18px] md:text-[24px] leading-[20px] mt-[16px]">
-						Our Vision
-
+							Our Vision
 						</p>
 						<motion.p
 							initial={{ x: 100, opacity: 0 }}
@@ -114,7 +122,10 @@ const Whoweare = () => {
 								duration: 0.6,
 							}}
 							className="font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-[16px]">
-							We envision a future where every member of Valvetithurai is empowered to thrive. By fostering a culture of trust, collaboration, and innovation, we strive to build a resilient community that sets a new standard for community development.
+							We envision a future where every member of Valvetithurai is
+							empowered to thrive. By fostering a culture of trust,
+							collaboration, and innovation, we strive to build a resilient
+							community that sets a new standard for community development.
 						</motion.p>
 					</div>
 					{/* ----------------------------------------------------------------- */}
@@ -140,15 +151,17 @@ const Whoweare = () => {
 				</div>
 			</div>
 			<div className="flex flex-col md:flex-row  w-full mt-5 items-center justify-center gap-2">
-				<p className="font-caveat font-bold text-[#122f2A]  text-[22px] leading-[22px]  ">
+				<p className="font-caveat font-bold text-[#122f2A]  text-[22px] gap-2 leading-[22px]  ">
 					<span className="font-caveat font-bold text-[#213F96]  text-[22px] mr-2 ">
 						#
 					</span>
 					We Give Donations Poor People Impact on Someone’s Life. Donate No
 				</p>{" "}
-				<button className="px-4 py-1 text-white text-[17px] font-nunito bg-[#213F96] rounded-full">
-					Donate Now
-				</button>
+				 
+					<button className="px-4 py-1 text-white text-[17px] font-nunito bg-[#213F96] rounded-full" onClick={handleDonateClick}>
+						Donate Now
+					</button>
+				 
 			</div>
 		</div>
 	);

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { footerimg, footerupimg, arrow, Footer_icon_1 } from "../assets";
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaPhoneVolume } from "react-icons/fa6";
@@ -50,10 +51,11 @@ const Footer = () => {
 									<img src={arrow} className="animate-bounce" alt="" />
 								</div>
 								<div>
-									{" "}
-									<p className="font-nunito bg-white rounded-full px-[37px] py-[13px] font-bold  text-[17px] leading-[30px] tracking-[0.25px] text-[#122F2A]">
-										Become A Volunteer
-									</p>{" "}
+									<Link to="/volunteer">
+										<button className="font-nunito bg-white rounded-full px-[37px] py-[13px] font-bold text-[17px] leading-[30px] tracking-[0.25px] text-[#122F2A]">
+											Become A Volunteer
+										</button>
+									</Link>
 								</div>
 							</div>
 						</div>
@@ -71,7 +73,11 @@ const Footer = () => {
 							<div className="flex flex-col col-span-2	 items-start">
 								<img src={logo} alt="" />
 								<p className="font-rubik font-normal text-[#BCBCBC] text-[16px] leading-[29px] tracking-[0.24px] mt-2 text-wrap">
-								We are committed to cultivating a self-sustaining and thriving community in Valvetithurai. Built upon the pillars of unity, effective governance, and robust leadership, our goal is to foster substantial social benefits and trust among our community.
+									We are committed to cultivating a self-sustaining and thriving
+									community in Valvetithurai. Built upon the pillars of unity,
+									effective governance, and robust leadership, our goal is to
+									foster substantial social benefits and trust
+									among our community.
 								</p>
 								<div className="flex flex-cols-2 mt-2 gap-3 items-center">
 									<FaPhoneVolume className="text-[34px] text-[#FFA415]" />
@@ -105,7 +111,7 @@ const Footer = () => {
 								</p>
 								<div className="decoration-none mt-2 font-nunito font-normal text-[#BCBCBC] text-[16px] leading-[41px] tracking-[0.33px]">
 									<p>About Us</p>
-									
+
 									<p>Contact Us</p>
 									<p>Volunteer</p>
 								</div>
@@ -142,7 +148,7 @@ const Footer = () => {
 						{/* Third Div */}
 						<div className="border-t-[0.1px]  border-[] py-4 flex items-center justify-center">
 							<p className="font-nunito font-normal text-[#BCBCBC] text-[16px]">
-							© 2024 Mankatha All Rights Reserved.
+								© 2024 Mankatha All Rights Reserved.
 							</p>
 						</div>
 					</div>
@@ -153,5 +159,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-

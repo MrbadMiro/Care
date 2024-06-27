@@ -1,4 +1,5 @@
-import React from "react";
+import { Link, useNavigate } from "react-router-dom";
+import React, { useState, useEffect } from "react";
 import { SlCalender } from "react-icons/sl";
 import { FaFolder } from "react-icons/fa";
 import { MdLocationOn } from "react-icons/md";
@@ -27,6 +28,10 @@ import {
 	man1,
 } from "../../assets";
 const Ourstory = () => {
+	const navigate = useNavigate();
+    const handleDonateClick = () => {
+        navigate("/donate");
+    };
 	return (
 		<div className="w-full flex flex-col md:px-12 px-6 py-12">
 			<div className="flex justify-center py-12 gap-2  ">
@@ -72,7 +77,7 @@ const Ourstory = () => {
 								<div className="w-[10px] top-[-4px] h-[10px] rounded-full bg-[#1EA8DF]  absolute  animate-bounce-horizontal2"></div>
 							</div>
 							<div className="flex items-center justify-center py-6 ">
-								<button className="px-4 py-2 bg-[#213F96]  font-nunito  rounded-full font-normal text-[#ffffff] text-[16px] leading-[28px] ">
+								<button className="px-4 py-2 bg-[#213F96]  font-nunito  rounded-full font-normal text-[#ffffff] text-[16px] leading-[28px] " onClick={handleDonateClick}>
 									Donate Now
 								</button>
 							</div>
@@ -131,7 +136,7 @@ const Ourstory = () => {
 							containing Lorem Ipsum passages, and more recently with desktop.
 						</p> */}
 					</div>
-					 
+
 					<div className="flex mt-4">
 						<p className="font-nunito font-extrabold text-[#122f2A]  text-[40px] leading-[48px] text-left">
 							Our Core Values
@@ -139,75 +144,125 @@ const Ourstory = () => {
 					</div>
 					<div className="flex mt-4">
 						<p className="font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] text-justify">
-						At Mangatha Pvt Ltd, we understand that the true value of seamless coordination extends beyond financial profits. It encompasses the significant social value that we aim to create and uphold within our community.
+							At Mangatha Pvt Ltd, we understand that the true value of seamless
+							coordination extends beyond financial profits. It encompasses the
+							significant social value that we aim to create and uphold within
+							our community.
 						</p>
 					</div>
 					<div className="flex flex-col">
 						<div className="grid md:grid-cols-2 gap-6 mt-8">
 							<div className=" flex flex-cols-2  gap-4 items-center ">
-                                <div>
+								<div>
 									<div className=" bg-Orange p-3 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
-                                        <img src={Adminstration} alt=""  className="w-[30px] h-[30px] -rotate-45"/>
+										<img
+											src={Adminstration}
+											alt=""
+											className="w-[30px] h-[30px] -rotate-45"
+										/>
 									</div>
 								</div>
-								<div> <p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  ">Professional Administration</p></div>
+								<div>
+									{" "}
+									<p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  ">
+										Professional Administration
+									</p>
+								</div>
 							</div>
 							<div className=" flex flex-cols-2 gap-4 items-center ">
-                                <div>
+								<div>
 									<div className=" bg-[#ffa415] p-3 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
-                                        <img src={investor} alt="" className="w-[30px] h-[30px] -rotate-45" />
+										<img
+											src={investor}
+											alt=""
+											className="w-[30px] h-[30px] -rotate-45"
+										/>
 									</div>
 								</div>
-								<div> <p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  ">Unified Micro-Investors </p></div>
+								<div>
+									{" "}
+									<p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  ">
+										Unified Micro-Investors{" "}
+									</p>
+								</div>
 							</div>
 							<div className=" flex flex-cols-2  gap-4 items-center ">
-                                <div>
+								<div>
 									<div className=" bg-[#8139e7] p-3 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
-									<img src={community} alt="" className="w-[30px] h-[30px] -rotate-45" />
+										<img
+											src={community}
+											alt=""
+											className="w-[30px] h-[30px] -rotate-45"
+										/>
 									</div>
 								</div>
-								<div> <p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  ">Community Engagement</p></div>
+								<div>
+									{" "}
+									<p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  ">
+										Community Engagement
+									</p>
+								</div>
 							</div>
 							<div className=" flex flex-cols-2 gap-4 items-center ">
-                                <div>
+								<div>
 									<div className=" bg-[#44c895] p-3 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
-									<img src={organization} alt="" className="w-[30px] h-[30px] -rotate-45" />
+										<img
+											src={organization}
+											alt=""
+											className="w-[30px] h-[30px] -rotate-45"
+										/>
 									</div>
 								</div>
-								<div> <p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  ">Consolidation of Resources</p></div>
+								<div>
+									{" "}
+									<p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  ">
+										Consolidation of Resources
+									</p>
+								</div>
 							</div>
 							<div className=" flex flex-cols-2  gap-4 items-center ">
-                                <div>
+								<div>
 									<div className=" bg-Orange p-3 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
-									<img src={self} alt="" className="w-[30px] h-[30px] -rotate-45" />
+										<img
+											src={self}
+											alt=""
+											className="w-[30px] h-[30px] -rotate-45"
+										/>
 									</div>
 								</div>
-								<div> <p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  "	>Self-Sufficiency</p></div>
+								<div>
+									{" "}
+									<p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  ">
+										Self-Sufficiency
+									</p>
+								</div>
 							</div>
 							<div className=" flex flex-cols-2 gap-4 items-center ">
-                                <div>
+								<div>
 									<div className=" bg-[#ffa415]  p-3 rotate-45 rounded-t-[13px] rounded-r-[16px] rounded-b-[13px] rounded-l-[16px]">
-									<img src={leadership} alt="" className="w-[30px] h-[30px] -rotate-45" />
+										<img
+											src={leadership}
+											alt=""
+											className="w-[30px] h-[30px] -rotate-45"
+										/>
 									</div>
 								</div>
-								<div> <p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  ">Leadership Development</p></div>
+								<div>
+									{" "}
+									<p className="font-nunito font-extrabold text-[#122F2A] text-[20px]  leading-[20px]  ">
+										Leadership Development
+									</p>
+								</div>
 							</div>
-						
-							
-
 						</div>
-
 					</div>
-					
-					<div>
 
-					</div>
-					
+					<div></div>
 				</div>
 
 				{/* div2 */}
 				<div className=" w-full  px-6 flex flex-col ">
-					<div className="w-full bg-Orange rounded-md flex ">
+					<div className="w-full bg-[#1EA8DF] rounded-md flex ">
 						<div className=" w-full rounded-md bg-[#F1F6F7] mt-2  py-6">
 							<div className="flex flex-col w-full gap-4">
 								<div className="flex flex-col items-center justify-center gap-3 px-[15px] pb-2 border-b-2">
@@ -252,12 +307,12 @@ const Ourstory = () => {
 							</div>
 						</div>
 					</div>
-					<div className="w-full bg-Orange rounded-md flex mt-20 ">
-						<div className=" w-full rounded-md bg-[#F1F6F7] mt-2 px-24 py-6">
+					<div className="w-full bg-[#1EA8DF] rounded-md flex mt-20 ">
+						<div className=" w-full rounded-md bg-[#F1F6F7] mt-2  py-6">
 							<div className="flex flex-col w-ful items-center justify-centerl">
 								<div>
 									<p className="font-nunito font-extrabold text-[#122F2A]  text-[24px] leading-[28px]  ">
-										Share Causes:
+										Share Causes to Follow US
 									</p>
 								</div>
 								<div className="flex mt-4 gap-4 py-4 items-center">
@@ -278,17 +333,17 @@ const Ourstory = () => {
 						</div>
 					</div>
 					<div className="flex flex-col mt-8">
-					
 						<div>
 							<img src={Progress_img2} alt="" className=" object-cover" />
 						</div>
-					
-					<div className="flex items-center justify-center py-6 ">
-						<button className="px-4 py-2 bg-[#FFA415] font-nunito  rounded-full font-normal text-[#ffffff] text-[16px] leading-[28px] ">
-							Donate Now
-						</button>
-					</div>
 
+						<div className="flex items-center justify-center py-6 ">
+							<Link to="/donate">
+								<button className="px-4 py-2 bg-[#213F96]  font-nunito  rounded-full font-normal text-[#ffffff] text-[16px] leading-[28px] " onClick={handleDonateClick}>
+									Donate Now
+								</button>
+							</Link>
+						</div>
 					</div>
 				</div>
 			</div>
