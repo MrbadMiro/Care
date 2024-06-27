@@ -82,19 +82,19 @@ const Testimonial = () => {
 
 	return (
 		<div className="w-full flex flex-col md:px-12 py-24 px-3 relative mt-10">
-			<img
+			{/* <img
 					src={Testimonial_flower}
 					alt=""
 					className="absolute z-10 right-10 -bottom-4 hidden lg:flex md:w-[93px] lg:h-[221px] object-cover animatecss animate-wiperAnimation"
-				/>
+				/> */}
 			<div className="flex w-full flex-col relative">
 				
-				<div className="w-full flex items-center justify-center gap-2 mb-15">
+				<div className="w-full flex items-center justify-center gap-2 mb-18">
 					<div className="flex">
 						<img src={A_1_icon} alt="" />
 						<img src={A_2_icon} alt="" className="animate-bounce" />
 					</div>
-					<p className="font-caveat text-center font-bold text-Orange text-[22px] leading-[22px] tracking-[2.2px]">
+					<p className="font-caveat text-center font-bold text-[#1EA8DF] text-[22px] leading-[22px] tracking-[2.2px]">
 						OUR TESTIMONIALS
 					</p>
 				</div>

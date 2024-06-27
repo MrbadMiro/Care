@@ -45,10 +45,10 @@ const Home_About = () => {
 						<img src={About_S3img} alt="" className="" />
 					</div>
 					<div className=" flex flex-cols-2 z-1 absolute  bottom-[8px] right-0 sm:right-[10px]">
-						<div className="Flex items-center justify-center bg-[#FFA415] p-[16px]">
+						<div className="Flex items-center justify-center bg-[#213F96] p-[16px]">
 							<img src={About_icon4} alt="" />
 						</div>
-						<div className="Flex items-center justify-center bg-[#FF5528] p-[16px] rounded-br-[30px]">
+						<div className="Flex items-center justify-center bg-[#1EA8DF] p-[16px] rounded-br-[30px]">
 							<p className="font-caveat font-bold text-white text-[22px] leading-[24px] tracking-[2.2px]">
 								Always Help Us!
 							</p>
@@ -173,21 +173,21 @@ const Home_About = () => {
 						}}
 						className="flex flex-cols-2 my-10 items-center justify-between ">
 						<div className="flex flex-cols-2 gap-3 items-center justify-center ">
-							<div className="flex  rounded-full border-dotted border-2 border-[#FF5528] p-1 ">
-								<img src={About_man} alt="" className="" />
+							<div className="flex  rounded-full border-dotted border-2 border-[#1EA8DF] p-1 ">
+								<img src={About_man} alt="" className=" w-[80px] h-[80px] object-cover rounded-full"   />
 							</div>
 							<div className="flex flex-col ">
 								<p className="font-nunito font-extrabold text-[#122F2A] text-[24px] leading-[28.4px] tracking-[0.33px]">
-									Kiri
+								Thevarajah Gnanaraj
 								</p>
 								<p className="font-rubik font-normal text-[#122F2A] text-[16px] leading-[28px] ">
 									Founder
 								</p>
 							</div>
 						</div>
-						<div>
+						{/* <div>
 							<img src={About_sign} alt="" />
-						</div>
+						</div> */}
 					</motion.div>
 				</div>
 			</div>

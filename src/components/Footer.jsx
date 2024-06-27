@@ -68,11 +68,10 @@ const Footer = () => {
 						{/* Second Div */}
 						<div className="grid md:grid-cols-4 gap-3 items-start justify-between mt-2 py-5">
 							{/* 1st div */}
-							<div className="flex flex-col items-start">
+							<div className="flex flex-col col-span-2	 items-start">
 								<img src={logo} alt="" />
 								<p className="font-rubik font-normal text-[#BCBCBC] text-[16px] leading-[29px] tracking-[0.24px] mt-2 text-wrap">
-									We help businesses maximize their online presence with a
-									personalized approach to digital marketing.
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam perspiciatis accusamus quasi tempore adipisci error neque laudantium ducimus, provident inventore aut quaerat, blanditiis tempora, omnis earum ea? Aspernatur sed asperiores nisi aut nesciunt, iusto, aliquid vel beatae cumque illum voluptas.
 								</p>
 								<div className="flex flex-cols-2 mt-2 gap-3 items-center">
 									<FaPhoneVolume className="text-[34px] text-[#FFA415]" />
@@ -87,7 +86,7 @@ const Footer = () => {
 								</div>
 							</div>
 							{/* 2nd div */}
-							<div className="flex flex-col text-left pt-2">
+							{/* <div className="flex flex-col text-left pt-2">
 								<p className="font-nunito font-extrabold text-white text-[22px] leading-[26.4px] tracking-[0.33px]">
 									Service
 								</p>
@@ -98,7 +97,7 @@ const Footer = () => {
 									<p>Our Campaign</p>
 									<p>Our Campaign</p>
 								</div>
-							</div>
+							</div> */}
 							{/* 3rd div */}
 							<div className="flex flex-col text-left pt-2">
 								<p className="font-nunito font-extrabold text-white text-[22px] leading-[26.4px] tracking-[0.33px]">
@@ -106,10 +105,9 @@ const Footer = () => {
 								</p>
 								<div className="decoration-none mt-2 font-nunito font-normal text-[#BCBCBC] text-[16px] leading-[41px] tracking-[0.33px]">
 									<p>About Us</p>
-									<p>Our News</p>
-									<p>Our Campaign</p>
+									
 									<p>Contact Us</p>
-									<p>Login</p>
+									<p>Volunteer</p>
 								</div>
 							</div>
 							{/* 4th div */}
@@ -142,9 +140,9 @@ const Footer = () => {
 						</div>
 
 						{/* Third Div */}
-						<div className="border-t-[0.1px]  border-[]py-4 flex items-center justify-center">
+						<div className="border-t-[0.1px]  border-[] py-4 flex items-center justify-center">
 							<p className="font-nunito font-normal text-[#BCBCBC] text-[16px]">
-								© Copyright 2024 by Tetra Vi.
+							© 2024 Mankatha All Rights Reserved.
 							</p>
 						</div>
 					</div>

@@ -32,7 +32,7 @@ import About_icon1 from './About_icon1.svg'
 import About_icon2 from './About_icon2.svg'
 import About_icon3 from './About_icon3.svg'
 import About_icon4 from './About_icon4.svg'
-import About_man from './About_man.svg'
+import About_man from './About_man.png'
 import About_sign from './About_sign.svg'
 
 
