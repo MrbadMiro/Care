@@ -69,7 +69,7 @@ const Volonteer_form = () => {
 						type="email"
 						name="Email"
 						className="px-2 py-3 outline-none text-[14px] text-navy font-rubik border border-[#DDDDDD] rounded-md w-full"
-						placeholder="Enter Email"
+						placeholder="Email Address"
 						required
 					/>
 					<input

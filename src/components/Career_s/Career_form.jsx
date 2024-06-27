@@ -12,39 +12,46 @@ const Career_form = () => {
 			  {/* div1 */}
 				<div className="flex flex-col justify-start gap-4 pr-2">
 					<div className="flex   4">
-						<p className="font-nunito font-extrabold text-[#122f2A] text-[24px] leading-[28.4px] tracking-[0.33px]">Join Us in Building a Better Future</p>
+						<p className="font-nunito font-extrabold text-[#122f2A] text-[32px] leading-[32px] tracking-[0.33px]">Join Our Team at Mangatha Pvt Ltd</p>
 					</div>
 					<div>
-						<p className="font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] text-left">Together, we can build a community where trust, social value, and economic prosperity go hand in hand. <br /></p>
+						<p className=" font-nunito font-extrabold text-[#122f2A] text-[20px] leading-[28.4px] tracking-[0.33px]">Be a Part of Our Mission to Empower and Uplift Communities<br /></p>
 					</div>
 					<div>
-						<p className="font-nunito font-extrabold text-[#122f2A] text-[24px] leading-[28.4px] tracking-[0.33px]"> Join us at Mangatha Pvt Ltd as we work towards a brighter future for Valvetithurai. <br /></p>
+						<p className="font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] text-left"> At Mangatha Pvt Ltd, we are dedicated to creating a self-sufficient and thriving community in Valvetithurai. We believe that our success is driven by the talented and passionate individuals who join our team. If you are looking for a rewarding career where you can make a real difference, we invite you to explore our current job opportunities and apply to be a part of our mission. <br /></p>
 					</div>
 					{/* <div>
                         <p className="font-caveat font-bold text-[#636363] text-[16px] leading-[28px] ">HELPED FUND 589,537 PROJECTS IN 24 COUNTRIES, BENEFITING OVER
 						45K+ MILLION PEOPLE.</p>
 					</div>*/}
 					<div className="mb-4 flex flex-col ">
+                    <div>
+						<p className=" font-nunito font-extrabold text-[#122f2A] text-[20px] leading-[28.4px] tracking-[0.33px]">Advantages of Joining Our Team:<br /></p>
+					</div>
 						<p className="flex gap-2 font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-2">
 							{" "}
-							<img src={about_4} alt="" /> Help empower and develop the Valvetithurai community.
+							<img src={about_4} alt="" /> Contribute to projects that directly impact the community, driving social value and economic growth.
+
 						</p>
 						<p className="flex gap-2 font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-2">
 							{" "}
-							<img src={about_4} alt="" /> Gain valuable leadership and management experience.
+							<img src={about_4} alt="" /> Enhance your skills and knowledge through continuous learning and professional growth opportunities.
+
 						</p>
 						<p className="flex gap-2 font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-2">
 							{" "}
-							<img src={about_4} alt="" /> Connect with passionate, like-minded individuals.
-							corporate poor.
+							<img src={about_4} alt="" /> Work alongside dedicated, like-minded individuals committed to making a positive difference.
+
 						</p>
 						<p className="flex gap-2 font-rubik font-normal text-[#636363]   text-[16px] leading-[28px] mt-2">
 							{" "}
-							<img src={about_4} alt="" /> Join a team dedicated to driving meaningful change.
+							<img src={about_4} alt="" /> Be actively involved in initiatives that foster community trust, unity, and leadership.
+
 						</p>
 						<p className="flex gap-2 font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-2">
 							{" "}
-							<img src={about_4} alt="" /> Highlight your commitment to social responsibility.
+							<img src={about_4} alt="" /> Grow your career in a supportive and innovative organization that values your contributions and encourages your success.
+
 
 						</p>
 					</div> 
@@ -69,7 +76,7 @@ const Career_form = () => {
 						type="email"
 						name="Email"
 						className="px-2 py-3 outline-none text-[14px] text-navy font-rubik border border-[#DDDDDD] rounded-md w-full"
-						placeholder="Enter Email"
+						placeholder="Email Address"
 						required
 					/>
 					<input
