@@ -80,7 +80,7 @@ const Footer = () => {
 											Hotline 24/7
 										</p>
 										<p className="font-rubik font-medium text-[#FFFFFF] text-[16px] leading-[25px] tracking-[0.24px] mt-2 text-wrap">
-											(+99) 95464 2569
+											009 4771164071
 										</p>
 									</div>
 								</div>
@@ -119,21 +119,21 @@ const Footer = () => {
 								<div className="flex flex-cols-2 font-nunito font-normal text-[#BCBCBC] text-[16px]  gap-2 items-center mt-2 ">
 									<FaRegClock className="text-[#FFA415] text-[17px]" />
 									<div className="flex-col">
-										<p>Open Hours of Government: Mon</p>
-										<p>- Fri: 8.00 am. - 6.00 pm.</p>
+										<p>Open Hours of mankathavvt: </p>
+										<p>Mon- Fri: 8.00 am. - 6.00 pm.</p>
 									</div>
 								</div>
 
 								<div className="flex flex-cols-2 font-nunito font-normal text-[#BCBCBC] text-[16px]  gap-2 items-center mt-2 ">
 									<CiLocationOn className="text-[#FF5528] text-[17px]" />
 									<div className="flex-col">
-										<p>13/A, Miranda Halim City .</p>
+										<p>NO.11.Modern Market, Valvettithurai,Jaffna,SriLanaka</p>
 									</div>
 								</div>
 								<div className="flex flex-cols-2 font-nunito font-normal text-[#BCBCBC] text-[16px]  gap-2 items-center mt-2 ">
 									<MdForwardToInbox className="text-[#8139E7] text-[17px]" />
 									<div className="flex-col">
-										<p>needhelp@company.com.</p>
+										<p>mankathavvt@gmail.com</p>
 									</div>
 								</div>
 							</div>

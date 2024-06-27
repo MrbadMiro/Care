@@ -32,6 +32,9 @@ const Donate_form = () => {
 							</p>
 						</div>
 					</div> */}
+					<div className="flex   4">
+						<p className="font-nunito font-extrabold text-[#122f2A] text-[32px] leading-[32px] tracking-[0.33px]">Join Our Team at Mangatha Pvt Ltd</p>
+					</div>
 
 					<div className="flex flex-col mt-4">
 						<div className="flex">
