@@ -68,9 +68,9 @@ const Footer = () => {
 						{/* top div */}
 
 						{/* Second Div */}
-						<div className="grid md:grid-cols-4 gap-3 items-start justify-between mt-2 py-5">
+						<div className="grid  md:grid-cols-4 gap-3 items-start justify-between mt-2 py-5">
 							{/* 1st div */}
-							<div className="flex flex-col col-span-2	 items-start">
+							<div className="flex flex-col md:col-span-2	 items-start">
 								<img src={logo} alt="" />
 								<p className="font-rubik font-normal text-[#BCBCBC] text-[16px] leading-[29px] tracking-[0.24px] mt-2 text-wrap">
 									We are committed to cultivating a self-sustaining and thriving
