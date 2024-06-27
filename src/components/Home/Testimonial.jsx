@@ -141,7 +141,7 @@ const Testimonial = () => {
 										{item.Description}
 									</p>
 									<div className="flex w-full items-center text-[20px] justify-center py-4">
-										<img src={Review} alt="" />
+										<div className="h-[21px]"></div>
 									</div>
 								</div>
 							</div>

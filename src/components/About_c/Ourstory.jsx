@@ -9,6 +9,7 @@ import { IoLogoYoutube } from "react-icons/io";
 
 import {
 	about_4,
+	about_5,
 	about_1,
 	About_icon1,
 	About_icon2,
@@ -43,7 +44,7 @@ const Ourstory = () => {
 				<div className="w-full  md:col-span-2     flex-col">
 					<div className="flex 	 overflow-hidden">
 						<img
-							src={about_1}
+							src={about_5}
 							alt=""
 							className="w-full h-[300px] object-cover rounded-md"
 						/>

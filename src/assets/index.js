@@ -78,6 +78,7 @@ import about_1 from './about-1.svg';
 import about_2 from './about-arrow_i.svg';
 import about_3 from './about-dot_i.svg';
 import about_4 from './about_circle.svg';
+import about_5 from './about_5.svg';
 import Adminstration from './Adminstration.svg';
 import investor from './investor.svg';
 import community from './community.svg';
@@ -166,6 +167,7 @@ export{
     about_2,
     about_3,
     about_4,
+    about_5,
     Adminstration,
     investor,
     community,

@@ -1,11 +1,8 @@
-<svg width="6" height="7" viewBox="0 0 6 7" fill="none" xmlns="http://www.w3.org/2000/svg">
-<mask id="path-1-inside-1_90_3" fill="white">
-<path d="M0.0800781 0.75H5.08008V6.75H0.0800781V0.75Z"/>
-</mask>
-<path d="M0.0800781 0.75V-2.25H-4.91992V0.75H0.0800781ZM0.0800781 6.75H-4.91992V9.75H0.0800781V6.75ZM0.0800781 3.75H5.08008V-2.25H0.0800781V3.75ZM5.08008 3.75H0.0800781V9.75H5.08008V3.75ZM5.08008 6.75V0.75H-4.91992V6.75H5.08008Z" fill="url(#paint0_diamond_90_3)" mask="url(#path-1-inside-1_90_3)"/>
+<svg width="5" height="6" viewBox="0 0 5 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.5 1.5H3.5V4.5H1.5V1.5Z" stroke="url(#paint0_diamond_168_115)" stroke-width="3"/>
 <defs>
-<radialGradient id="paint0_diamond_90_3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0.0800781 3.75) scale(5 3)">
-<stop offset="1" stop-color="#FF5528"/>
+<radialGradient id="paint0_diamond_168_115" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 3) scale(5 3)">
+<stop offset="1" stop-color="#1EA8DF"/>
 <stop offset="1" stop-opacity="0"/>
 </radialGradient>
 </defs>

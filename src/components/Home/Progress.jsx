@@ -25,7 +25,7 @@ const Progress = () => {
 				{/* 1st div */}
 				<div
 					className="relative flex items-center justify-center px-[15px] py-24 md:rounded-b-md boxShadow w-full"
-					style={sectionStyle}>
+					style={sectionStyle2}>
 					<p className=" text-center text-white  ">
 					To unite micro-investors, foster professional administration, and nurture strong leaders, driving social value and trust within our community.
 					</p>
@@ -48,13 +48,13 @@ const Progress = () => {
 					</div>
 					<div className="flex items-center justify-center  absolute    left-1/2 transform -translate-x-1/2 top-0  py-8  w-[calc(100%-30px)] md:w-[calc(100%-30px)]">
 						<div className="w-[75px] h-[60px] bg-[#F1F6F7] rounded-t-0 rounded-b-[50px] flex items-center justify-center">
-							<p className="font-caveat font-bold text-[#FFA415] text-[34px] leading-[34px] ">
+							<p className="font-caveat font-bold text-[#1EA8DF] text-[34px] leading-[34px] ">
 								01
 							</p>
 						</div>
 					</div>
 					<div className="  flex items-center justify-center  absolute    left-1/2 transform -translate-x-1/2 -bottom-5   w-[calc(100%-30px)] md:w-[calc(100%-30px)]">
-						<div className="flex items-center justify-center bg-[#FFA415] rounded-full w-[42px] h-[42px]">
+						<div className="flex items-center justify-center bg-[#1EA8DF] rounded-full w-[42px] h-[42px]">
 							<img src={Progress_Arrow_img} alt="" className=" " />
 						</div>
 					</div>
@@ -88,13 +88,13 @@ const Progress = () => {
 					</div>
 					<div className="flex items-center justify-center  absolute    left-1/2 transform -translate-x-1/2 top-0  py-8  w-[calc(100%-30px)] md:w-[calc(100%-30px)]">
 						<div className="w-[75px] h-[60px] bg-[#F1F6F7] rounded-t-0 rounded-b-[50px] flex items-center justify-center">
-							<p className="font-caveat font-bold text-[#FF5528] text-[34px] leading-[34px] ">
+							<p className="font-caveat font-bold text-[#213F96] text-[34px] leading-[34px] ">
 								02
 							</p>
 						</div>
 					</div>
 					<div className="  flex items-center justify-center  absolute    left-1/2 transform -translate-x-1/2 -bottom-5   w-[calc(100%-30px)] md:w-[calc(100%-30px)]">
-						<div className="flex items-center justify-center bg-[#FFA415] rounded-full w-[42px] h-[42px]">
+						<div className="flex items-center justify-center bg-[#1EA8DF] rounded-full w-[42px] h-[42px]">
 							<img src={Progress_Arrow_img} alt="" className=" " />
 						</div>
 					</div>
@@ -129,7 +129,7 @@ const Progress = () => {
 						</div>
 					</div>
 					<div className="  flex items-center justify-center  absolute    left-1/2 transform -translate-x-1/2 -bottom-5   w-[calc(100%-30px)] md:w-[calc(100%-30px)]">
-						<div className="flex items-center justify-center bg-[#FFA415] rounded-full w-[42px] h-[42px]">
+						<div className="flex items-center justify-center bg-[#1EA8DF] rounded-full w-[42px] h-[42px]">
 							<img src={Progress_Arrow_img} alt="" className=" " />
 						</div>
 					</div>

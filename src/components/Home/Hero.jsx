@@ -155,7 +155,7 @@ const Hero = () => {
 					className={`slide-container ${
 						i === index ? "block" : "hidden"
 					} flex w-full  `}>
-					<div className="w-full h-[110vh]  relative overflow-hidden  flex  items-center">
+					<div className="w-full h-[110vh]  relative overflow-hidden   flex  items-center">
 						<img
 							alt=""
 							className=" -z-10 h-full  w-full absolute zoom-in"
@@ -215,7 +215,7 @@ const Hero = () => {
 									</p>
 								</div>
 								<div className="flex mt-8">
-									<button class="join-button animate-slideImage2  relative px-6 py-2 bg-[#FFA415] rounded-full font-nunito font-bold text-white text-[17px] leading-[29.8px] tracking-[0.25px] overflow-hidden">
+									<button class="join-button animate-slideImage2  relative px-6 py-2 bg-[#213F96] rounded-full font-nunito font-bold text-white text-[17px] leading-[29.8px] tracking-[0.25px] overflow-hidden">
 										<span class="relative z-10">Join With Us</span>
 									</button>
 								</div>

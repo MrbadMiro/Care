@@ -52,7 +52,7 @@ const Navbar = () => {
                 isVisible ? "translate-y-0" : "-translate-y-full"
             }`}
             style={{
-                backgroundColor: scrollY > 50 ? "#122F2A" : "transparent",
+                backgroundColor: scrollY > 50 ? "#080229" : "transparent",
             }}
         >
             <div className="mx-auto flex w-full max-w-7xl justify-between py-5 text-sm text-white font-bold font-nunito">
@@ -94,12 +94,12 @@ const Navbar = () => {
 
                 {/* Right Section */}
                 <div className="flex gap-2">
-                    <button className="hidden px-4 py-2 bg-Orange text-white font-bold rounded-full md:flex items-center gap-1"  onClick={handleDonateClick}>
+                    <button className="hidden px-4 py-2 bg-[#1EA8DF] text-white font-bold rounded-full md:flex items-center gap-1"  onClick={handleDonateClick}>
                         <FaHeart />
                         Donate Now
                     </button>
 
-                    <select id="language" className="hidden md:flex bg-Orange p-2 outline-none ">
+                    <select id="language" className="hidden md:flex bg-[#1EA8DF] p-2 outline-none ">
                         <option  value="english">English</option>
                         <option value="tamil">Tamil</option>
                         <option value="sinhala">Sinhala</option>

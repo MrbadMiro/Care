@@ -250,3 +250,41 @@ transition={{
 
 About Section
 https://bracketweb.com/careox-html/donations-details.html
+
+
+
+
+
+
+
+
+
+
+
+<div className="grid grid-col-1 md:grid-cols-2 items-center justify-between  border-b-[0.1px] ">
+							{/* left side */}
+
+							<div className="flex flex-cols-2 py-8 items-center gap-3 ">
+								<div>
+									<img src={Footer_icon_1} alt="" />
+								</div>
+								<div className="flex flex-col">
+									<p className="font-nunito font-extrabold text-white text-[22px] leading-[26.4px] tracking-[0.33px]">
+										Our Newslatter
+									</p>
+									<p className="font-rubik font-normal text-[#BCBCBC] text-[16px] leading-[28.px] tracking-[0.24px]">
+										We are dolor sit amet csectetur
+									</p>
+								</div>
+							</div>
+
+							{/* right Side */}
+							<div className="flex items-center justify-between bg-white rounded-md px-4 my-2 mt ">
+								<input
+									type="email"
+									className="bg-white p-2 font-rubik text-[16x] outline-none  rounded-md justify-end  items-end"
+									placeholder="Enter Email Address "
+								/>
+								<FaTelegramPlane className="text-[#ffA415]" />
+							</div>
+						</div>

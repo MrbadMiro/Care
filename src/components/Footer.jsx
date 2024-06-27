@@ -7,8 +7,7 @@ import { CiLocationOn } from "react-icons/ci";
 import { MdForwardToInbox } from "react-icons/md";
 
 import { logo } from "../assets";
- 
- 
+
 const Footer = () => {
 	const sectionStyle = {
 		backgroundImage: ` url(${footerimg})`,
@@ -20,8 +19,12 @@ const Footer = () => {
 		<section className="w-full flex flex-col  ">
 			<div className="flex flex-col  w-ful">
 				{/* upper div */}
-				<div className="bg-Orange w-full md:px-12 px-6   relative " >
-					<img src={footerupimg} alt=""  className="hidden md:flex absolute left-1/4  bottom-0 =z-10 animate-bounce-horizontal  " />
+				<div className="bg-[#1EA8DF] w-full md:px-12 px-6   relative ">
+					<img
+						src={footerupimg}
+						alt=""
+						className="hidden md:flex absolute left-1/4  bottom-0 =z-10 animate-bounce-horizontal  "
+					/>
 					<div className="grid md:grid-cols-2  w-full my-[50px]">
 						{/* left side */}
 						<div className="flex flex-col gap-[16px]">
@@ -61,33 +64,6 @@ const Footer = () => {
 				<div className="w-full md:px-12 px-6 mt" style={sectionStyle}>
 					<div className="flex flex-col">
 						{/* top div */}
-						<div className="grid grid-col-1 md:grid-cols-2 items-center justify-between  border-b-[0.1px] ">
-							{/* left side */}
-
-							<div className="flex flex-cols-2 py-8 items-center gap-3 ">
-								<div>
-									<img src={Footer_icon_1} alt="" />
-								</div>
-								<div className="flex flex-col">
-									<p className="font-nunito font-extrabold text-white text-[22px] leading-[26.4px] tracking-[0.33px]">
-										Our Newslatter
-									</p>
-									<p className="font-rubik font-normal text-[#BCBCBC] text-[16px] leading-[28.px] tracking-[0.24px]">
-										We are dolor sit amet csectetur
-									</p>
-								</div>
-							</div>
-
-							{/* right Side */}
-							<div className="flex items-center justify-between bg-white rounded-md px-4 my-2 mt ">
-								<input
-									type="email"
-									className="bg-white p-2 font-rubik text-[16x] outline-none  rounded-md justify-end  items-end"
-									placeholder="Enter Email Address "
-								/>
-								<FaTelegramPlane className="text-[#ffA415]" />
-							</div>
-						</div>
 
 						{/* Second Div */}
 						<div className="grid md:grid-cols-4 gap-3 items-start justify-between mt-2 py-5">
@@ -157,7 +133,7 @@ const Footer = () => {
 									</div>
 								</div>
 								<div className="flex flex-cols-2 font-nunito font-normal text-[#BCBCBC] text-[16px]  gap-2 items-center mt-2 ">
-									<MdForwardToInbox  className="text-[#8139E7] text-[17px]" />
+									<MdForwardToInbox className="text-[#8139E7] text-[17px]" />
 									<div className="flex-col">
 										<p>needhelp@company.com.</p>
 									</div>
@@ -167,7 +143,9 @@ const Footer = () => {
 
 						{/* Third Div */}
 						<div className="border-t-[0.1px]  border-[]py-4 flex items-center justify-center">
-                             <p className="font-nunito font-normal text-[#BCBCBC] text-[16px]">© Copyright 2024 by Tetra Vi.</p>
+							<p className="font-nunito font-normal text-[#BCBCBC] text-[16px]">
+								© Copyright 2024 by Tetra Vi.
+							</p>
 						</div>
 					</div>
 				</div>
@@ -177,3 +155,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
