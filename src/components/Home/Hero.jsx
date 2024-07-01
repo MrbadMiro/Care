@@ -129,8 +129,9 @@
 import React, { useState, useEffect } from "react";
 import { HeroIcon1, HeroIcon2, HeroIcon3, HeroIcon4 } from "../../assets";
 import { HeroSlider } from "../../Data";
-
+import { useTranslation } from "react-i18next";
 const Hero = () => {
+	const {t}=useTranslation()
 	const [index, setIndex] = useState(0);
 
 	const nextSlide = () => {
@@ -187,7 +188,8 @@ const Hero = () => {
 							<div className="w-full flex flex-col  ">
 								<div className="w-full animate-slideContent2">
 									<p className="font-nunito font-extrabold text-white text-[30px] leading-[40px] md:text-[70px] flex flex-row md:leading-[68px] w-full ">
-										Building Prosperity & Community
+										{/* Building Prosperity & Community */}
+										{t("title")}
 										{/* <span className="text-[#FFA415]  underline mx-4">Charity</span>{" "}
 										The */}
 									</p>
@@ -210,7 +212,7 @@ const Hero = () => {
 
 								<div className="flex flex-col animate-slideContent mt-4">
 									<p className="font-rubik font-normal text-white md:text-[18px] text-[16px] md:leading-[31.5px] leading-[28px] tracking-[0.27px]">
-										Empowering Valvetithurai through Unified Investments and
+										Empowering our community through Unified Investments and
 										Leadership
 									</p>
 								</div>

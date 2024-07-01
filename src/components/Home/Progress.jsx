@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, useNavigate } from "react-router-dom";
 import {
 	Progress_img1,
 	Progress_img2,
@@ -10,6 +11,10 @@ import {
 } from "../../assets";
 
 const Progress = () => {
+	const navigate = useNavigate();
+    const handleDonateClick = () => {
+        navigate("/about");
+    };
 	const createSectionStyle = (imageUrl) => ({
 		backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${imageUrl})`,
 		backgroundSize: "cover",
@@ -54,7 +59,7 @@ const Progress = () => {
 						</div>
 					</div>
 					<div className="  flex items-center justify-center  absolute    left-1/2 transform -translate-x-1/2 -bottom-5   w-[calc(100%-30px)] md:w-[calc(100%-30px)]">
-						<div className="flex items-center justify-center bg-[#1EA8DF] rounded-full w-[42px] h-[42px]">
+						<div className="flex items-center justify-center bg-[#1EA8DF] rounded-full w-[42px] h-[42px] " onClick={handleDonateClick}>
 							<img src={Progress_Arrow_img} alt="" className=" hover:-rotate-[45] " />
 						</div>
 					</div>
@@ -94,7 +99,7 @@ const Progress = () => {
 						</div>
 					</div>
 					<div className="  flex items-center justify-center  absolute    left-1/2 transform -translate-x-1/2 -bottom-5   w-[calc(100%-30px)] md:w-[calc(100%-30px)]">
-						<div className="flex items-center justify-center bg-[#1EA8DF] rounded-full w-[42px] h-[42px]">
+						<div className="flex items-center justify-center bg-[#1EA8DF] rounded-full w-[42px] h-[42px]" onClick={handleDonateClick} >
 							<img src={Progress_Arrow_img} alt="" className=" " />
 						</div>
 					</div>
@@ -129,7 +134,7 @@ const Progress = () => {
 						</div>
 					</div>
 					<div className="  flex items-center justify-center  absolute    left-1/2 transform -translate-x-1/2 -bottom-5   w-[calc(100%-30px)] md:w-[calc(100%-30px)]">
-						<div className="flex items-center justify-center bg-[#1EA8DF] rounded-full w-[42px] h-[42px]">
+						<div className="flex items-center justify-center bg-[#1EA8DF] rounded-full w-[42px] h-[42px]" onClick={handleDonateClick}>
 							<img src={Progress_Arrow_img} alt="" className=" " />
 						</div>
 					</div>

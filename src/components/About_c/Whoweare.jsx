@@ -100,7 +100,7 @@ const Whoweare = () => {
 								duration: 0.6,
 							}}
 							className="font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-[16px]">
-							Our Mission Our mission is to unite micro-investors, foster
+							Our mission is to unite micro-investors, foster
 							professional administration, and nurture strong community leaders.
 							Through these efforts, we aim to create a robust business model
 							that not only generates economic growth but also uplifts and
@@ -122,7 +122,7 @@ const Whoweare = () => {
 								duration: 0.6,
 							}}
 							className="font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-[16px]">
-							We envision a future where every member of Valvetithurai is
+							We envision a future where every member of our community is
 							empowered to thrive. By fostering a culture of trust,
 							collaboration, and innovation, we strive to build a resilient
 							community that sets a new standard for community development.

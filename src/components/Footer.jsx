@@ -28,18 +28,18 @@ const Footer = () => {
 					/>
 					<div className="grid md:grid-cols-2  w-full my-[50px]">
 						{/* left side */}
-						<div className="flex flex-col gap-[16px]">
-							<div className="flex flex-cols-2">
+						<div className="flex flex-col justify-center">
+							{/* <div className="flex flex-cols-2">
 								<div></div>
 								<div>
 									<p className="font-caveat font-bold text-white text-[22px] leading-[22px]     tracking-[2.2px]">
 										BECOME A VOLOUNTEER
 									</p>
 								</div>
-							</div>
+							</div> */}
 							<div>
 								<p className="font-nunito font-extrabold animatecss-backInLeft animat text-white text-[40px] leading-[50px] ">
-									Let's Make Differnece
+									Let's Make differnece
 								</p>
 							</div>
 						</div>
@@ -53,7 +53,7 @@ const Footer = () => {
 								<div>
 									<Link to="/volunteer">
 										<button className="font-nunito bg-white rounded-full px-[37px] py-[13px] font-bold text-[17px] leading-[30px] tracking-[0.25px] text-[#122F2A]">
-											Become A Volunteer
+											Join us now
 										</button>
 									</Link>
 								</div>

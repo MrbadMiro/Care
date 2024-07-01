@@ -12,7 +12,7 @@ import Career from "./routes/Career.jsx";
 import WebDev from "./routes/WebDev";
 import Services_m from "./routes/Services_m";
 import Donate from "./routes/Donate";
-
+import i18n from "./i18n.js";
 const router = createBrowserRouter([
 	{
 		element: <Root />,

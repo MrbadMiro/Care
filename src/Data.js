@@ -43,7 +43,7 @@ export const navLinks = [
 
 
 	{
-		title: "Career",
+		title: "Join Us",
 		to: "Careerr",
 		// to: "/career/volunteer",
 		submenu: [

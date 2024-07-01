@@ -94,10 +94,10 @@ const Navbar = () => {
 
                 {/* Right Section */}
                 <div className="flex gap-2">
-                    <button className="hidden px-4 py-2 bg-[#1EA8DF] text-white font-bold rounded-full md:flex items-center gap-1"  onClick={handleDonateClick}>
+                    {/* <button className="hidden px-4 py-2 bg-[#1EA8DF] text-white font-bold rounded-full md:flex items-center gap-1"  onClick={handleDonateClick}>
                         <FaHeart />
                         Donate Now
-                    </button>
+                    </button> */}
 
                     <select id="language" className="hidden md:flex bg-[#1EA8DF] p-2 outline-none ">
                         <option  value="english">English</option>

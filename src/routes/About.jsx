@@ -6,7 +6,9 @@ import Team from "../components/About_c/Team";
 import Gallery from "../components/About_c/Gallery";
 import Ourvalue from "../components/About_c/Ourvalue";
 import Testimonial from "../components/Home/Testimonial"
+import useScrollToTop from './useScrollToTop';
 const About = () => {
+	useScrollToTop();
 	return(
           <div className="w-full h-full flex flex-col">
 		  <Banner/>

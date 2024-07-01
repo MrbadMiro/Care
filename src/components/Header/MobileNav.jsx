@@ -40,7 +40,7 @@ const MobileNav = ({ closeSideMenu }) => {
             />
           ))}
         </div>
-        <section className="flex flex-col gap-8 mt-4 items-center">
+        {/* <section className="flex flex-col gap-8 mt-4 items-center">
           <button
             className="px-4 py-2 bg-[#1EA8DF] flex text-white font-bold rounded-full items-center justify-center gap-1"
             onClick={handleDonateClick}
@@ -48,7 +48,7 @@ const MobileNav = ({ closeSideMenu }) => {
             <FaHeart />
             Donate Now
           </button>
-        </section>
+        </section> */}
       </div>
     </div>
   );
