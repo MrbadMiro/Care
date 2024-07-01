@@ -16,7 +16,7 @@ const Whoweare = () => {
 	 
 	const navigate = useNavigate();
     const handleDonateClick = () => {
-        navigate("/donate");
+        navigate("/Careerr");
     };
 	return (
 		<div className="w-full md:px-12 px-6 py-12">
@@ -150,7 +150,7 @@ const Whoweare = () => {
 					{/* ----------------------------------------------------------------- */}
 				</div>
 			</div>
-			<div className="flex flex-col md:flex-row  w-full mt-5 items-center justify-center gap-2">
+			<div className="flex flex-col md:flex-row  w-full mt-5 items-center justify-center gap-4">
 				<p className="font-caveat font-bold text-[#122f2A]  text-[22px] gap-2 leading-[22px]  ">
 					<span className="font-caveat font-bold text-[#213F96]  text-[22px] mr-2 ">
 						#
@@ -158,8 +158,8 @@ const Whoweare = () => {
 					We Give Donations Poor People Impact on Someone’s Life. Donate No
 				</p>{" "}
 				 
-					<button className="px-4 py-1 text-white text-[17px] font-nunito bg-[#213F96] rounded-full" onClick={handleDonateClick}>
-						Donate Now
+					<button className="px-8 py-1 text-white text-[17px] font-nunito bg-[#213F96] rounded-full" onClick={handleDonateClick}>
+						Join now
 					</button>
 				 
 			</div>

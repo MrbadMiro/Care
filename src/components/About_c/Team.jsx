@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { team } from "../../Data";
+import { TeamData } from "../../Data";
 import {
 	about_1,
 	about_2,
@@ -46,90 +46,27 @@ const Team = () => {
 				</p>
 			</div>
 			<div className="w-full grid md:grid-cols-3 mt-8 items-center justify-center gap-y-16">
-				<div className="flex flex-col items-center justify-center">
+				{TeamData.map((item, index) => (
+					<div className="flex flex-col items-center justify-center">
 					<div className="flex">
 						<img
-							src={About_man}
-							alt=""
-							className="h-[300px]  w-[300px]  object-cover"
-						/>
-					</div>
-					<div className="flex">
-						<p className="font-nunito font-bold text-[#122F2A] text-[18px] md:text-[24px] leading-[20px] mt-[16px]">
-							Thevarajah Gnanaraj
-						</p>
-					</div>
-				</div>
-				<div className="flex flex-col items-center justify-center">
-					<div className="flex">
-						<img
-							src={About_man1}
+							src={item.image}
 							alt=""
 							className="h-[300px]  w-[300px] object-cover"
 						/>
 					</div>
-					<div className="flex">
+					<div className="flex flex-col text-center items-center justify-center mt-4">
 						<p className="font-nunito font-bold text-[#122F2A] text-[18px] md:text-[24px] leading-[20px] mt-[16px]">
-							S.Aravinthan
+							{item.name}
+						</p>
+						<p className="font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-[16px] md:px-6 h-[60px] ">
+							{item.position}
 						</p>
 					</div>
 				</div>
-				<div className="flex flex-col items-center justify-center">
-					<div className="flex">
-						<img
-							src={About_man2}
-							alt=""
-							className="h-[300px]  w-[300px]  object-cover"
-						/>
-					</div>
-					<div className="flex">
-						<p className="font-nunito font-bold text-[#122F2A] text-[18px] md:text-[24px] leading-[20px] mt-[16px]">
-							Thevarajah Sivakumarasamy
-						</p>
-					</div>
-				</div>
-				<div className="flex flex-col items-center justify-center">
-					<div className="flex">
-						<img
-							src={About_man3}
-							alt=""
-							className="h-[300px]  w-[300px]  object-cover"
-						/>
-					</div>
-					<div className="flex">
-						<p className="font-nunito font-bold text-[#122F2A] text-[18px] md:text-[24px] leading-[20px] mt-[16px]">
-							Kavichelven
-						</p>
-					</div>
-				</div>
-				<div className="flex flex-col items-center justify-center">
-					<div className="flex">
-						<img
-							src={About_man4}
-							alt=""
-							className="h-[300px]  w-[300px]  object-cover"
-						/>
-					</div>
-					<div className="flex">
-						<p className="font-nunito font-bold text-[#122F2A] text-[18px] md:text-[24px] leading-[20px] mt-[16px]">
-							R.Luxmy
-						</p>
-					</div>
-				</div>
-				<div className="flex flex-col items-center justify-center">
-					<div className="flex">
-						<img
-							src={About_man5}
-							alt=""
-							className="h-[300px]  w-[300px] object-cover"
-						/>
-					</div>
-					<div className="flex">
-						<p className="font-nunito font-bold text-[#122F2A] text-[18px] md:text-[24px] leading-[20px] mt-[16px]">
-							Hemaratha
-						</p>
-					</div>
-				</div>
+				))}
+
+				
 			</div>
 		</div>
 	);

@@ -30,7 +30,7 @@ import {
 const Ourstory = () => {
 	const navigate = useNavigate();
     const handleDonateClick = () => {
-        navigate("/donate");
+        navigate("/Careerr");
     };
 	return (
 		<div className="w-full flex flex-col md:px-12 px-6 py-12">
@@ -56,7 +56,7 @@ const Ourstory = () => {
 					</div>
 					<div className="w-full bg-[#F1F6F7] py-6 px-6">
 						<div className="skill-box my-6">
-							<div className="skill-bar mt-2 w-full h-2 bg-gray-300 rounded-lg">
+							{/* <div className="skill-bar mt-2 w-full h-2 bg-gray-300 rounded-lg">
 								<span
 									className="skill-per html relative block h-full bg-[#1EA8DF] rounded-lg"
 									style={{ width: "85%" }}>
@@ -64,21 +64,21 @@ const Ourstory = () => {
 										85%
 									</span>
 								</span>
-							</div>
-							<div className="flex items-center justify-between">
+							</div> */}
+							{/* <div className="flex items-center justify-between">
 								<span className="title block text-base font-semibold text-green2">
 									$13,000 Goals
 								</span>
 								<span className="title block text-base font-semibold text-green2">
 									$5,000 Donate
 								</span>
-							</div>
+							</div> */}
 							<div className="mt-8 h-[2px] bg-[#DDDDDD] w-full relative">
 								<div className="w-[10px] top-[-4px] h-[10px] rounded-full bg-[#1EA8DF]  absolute  animate-bounce-horizontal2"></div>
 							</div>
 							<div className="flex items-center justify-center py-6 ">
-								<button className="px-4 py-2 bg-[#213F96]  font-nunito  rounded-full font-normal text-[#ffffff] text-[16px] leading-[28px] " onClick={handleDonateClick}>
-									Donate Now
+								<button className="px-8 py-2 bg-[#213F96]  font-nunito  rounded-full font-normal text-[#ffffff] text-[16px] leading-[28px] " onClick={handleDonateClick}>
+									Join Now
 								</button>
 							</div>
 						</div>
@@ -278,7 +278,7 @@ const Ourstory = () => {
 										5,472
 									</p>
 								</div>
-								<div className="flex flex-col items-center justify-center gap-3 px-[15px] pb-2 border-b-2">
+								{/* <div className="flex flex-col items-center justify-center gap-3 px-[15px] pb-2 border-b-2">
 									<img
 										src={About_icon2}
 										alt=""
@@ -303,7 +303,7 @@ const Ourstory = () => {
 									<p className="font-caveat font-bold text-[#8742E8] text-[26px] leading-[26px] ">
 										1,193,210
 									</p>
-								</div>
+								</div> */}
 							</div>
 						</div>
 					</div>
@@ -339,8 +339,8 @@ const Ourstory = () => {
 
 						<div className="flex items-center justify-center py-6 ">
 							<Link to="/donate">
-								<button className="px-4 py-2 bg-[#213F96]  font-nunito  rounded-full font-normal text-[#ffffff] text-[16px] leading-[28px] " onClick={handleDonateClick}>
-									Donate Now
+								<button className="px-8 py-2 bg-[#213F96]  font-nunito  rounded-full font-normal text-[#ffffff] text-[16px] leading-[28px] " onClick={handleDonateClick}>
+									Join Now
 								</button>
 							</Link>
 						</div>

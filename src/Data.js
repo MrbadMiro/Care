@@ -5,6 +5,19 @@ import {
 	HeroIcon2,
 	HeroIcon3,
 	Partner,
+	About_man,
+    About_man1,
+    About_man2,
+    About_man3,
+    About_man4,
+    About_man5,
+    About_man6,
+	Gallery_img1,
+    Gallery_img2,
+    Gallery_img3,
+    Gallery_img4,
+    Gallery_img5,
+    Gallery_img6,
 } from "./assets/index";
 
 export const navLinks = [
@@ -79,6 +92,47 @@ export const HeroSlider = [
 	}
 ];
 
+export const TeamData=[
+	{
+		id:1,
+		image:About_man,
+		name: "Thevarajah Gnanaraj",
+		position:"",
+		
+	},
+	{
+		id:2,
+		image:About_man1,
+		name: "S.Aravinthan",
+		position:"LLB, Master in Dev.Eco, PGD.Dev.Stu.&Pub.Policy, Bsc.Acc&Fin.Mgt, HNDA, MAAT."
+	},
+	{
+		id:3,
+		image:About_man2,
+		name: "Thevarajah Sivakumarasamy",
+		position:"International Association of Book keepers,institute of finacial Accountant(IAB,IFA-UK)"
+	},
+	{
+		id:4,
+		image:About_man3,
+		name: "Kavichelven",
+		position:""
+	},
+	{
+		id:5,
+		image:About_man4,
+		name: "R.Luxmy",
+		position:"BBA(Hons) Special in HRM Accountan"
+	},
+	{
+		id:6,
+		image:About_man5,
+		name: "Hemaratha",
+		position:"",
+	},
+	
+];
+
 export const clients = [
 	{
 		id: 1,
@@ -123,16 +177,49 @@ export const TestimonialData = [
 	},
 ];
 
-
-
-export const team = [
+export const GalleryData=[
 	{
 		id: 1,
-		image: HeroIcon2,
-		category: " Beauty & Hair dressing ",
-		title: "Look like those professional beauticians and hairdressers. Get full beauty treatment here from hair cutting to facial.",
-		price:"LKR.59000",
-		aosDelay: "0",
+		image:Gallery_img1,
+		tab: 1,
+	},
+	{
+		id: 2,
+		image:Gallery_img2,
+		tab: 1,
+	},
+	{
+		id: 3,
+		image:Gallery_img3,
+		tab: 1,
+	},
+	{
+		id: 4,
+		image:Gallery_img4,
+		tab: 1,
+	},
+	{
+		id: 5,
+		image:Gallery_img5,
+		tab: 1,
+	},
+	{
+		id: 6,
+		image:Gallery_img6,
+		tab: 1,
+	},
+	{
+		id: 6,
+		image:Gallery_img5,
+		tab: 2,
+	},
+	{
+		id: 6,
+		image:Gallery_img6,
+		tab: 2,
 	},
 
 ]
+
+
+
