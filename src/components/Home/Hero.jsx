@@ -161,7 +161,7 @@ const Hero = () => {
 							alt=""
 							className=" -z-10 h-full  w-full absolute zoom-in"
 							style={{
-								backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(${item.image})`,
+								backgroundImage: `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)),url(${item.image})`,
 								backgroundSize: "cover",
 								backgroundPosition: "center",
 							}}
