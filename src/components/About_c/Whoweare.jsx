@@ -56,7 +56,7 @@ const Whoweare = () => {
 								duration: 0.3,
 							}}
 							className="font-nunito font-bold text-[#122F2A] text-[32px] md:text-[40px] leading-[50px] mt-[16px]">
-							We Believe This Lifes About Give For Poor People.
+							Welcome to Mangatha Pvt Ltd.
 						</motion.p>
 					</div>
 
