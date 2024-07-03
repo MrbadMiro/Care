@@ -21,14 +21,14 @@ const Hero = () => {
 		return () => clearInterval(interval);
 	}, []);
 	return (
-		<div className="w-full  relative h-[90vh] md:h-[110vh]  flex  ">
+		<div className="w-full  relative h-[100vh] md:h-[110vh]  flex  ">
 			{HeroSlider.map((item, i) => (
 				<div
 					key={i}
 					className={`slide-container ${
 						i === index ? "block" : "hidden"
 					} flex w-full  `}>
-					<div className="w-full h-[90vh] md:h-[110vh]  relative overflow-hidden   flex  items-center">
+					<div className="w-full h-[100vh] md:h-[110vh]  relative overflow-hidden   flex  items-center">
 						<img
 							alt=""
 							className=" -z-10 h-full  w-full absolute zoom-in"
