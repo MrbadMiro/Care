@@ -43,7 +43,7 @@ const Progress = () => {
 							/>
 							<div className="flex flex-col gap-[9px]">
 								<p className="font-nunito font-extrabold text-[#122F2A] text-[20px] md:text-[24px] leading-[24px] md:leading-[28.8px]">
-									Misson
+									Mission
 								</p>
 								{/* <p className="font-rubik font-normal text-[#636363] text-[14px] md:text-[16px] leading-[20px] md:leading-[28px]">
 									No matter what have.
@@ -83,7 +83,7 @@ const Progress = () => {
 							<img src={Progress_icon2} alt="" className="md:w-[60px] md:h-[60px] w-[40px] h-[40px]" />
 							<div className="flex flex-col gap-[9px]">
 								<p className="font-nunito font-extrabold text-[#122F2A] text-[20px] md:text-[24px] leading-[24px] md:leading-[28.8px]">
-									Vison
+									Vision
 								</p>
 								{/* <p className="font-rubik font-normal text-[#636363] text-[14px] md:text-[16px] leading-[20px] md:leading-[28px]">
 									No matter what have.
