@@ -24,7 +24,7 @@ import Progress_Arrow_img from './Progress_Arrow_img.svg'
 
 
 //Home page About Section
-import About_mimg from './About_mimg.svg'
+import About_mimg from './About_mimg.jpg'
 import About_Simg from './About_Simg.svg'
 import About_S2img from './About_S2img.svg'
 import About_S3img from './About_S3img.svg'

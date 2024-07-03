@@ -19,7 +19,7 @@ const Home_About = () => {
 		<div className="w-full flex flex-col sm:px-12 px-3 my-24 items-center justify-center">
 			<div className="w-full grid md:grid-cols-2">
 				{/* 1st div */}
-				<div className="relative flex sm:pl-[100px] sm:pr-[10px] py">
+				<div className="relative flex sm:pl-[100px] sm:pr-[10px]  py">
 					<motion.img
 						initial={{ x: -100, opacity: 0 }}
 						animate={{ x: 0, opacity: 1 }}
@@ -32,7 +32,7 @@ const Home_About = () => {
 						}}
 						src={About_mimg}
 						alt=""
-						className=" object-cover w-full h-[690px] rounded-[30px]  "
+						className=" object-cover w-full h-[690px] opacity-80 rounded-[30px]  "
 					/>
 
 					<div className="hidden md:flex absolute border-10 border-white top-[80px] animate-bounce-slow -left-[4px]">
@@ -44,7 +44,7 @@ const Home_About = () => {
 					<div className="hidden md:flex -z-10 absolute border-10 animate-pulse-slow animate__infinite -bottom-[10px] left-[50px]">
 						<img src={About_S3img} alt="" className="" />
 					</div>
-					<div className=" flex flex-cols-2 z-1 absolute  bottom-[8px] right-0 sm:right-[10px]">
+					<div className=" flex flex-cols-2 z-1 absolute  bottom-0 right-0 sm:right-[10px]">
 						<div className="Flex items-center justify-center bg-[#213F96] p-[16px]">
 							<img src={About_icon4} alt="" />
 						</div>

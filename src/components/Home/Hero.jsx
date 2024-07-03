@@ -44,11 +44,11 @@ const Hero = () => {
 							alt=""
 							className="hidden md:flex  absolute  bg-opacity-80 top-0 -left-20 h-[213px] animate-bounce-horizontal"
 						/>
-						<img
+						{/* <img
 							src={item.icon2}
 							alt=""
 							className="hidden md:flex  absolute -right-20 overflow-hidden -z-8 -bottom-8 w-[300px] h-[400px]  animate-bounce-slow"
-						/>
+						/> */}
 						<img
 							src={item.icon3}
 							alt=""
@@ -59,7 +59,7 @@ const Hero = () => {
 						<div className=" flex flex-col w-full my-[200px]  z-4  px-6 md:px-12">
 							<div className="w-full flex flex-col  ">
 								<div className="w-full animate-slideContent2">
-									<p className="font-nunito font-extrabold text-white text-[30px] leading-[40px] md:text-[70px] flex flex-row md:leading-[68px] w-full ">
+									<p className="font-nunito font-extrabold text-white text-[30px] leading-[40px] md:text-[60px] md:leading-[60px] flex flex-row   w-full ">
 										{/* Building Prosperity & Community */}
 										{t("title")}
 										{/* <span className="text-[#FFA415]  underline mx-4">Charity</span>{" "}
@@ -72,7 +72,7 @@ const Hero = () => {
 									</p>
 								</div> */}
 								<div>
-									<p className="font-nunito font-extrabold animate-slideContent2 flex flex-row text-white  text-[30px] leading-[40px] md:text-[70px] md:leading-[70px] items-center   justify-between w-full ">
+									<p className="font-nunito font-extrabold animate-slideContent2 flex flex-row text-white  text-[30px] leading-[40px] md:text-[60px] md:leading-[60px] items-center   justify-between w-full ">
 										<span>The Mankatha Way</span>
 										<img
 											src={HeroIcon4}
