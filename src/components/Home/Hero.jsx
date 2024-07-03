@@ -59,7 +59,7 @@ const Hero = () => {
 						<div className=" flex flex-col w-full my-[200px]  z-4  px-6 md:px-12">
 							<div className="w-full flex flex-col  ">
 								<div className="w-full animate-slideContent2">
-									<p className="font-nunito font-extrabold text-white text-[48px] leading-[48px] md:text-[60px] md:leading-[60px] flex flex-row   w-full ">
+									<p className="font-nunito font-extrabold text-white text-[30px] leading-[30px] md:text-[60px] md:leading-[60px] flex flex-row   w-full ">
 										{/* Building Prosperity & Community */}
 										{t("title")}
 										{/* <span className="text-[#FFA415]  underline mx-4">Charity</span>{" "}
