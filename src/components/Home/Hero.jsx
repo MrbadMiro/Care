@@ -21,7 +21,7 @@ const Hero = () => {
 		return () => clearInterval(interval);
 	}, []);
 	return (
-		<div className="w-full  relative  h-[110vh]  flex  ">
+		<div className="w-full  relative h-[90vh] md:h-[110vh]  flex  ">
 			{HeroSlider.map((item, i) => (
 				<div
 					key={i}
