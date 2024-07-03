@@ -9,6 +9,7 @@ import {
 	about_4,
 	A_1_icon,
 	A_2_icon,
+	Gallery_img5,
 } from "../../assets";
 import { motion } from "framer-motion";
 
@@ -23,11 +24,11 @@ const Whoweare = () => {
 			<div className="grid md:grid-cols-2 ">
 				{/* 1st div */}
 				<div className="w-full py-12 relative">
-					<img src={about_1} alt="" className="w-full object-cover h-full " />
+					<img src={Gallery_img5} alt="" className="w-full object-cover h-full " />
 					<img
 						src={about_3}
 						alt=""
-						className="hidden md:flex absolute bottom-4 animate-pulse-slow animate__infinite -left-4 -z-10"
+						className="hidden md:flex absolute bottom-4 animate-pulse-slow animate__infinite -left-6  -z-10"
 					/>
 				</div>
 				{/* 2nd div */}
@@ -155,10 +156,10 @@ const Whoweare = () => {
 					<span className="font-caveat font-bold text-[#213F96]  text-[22px] mr-2 ">
 						#
 					</span>
-					We Give Donations Poor People Impact on Someone’s Life. Donate No
+					Join us in building a thriving, self-sufficient community!
 				</p>{" "}
 				 
-					<button className="px-8 py-1 text-white text-[17px] font-nunito bg-[#213F96] rounded-full" onClick={handleDonateClick}>
+					<button className="px-8 py-1 text-white text-[20px] font-nunito bg-[#213F96] rounded-full" onClick={handleDonateClick}>
 						Join now
 					</button>
 				 

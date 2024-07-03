@@ -128,7 +128,7 @@ const Home_About = () => {
 							<p className="font-nunito font-extrabold text-[#122F2A] text-[18px] leading-[21px] ">
 								Join Our Team
 							</p>
-							<p className="font-caveat font-bold text-[#FFA415] text-[26px] leading-[26px] tracking-[2.2px]">
+							<p className="font-caveat font-bold text-[#1EA8DF] text-[26px] leading-[26px] tracking-[2.2px]">
 								5,472
 							</p>
 						</div>
@@ -141,7 +141,7 @@ const Home_About = () => {
 							<p className="font-nunito font-extrabold text-[#122F2A] text-[18px] leading-[21px] ">
 								Donate Now
 							</p>
-							<p className="font-caveat font-bold text-Orange text-[26px] leading-[26px] tracking-[2.2px]">
+							<p className="font-caveat font-bold text-[#213F96] text-[26px] leading-[26px] tracking-[2.2px]">
 								$30,768
 							</p>
 						</div>
@@ -158,6 +158,7 @@ const Home_About = () => {
 								1,193,210
 							</p>
 						</div>
+						
 					</motion.div>
 					<motion.div
 						initial={{ x: 100, opacity: 0 }}

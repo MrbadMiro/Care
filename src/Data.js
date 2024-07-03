@@ -97,7 +97,7 @@ export const TeamData=[
 		id:1,
 		image:About_man,
 		name: "Thevarajah Gnanaraj",
-		position:"",
+		position:"Coordinator",
 		
 	},
 	{
@@ -116,7 +116,7 @@ export const TeamData=[
 		id:4,
 		image:About_man3,
 		name: "Kavichelven",
-		position:""
+		position:"Regional Manager-HutchTelecom"
 	},
 	{
 		id:5,
@@ -128,7 +128,7 @@ export const TeamData=[
 		id:6,
 		image:About_man5,
 		name: "Hemaratha",
-		position:"",
+		position:"Diploma in English",
 	},
 	
 ];

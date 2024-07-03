@@ -76,7 +76,7 @@ const Progress = () => {
 					/> */}
 					<p className=" text-center text-white  ">
 						{" "}
-						Empowering Valvetithurai through unified investments, professional administration, and strong leadership, fostering a prosperous and resilient community.
+						Empowering Our Coummunity through unified investments, professional administration, and strong leadership, fostering a prosperous and resilient community.
 					</p>
 					<div className="absolute rounded-[58px] bg-[#F1F6F7]  left-1/2 transform -translate-x-1/2 md:-top-10 -top-14 md:py-4  py-8  w-[calc(100%-30px)] md:w-[calc(100%-30px)]">
 						<div className="flex flex-row md:flex-row items-center gap-5 justify-center">
