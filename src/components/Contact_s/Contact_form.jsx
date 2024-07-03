@@ -20,7 +20,7 @@ const Contact_form = () => {
 					<div className="hidden md:flex  absolute border-10 animate-pulse animate__infinite top-[20px] left-[60px]    ">
 						<img src={About_S3img} alt="" className="" />
 					</div>
-					<div className="relative w-[320px] h-[320px] md:w-[400px] md:h-[400px] transform rotate-45  ">
+					<div className="relative w-[320px] h-[320px] md:w-[400px] md:h-[400px] transform   ">
 						 
 						{/* Top Left Diamond */}
 						<div
@@ -78,7 +78,7 @@ const Contact_form = () => {
 							/>
 						</div>
 					</div>
-					<div className="  h-[40px] w-[200px] gap-2 absolute flex justify-center items-center bottom-0 -right-2 md:right-24 transform -rotate-45">
+					<div className="  h-[40px] w-[200px] gap-2 absolute flex justify-center items-center bottom-0 -right-2 md:right-24 transform ">
 						<FiPhoneCall className="text-[#1EA8DF] transform rotate-45 animate-pulse " />
 						<div className="flex flex-col transform rotate-45 gap-2 items-center  ">
 							<p className="font-rubik text-[#1EA8DF] font-bold transform -rotate-45 text-[18px] text-left">
