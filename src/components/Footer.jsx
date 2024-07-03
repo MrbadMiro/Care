@@ -39,7 +39,7 @@ const Footer = () => {
 							</div> */}
 							<div>
 								<p className="font-nunito font-extrabold animatecss-backInLeft animat text-white text-[40px] leading-[50px] ">
-									Let's Make differnece
+									Let's Make Differnece
 								</p>
 							</div>
 						</div>

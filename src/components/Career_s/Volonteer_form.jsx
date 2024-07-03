@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import {
 	Hero_imgb1,
 	Hero_imgb2,
@@ -6,6 +6,28 @@ import {
 	
 } from "../../assets";
 const Volonteer_form = () => {
+	const [successMessage, setSuccessMessage] = useState(null);
+	const formRef = useRef(null);
+
+	const handleSubmit = (e) => {
+		e.preventDefault();
+
+		fetch(
+			"https://script.google.com/macros/s/AKfycbwTynHMftIno4W_4OF-T0a2mpPArRSf4o8zS716ijIFRQL4cky1ruDIGQLgHWs4eUCVGg/exec",
+			{
+				method: "POST",
+				body: new FormData(formRef.current),
+			}
+		)
+			.then((res) => res.json())
+			.then((data) => {
+				console.log(data);
+				setSuccessMessage(data.msg || "Form submitted successfully.");
+				alert(data.msg || "Form submitted successfully.");
+				formRef.current.reset(); // Clear the form data
+			})
+			.catch((err) => console.log(err));
+	};
 	return (
 		<div className="w-full items-center justify-center md:px-24 px-6 py-12">
 			<div className="grid md:grid-cols-2">
@@ -57,7 +79,9 @@ const Volonteer_form = () => {
 
 				</div>
 				{/* div2 */}
-				<div className="flex flex-col gap-4">
+				<div className="flex flex-col  ">
+				<form className="flex flex-col  gap-4" ref={formRef} onSubmit={handleSubmit}>
+				<input type="hidden" name="formType" value="Form2" />
 					<input
 						type="text"
 						name="Name"
@@ -74,24 +98,27 @@ const Volonteer_form = () => {
 					/>
 					<input
 						type="tel"
-						name="Phone"
+						name="PhoneNumber"
 						className="px-2 py-3 outline-none text-[14px] text-navy font-rubik border border-[#DDDDDD] rounded-md w-full"
 						placeholder="Phone"
 					/>
-					<div className="grid md:grid-cols-2">
+					<div className="grid md:grid-cols-2 gap-2">
 						<input
 							type="text"
-							name="Name"
+							name="Address"
 							className="px-2 py-3 outline-none text-[14px] text-navy font-rubik border border-[#DDDDDD] rounded-md  w-full"
-							placeholder="Addess"
+							placeholder="Address"
+							required
+						/>
+						<input
+							type="text"
+							name="Occupation"
+							className="px-2 py-3 outline-none text-[14px] text-navy font-rubik border border-[#DDDDDD] rounded-md  w-full"
+							placeholder="Occupation"
 							required
 						/>
 
-						<select id="options" name="options" className="px-2 py-3 outline-none text-[14px] text-navy font-rubik border border-[#DDDDDD] rounded-md  w-full">
-							<option value="option1" className="text-[14px] text-navy font-rubik">Occupation</option>
-							<option value="option2" className="text-[14px] text-navy font-rubik">Doctor</option>
-							<option value="option3" className="text-[14px] text-navy font-rubik">Lawyear</option>
-						</select>
+						
 					</div>
 					<textarea
 						name="Message"
@@ -109,6 +136,7 @@ const Volonteer_form = () => {
 							</span>
 						</button>
 					</div>
+					</form>
 				</div>
 			</div>
 		</div>

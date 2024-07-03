@@ -25,7 +25,7 @@ const Gallery = () => {
 					<img src={A_2_icon} alt="" className="animate-bounce" />
 				</div>
 				<p className="font-caveat font-bold text-[#1EA8DF] text-[48px] leading-[22px] tracking-[2.2px]">
-					Recent Events
+					Gallery
 				</p>
 			</div>
 			<div className="flex w-full items-center justify-center gap-8 mt-8">

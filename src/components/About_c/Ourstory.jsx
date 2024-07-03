@@ -33,7 +33,7 @@ const Ourstory = () => {
         navigate("/Careerr");
     };
 	return (
-		<div className="w-full flex flex-col md:px-12 px-6 py-12">
+		<div className="w-full flex flex-col md:px-12 px-6 pt-12 pb-24">
 			<div className="flex justify-center py-12 gap-2  ">
 				<div className="flex items-center ">
 					<img src={A_1_icon} alt="" />
@@ -47,7 +47,7 @@ const Ourstory = () => {
 			<div className="grid grid-cols-1 md:grid-cols-3  gap-4 ">
 				{/* div1 */}
 				<div className="w-full  md:col-span-2     flex-col">
-					<div className="flex 	 overflow-hidden">
+					{/* <div className="flex 	 overflow-hidden">
 						<img
 							src={about_5}
 							alt=""
@@ -56,7 +56,7 @@ const Ourstory = () => {
 					</div>
 					<div className="w-full bg-[#F1F6F7] py-6 px-6">
 						<div className="skill-box my-6">
-							{/* <div className="skill-bar mt-2 w-full h-2 bg-gray-300 rounded-lg">
+							<div className="skill-bar mt-2 w-full h-2 bg-gray-300 rounded-lg">
 								<span
 									className="skill-per html relative block h-full bg-[#1EA8DF] rounded-lg"
 									style={{ width: "85%" }}>
@@ -64,15 +64,15 @@ const Ourstory = () => {
 										85%
 									</span>
 								</span>
-							</div> */}
-							{/* <div className="flex items-center justify-between">
+							</div>
+							<div className="flex items-center justify-between">
 								<span className="title block text-base font-semibold text-green2">
 									$13,000 Goals
 								</span>
 								<span className="title block text-base font-semibold text-green2">
 									$5,000 Donate
 								</span>
-							</div> */}
+							</div>
 							<div className="mt-8 h-[2px] bg-[#DDDDDD] w-full relative">
 								<div className="w-[10px] top-[-4px] h-[10px] rounded-full bg-[#1EA8DF]  absolute  animate-bounce-horizontal2"></div>
 							</div>
@@ -82,10 +82,10 @@ const Ourstory = () => {
 								</button>
 							</div>
 						</div>
-					</div>
+					</div> */}
 					<div className="flex mt-4 flex-col">
 						<div className="mb-0 flex flex-col">
-							<p className="flex  flex-col font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-[16px]">
+							<p className="flex  flex-col font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] ">
 								{" "}
 								<p className="flex gap-2 font-nunito font-extrabold text-[#122f2A]  text-[20px] leading-[28px] text-left ">
 									<img src={about_4} alt="" /> Unified Investments
@@ -262,7 +262,7 @@ const Ourstory = () => {
 
 				{/* div2 */}
 				<div className=" w-full  px-6 flex flex-col ">
-					<div className="w-full bg-[#1EA8DF] rounded-md flex ">
+					{/* <div className="w-full bg-[#1EA8DF] rounded-md flex ">
 						<div className=" w-full rounded-md bg-[#F1F6F7] mt-2  py-6">
 							<div className="flex flex-col w-full gap-4">
 								<div className="flex flex-col items-center justify-center gap-3 px-[15px] pb-2 border-b-2">
@@ -278,7 +278,7 @@ const Ourstory = () => {
 										5,472
 									</p>
 								</div>
-								{/* <div className="flex flex-col items-center justify-center gap-3 px-[15px] pb-2 border-b-2">
+								<div className="flex flex-col items-center justify-center gap-3 px-[15px] pb-2 border-b-2">
 									<img
 										src={About_icon2}
 										alt=""
@@ -303,11 +303,11 @@ const Ourstory = () => {
 									<p className="font-caveat font-bold text-[#8742E8] text-[26px] leading-[26px] ">
 										1,193,210
 									</p>
-								</div> */}
+								</div>
 							</div>
 						</div>
-					</div>
-					<div className="w-full bg-[#1EA8DF] rounded-md flex mt-20 ">
+					</div> */}
+					<div className="w-full bg-[#1EA8DF] rounded-md flex ">
 						<div className=" w-full rounded-md bg-[#F1F6F7] mt-2  py-6">
 							<div className="flex flex-col w-ful items-center justify-centerl">
 								<div>

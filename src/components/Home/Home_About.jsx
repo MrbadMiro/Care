@@ -126,7 +126,8 @@ const Home_About = () => {
 								className=" object-cover w-[50px] h-[50px]"
 							/>
 							<p className="font-nunito font-extrabold text-[#122F2A] text-[18px] leading-[21px] ">
-								Join Our Team
+							Find more about us
+
 							</p>
 							<p className="font-caveat font-bold text-[#1EA8DF] text-[26px] leading-[26px] tracking-[2.2px]">
 								5,472
@@ -139,7 +140,8 @@ const Home_About = () => {
 								className=" object-cover w-[50px] h-[50px]"
 							/>
 							<p className="font-nunito font-extrabold text-[#122F2A] text-[18px] leading-[21px] ">
-								Donate Now
+							Join our crew
+
 							</p>
 							<p className="font-caveat font-bold text-[#213F96] text-[26px] leading-[26px] tracking-[2.2px]">
 								$30,768
@@ -152,7 +154,7 @@ const Home_About = () => {
 								className=" object-cover w-[50px] h-[50px]"
 							/>
 							<p className="font-nunito font-extrabold text-[#122F2A] text-[18px] leading-[21px] ">
-								Total Fund Raised
+							Get involved
 							</p>
 							<p className="font-caveat font-bold text-[#8742E8] text-[26px] leading-[26px] ">
 								1,193,210
