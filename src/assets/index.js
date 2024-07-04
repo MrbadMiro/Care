@@ -74,9 +74,9 @@ import Partner from './Partner.svg'
 import Review from './Review.svg'
 import Testimonial_hand from './Testimonial_hand.svg'
 import Testimonial_flower from './Testimonial_flower.svg'
-import man1 from './man1.svg'
-import man2 from './man2.svg'
-import man3 from './man3.svg'
+import man1 from './man1.jpg'
+import man2 from './man2.jpg'
+import man3 from './man3.jpg'
 
 // Footer img section
 import arrow   from './arrow-1.svg';
@@ -109,8 +109,9 @@ import Donate_bg from './Donate_bg.svg'
 import Volun_img from './Volun_img.jpg'
 //voluntear
 import Career from './Career_img.jpg'
-//voluntear
+//contact
 import Contact_banner from './Contact_banner.jpg'
+import contact_img2 from './contact_img2.jpg'
 
 export{
     logo,
@@ -223,6 +224,7 @@ export{
 
     //contact
     Contact_banner,
+    contact_img2,
 
 
 

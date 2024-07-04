@@ -110,10 +110,11 @@ const Footer = () => {
 									Quick Link
 								</p>
 								<div className="decoration-none mt-2 font-nunito font-normal text-[#BCBCBC] text-[16px] leading-[41px] tracking-[0.33px]">
-									<p>About Us</p>
+									<p> <Link to="/about">About Us</Link></p>
 
-									<p>Contact Us</p>
-									<p>Volunteer</p>
+									<p><Link to="/contact">Contact Us		</Link></p>
+									<p><Link to="/volunteer">Volunteer		</Link></p>
+									<p><Link to="/Careerr">Career		</Link></p>
 								</div>
 							</div>
 							{/* 4th div */}

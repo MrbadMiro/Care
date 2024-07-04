@@ -133,6 +133,12 @@ export const TeamData=[
 		name: "Hemaratha",
 		position:"Diploma in English",
 	},
+	{
+		id:6,
+		image:About_man6,
+		name: "N.Luxmy",
+		position:"Diploma in midwifery",
+	},
 	
 ];
 

@@ -13,6 +13,7 @@ import {
 	About_icon4,
 	About_S2img,
 	About_Simg,
+	contact_img2,
 } from "../../assets";
 import { motion } from "framer-motion";
 
@@ -54,7 +55,7 @@ const Contact_form = () => {
 							ease: "easeIn",
 							duration: 1,
 						}}
-						src={About_mimg}
+						src={contact_img2}
 						alt=""
 						className=" object-cover w-full h-full opacity-80 rounded-[30px]  "
 					/>
