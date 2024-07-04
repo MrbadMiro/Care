@@ -76,6 +76,7 @@ import Testimonial_hand from './Testimonial_hand.svg'
 import Testimonial_flower from './Testimonial_flower.svg'
 import man1 from './man1.svg'
 import man2 from './man2.svg'
+import man3 from './man3.svg'
 
 // Footer img section
 import arrow   from './arrow-1.svg';
@@ -97,10 +98,19 @@ import community from './community.svg';
 import organization from './organization.svg';
 import self from './self.svg';
 import leadership from './leadership.svg';
+import About_banner from './About_banner.jpg';
 
 
 //Donate Section
 import Donate_bg from './Donate_bg.svg'
+
+
+//voluntear
+import Volun_img from './Volun_img.jpg'
+//voluntear
+import Career from './Career_img.jpg'
+//voluntear
+import Contact_banner from './Contact_banner.jpg'
 
 export{
     logo,
@@ -178,6 +188,7 @@ export{
     Testimonial_flower,
     man1,
     man2,
+    man3,
 
     //Footer Section 
     footerimg,
@@ -187,6 +198,7 @@ export{
 
 
     //About Section
+    About_banner,
     about_1,
     about_2,
     about_3,
@@ -202,6 +214,17 @@ export{
 
     //Donate Section
     Donate_bg,
+
+    //volun
+    Volun_img,
+
+    //career
+    Career,
+
+    //contact
+    Contact_banner,
+
+
 
 
 }

@@ -109,15 +109,15 @@ const Testimonial = () => {
 					/>
 				</div>
 				<div className="w-full h-fit md:px-24 px-6 relative">
-					<div className="flex absolute -top-0 z-10 left-1/2 transform -translate-x-1/2 items-center justify-center">
-						{TestimonialData.map((_, idx) => (
+					<div className="flex absolute -top-0 z-10 left-1/2  transform -translate-x-1/2 items-center justify-center">
+						{TestimonialData.map((item, idx) => (
 							<img
 								key={idx}
-								src={man1}
+								src={item.image}
 								alt=""
-								className={`w-[80px] h-[80px] cursor-pointer rounded-full  transition-all duration-300 ${
+								className={`w-[80px] h-[80px] cursor-pointer border-4  rounded-full  transition-all duration-300 ${
 									activeSlide === idx
-										? "w-[110px] h-[110px] border-4 border-[#FFA500]"
+										? "w-[110px] h-[110px] border-4 border-[#1EA8DF]"
 										: ""
 								}`}
 								onClick={() => handleImageClick(idx)}

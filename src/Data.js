@@ -18,6 +18,9 @@ import {
     Gallery_img4,
     Gallery_img5,
     Gallery_img6,
+	man1,
+	man2,
+	man3,
 } from "./assets/index";
 
 export const navLinks = [
@@ -159,6 +162,7 @@ export const clients = [
 export const TestimonialData = [
 	{
 		id: 1,
+		image: man1,
         name: "Krishna",
 		position: "Founder",
 		Description:"Mangatha Pvt Ltd has transformed our community. Through their unified investment approach and strong leadership, they have empowered us to take charge of our future. They are not just building a business; they are building trust and social value.",
@@ -166,11 +170,13 @@ export const TestimonialData = [
 	{
 		id: 2,
         name: "Chandran",
+		image: man2,
 		position: "Hr",
 		Description:"I am proud to be a micro-investor with Mangatha Pvt Ltd. Their commitment to professional administration and community leadership has brought us together like never before. They are setting a new standard for community development.",
 	},
 	{
 		id: 3,
+		image: man3,
         name: "Akilan",
 		position: "Hr",
 		Description:"Thanks to Mangatha Pvt Ltd, our community is thriving. Their self-sufficient business model and dedication to nurturing strong community leaders have created opportunities we never thought possible. They truly care about our success and well-being.",

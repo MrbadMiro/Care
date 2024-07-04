@@ -83,7 +83,7 @@ const Footer = () => {
 									<FaPhoneVolume className="text-[34px] text-[#FFA415]" />
 									<div className="flex flex-col ">
 										<p className="font-rubik font-medium text-[#FFFFFF] text-[16px] leading-[25px] tracking-[0.24px] mt-2 text-wrap">
-											Hotline 24/7
+											Hotline  
 										</p>
 										<p className="font-rubik font-medium text-[#FFFFFF] text-[16px] leading-[25px] tracking-[0.24px] mt-2 text-wrap">
 											009 4771164071

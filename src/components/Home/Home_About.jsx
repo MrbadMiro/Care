@@ -1,5 +1,7 @@
 import React from "react";
+import { Link, useNavigate } from "react-router-dom";
 import {
+	Progress_Arrow_img,
 	A_1_icon,
 	A_2_icon,
 	About_mimg,
@@ -15,6 +17,16 @@ import {
 } from "../../assets";
 import { delay, motion } from "framer-motion";
 const Home_About = () => {
+	const navigate = useNavigate();
+	const handleDonateClick = () => {
+		navigate("/about");
+	};
+	const handleDonateClick2 = () => {
+		navigate("/volunteer");
+	};
+	const handleDonateClick3 = () => {
+		navigate("/Careerr");
+	};
 	return (
 		<div className="w-full flex flex-col sm:px-12 px-3 my-24 items-center justify-center">
 			<div className="w-full grid md:grid-cols-2">
@@ -105,7 +117,11 @@ const Home_About = () => {
 								duration: 0.6,
 							}}
 							className="font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-[16px]">
-							At Mangatha Pvt Ltd, We are dedicated to creating a self-sufficient business model that unites micro-investors, fosters professional administration, and nurtures strong community leaders, driving significant social value and trust within our community.
+							At Mangatha Pvt Ltd, We are dedicated to creating a
+							self-sufficient business model that unites micro-investors,
+							fosters professional administration, and nurtures strong community
+							leaders, driving significant social value and trust within our
+							community.
 						</motion.p>
 					</div>
 					<motion.div
@@ -118,20 +134,27 @@ const Home_About = () => {
 							ease: "easeIn",
 							duration: 0.3,
 						}}
-						className="flex flex-cols-3 mt-5 justify-between py-5 border-b border-b-[#DDDDDD] ">
+						className="grid  grid-cols-3 mt-5 w-full justify-between py-5 border-b border-b-[#DDDDDD] ">
 						<div className="flex flex-col items-center justify-center gap-3 px-[15px]">
 							<img
-								src={About_icon3}
+								src={About_icon1}
 								alt=""
 								className=" object-cover w-[50px] h-[50px]"
 							/>
-							<p className="font-nunito font-extrabold text-[#122F2A] text-[18px] leading-[21px] ">
-							Find more about us
+							<p className="font-nunito items-center justify-center flex gap-2 font-extrabold text-[#122F2A] text-[14px] leading-[21px] ">
+								Find more about us
+								<div
+								className="flex items-center justify-center bg-[#1EA8DF] rounded-full w-[18px] h-[18px] "
+								onClick={handleDonateClick}>
+								<img
+									src={Progress_Arrow_img}
+									alt=""
+									className=" hover:-rotate-[20] w-[10px]  "
+								/>
+							</div>
+							</p>
 
-							</p>
-							<p className="font-caveat font-bold text-[#1EA8DF] text-[26px] leading-[26px] tracking-[2.2px]">
-								5,472
-							</p>
+							
 						</div>
 						<div className="flex flex-col items-center justify-center gap-3 px-[15px]">
 							<img
@@ -139,28 +162,41 @@ const Home_About = () => {
 								alt=""
 								className=" object-cover w-[50px] h-[50px]"
 							/>
-							<p className="font-nunito font-extrabold text-[#122F2A] text-[18px] leading-[21px] ">
-							Join our crew
-
+							<p className="font-nunito items-center justify-center flex gap-2 font-extrabold text-[#122F2A] text-[14px] leading-[21px] ">
+								Join our crew<div
+								className="flex items-center justify-center bg-[#8742E8] rounded-full w-[18px] h-[18px] "
+								onClick={handleDonateClick2}>
+								<img
+									src={Progress_Arrow_img}
+									alt=""
+									className=" hover:-rotate-[20] w-[10px]  "
+								/>
+							</div>
+								
 							</p>
-							<p className="font-caveat font-bold text-[#213F96] text-[26px] leading-[26px] tracking-[2.2px]">
-								$30,768
-							</p>
+							
 						</div>
 						<div className="flex flex-col items-center justify-center gap-3 px-[15px]">
 							<img
-								src={About_icon1}
+								src={About_icon3}
 								alt=""
 								className=" object-cover w-[50px] h-[50px]"
 							/>
-							<p className="font-nunito font-extrabold text-[#122F2A] text-[18px] leading-[21px] ">
-							Get involved
+							<p className=" flex font-nunito items-center justify-center font-extrabold text-[#122F2A] gap-2 text-[14px] leading-[21px] ">
+								Get involved{" "}
+								<div
+								className="flex items-center justify-center bg-[#213F96] rounded-full w-[18px] h-[18px] "
+								onClick={handleDonateClick3}>
+								<img
+									src={Progress_Arrow_img}
+									alt=""
+									className=" hover:-rotate-[20] w-[10px]  "
+								/>
+							</div>
+								 
 							</p>
-							<p className="font-caveat font-bold text-[#8742E8] text-[26px] leading-[26px] ">
-								1,193,210
-							</p>
+							
 						</div>
-						
 					</motion.div>
 					<motion.div
 						initial={{ x: 100, opacity: 0 }}
@@ -175,11 +211,15 @@ const Home_About = () => {
 						className="flex flex-cols-2 my-10 items-center justify-between ">
 						<div className="flex flex-cols-2 gap-3 items-center justify-center ">
 							<div className="flex  rounded-full border-dotted border-2 border-[#1EA8DF] p-1 ">
-								<img src={About_man} alt="" className=" w-[80px] h-[80px] object-cover rounded-full"   />
+								<img
+									src={About_man}
+									alt=""
+									className=" w-[80px] h-[80px] object-cover rounded-full"
+								/>
 							</div>
 							<div className="flex flex-col ">
 								<p className="font-nunito font-extrabold text-[#122F2A] text-[24px] leading-[28.4px] tracking-[0.33px]">
-								Thevarajah Gnanaraj
+									Thevarajah Gnanaraj
 								</p>
 								<p className="font-rubik font-normal text-[#122F2A] text-[16px] leading-[28px] ">
 									Founder

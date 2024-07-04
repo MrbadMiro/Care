@@ -1,9 +1,9 @@
 import React from "react";
-import { Hero_imgb1, Progress_Arrow_img } from "../../assets";
+import { About_banner, Progress_Arrow_img } from "../../assets";
 
 const Banner3 = () => {
 	const sectionStyle = {
-		backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${Hero_imgb1})`,
+		backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${About_banner})`,
 		backgroundSize: "cover",
 		backgroundPosition: "center",
 	};

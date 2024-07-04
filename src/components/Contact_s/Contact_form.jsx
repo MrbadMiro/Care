@@ -89,7 +89,7 @@ const Contact_form = () => {
 							</div>
 
 							<p className="font-caveat font-bold text-[#1EA8DF]  text-[22px] leading-[22px] tracking-[2.2px]">
-								OUR CONTACT NOW
+								CONTACT US
 							</p>
 						</div>
 
