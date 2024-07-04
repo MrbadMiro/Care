@@ -40,7 +40,7 @@ const Volonteer_form = () => {
 						<p className="font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] text-left">Together, we can build a community where trust, social value, and economic prosperity go hand in hand. <br /></p>
 					</div>
 					<div>
-						<p className="font-nunito font-extrabold text-[#122f2A] text-[24px] leading-[28.4px] tracking-[0.33px]"> Join us at Mangatha Pvt Ltd as we work towards a brighter future for Valvetithurai. <br /></p>
+						<p className="font-nunito font-extrabold text-[#122f2A] text-[24px] leading-[28.4px] tracking-[0.33px]"> Join us at Mangatha Pvt Ltd as we work towards a brighter future for Valvettithurai. <br /></p>
 					</div>
 					{/* <div>
                         <p className="font-caveat font-bold text-[#636363] text-[16px] leading-[28px] ">HELPED FUND 589,537 PROJECTS IN 24 COUNTRIES, BENEFITING OVER
@@ -49,11 +49,11 @@ const Volonteer_form = () => {
 					<div className="mb-4 flex flex-col ">
 						<p className="flex gap-2 font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-2">
 							{" "}
-							<img src={about_4} alt="" /> Help empower and develop the Valvetithurai community.
+							<img src={about_4} alt="" /> Help empower and develop the Valvettithurai community.
 						</p>
 						<p className="flex gap-2 font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-2">
 							{" "}
-							<img src={about_4} alt="" /> Gain valuable leadership and management experience.
+							<img src={about_4} alt="" /> Gain valuable leadership and management experience .
 						</p>
 						<p className="flex gap-2 font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-2">
 							{" "}

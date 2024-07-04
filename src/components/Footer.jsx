@@ -39,7 +39,7 @@ const Footer = () => {
 							</div> */}
 							<div>
 								<p className="font-nunito font-extrabold animatecss-backInLeft animat text-white text-[40px] leading-[50px] ">
-									Let's Make Differnece
+									Let's Make Difference
 								</p>
 							</div>
 						</div>
@@ -74,7 +74,7 @@ const Footer = () => {
 								<img src={logo} alt="" />
 								<p className="font-rubik font-normal text-[#BCBCBC] text-[16px] leading-[29px] tracking-[0.24px] mt-2 text-wrap">
 									We are committed to cultivating a self-sustaining and thriving
-									community in Valvetithurai. Built upon the pillars of unity,
+									community in Valvettithurai. Built upon the pillars of unity,
 									effective governance, and robust leadership, our goal is to
 									foster substantial social benefits and trust
 									among our community.

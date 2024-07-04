@@ -80,7 +80,7 @@ const Whoweare = () => {
 							}}
 							className="font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-[16px]">
 							At Mangatha Pvt Ltd, we are dedicated to building a
-							self-sufficient and prosperous community in Valvetithurai. Founded
+							self-sufficient and prosperous community in Valvettithurai. Founded
 							on the principles of unity, professional administration, and
 							strong leadership, our mission is to drive significant social
 							value and trust within our community.

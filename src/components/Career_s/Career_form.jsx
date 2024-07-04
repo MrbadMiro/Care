@@ -43,7 +43,7 @@ const Career_form = () => {
 						<p className="font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] text-left">
 							{" "}
 							At Mangatha Pvt Ltd, we are dedicated to creating a
-							self-sufficient and thriving community in Valvetithurai. We
+							self-sufficient and thriving community in Valvettithurai. We
 							believe that our success is driven by the talented and passionate
 							individuals who join our team. If you are looking for a rewarding
 							career where you can make a real difference, we invite you to
