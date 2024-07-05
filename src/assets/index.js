@@ -24,7 +24,7 @@ import Progress_Arrow_img from './Progress_Arrow_img.svg'
 
 
 //Home page About Section
-import About_mimg from './About_mimg.jpg'
+import About_mimg from './About_mimg.svg'
 import About_Simg from './About_Simg.svg'
 import About_S2img from './About_S2img.svg'
 import About_S3img from './About_S3img.svg'
@@ -39,12 +39,12 @@ import About_man3 from './About_man3.jpg'
 import About_man4 from './About_man4.jpg'
 import About_man5 from './About_man5.jpg'
 import About_man6 from './About_man6.png'
-import Gallery_img1 from './Gallery_img1.jpg'
-import Gallery_img2 from './Gallery_img2.jpg'
-import Gallery_img3 from './Gallery_img3.jpg'
-import Gallery_img4 from './Gallery_img4.jpg'
-import Gallery_img5 from './Gallery_img5.jpg'
-import Gallery_img6 from './Gallery_img6.jpg'
+import Gallery_img1 from './Gallery_img1.svg'
+import Gallery_img2 from './Gallery_img2.svg'
+import Gallery_img3 from './Gallery_img3.svg'
+import Gallery_img4 from './Gallery_img4.svg'
+import Gallery_img5 from './Gallery_img5.svg'
+import Gallery_img6 from './Gallery_img6.svg'
 import About_sign from './About_sign.svg'
 
 
@@ -98,7 +98,7 @@ import community from './community.svg';
 import organization from './organization.svg';
 import self from './self.svg';
 import leadership from './leadership.svg';
-import About_banner from './About_banner.jpg';
+import About_banner from './About_banner.svg';
 
 
 //Donate Section
@@ -106,9 +106,9 @@ import Donate_bg from './Donate_bg.svg'
 
 
 //voluntear
-import Volun_img from './Volun_img.jpg'
+import Volun_img from './Volun_img.svg'
 //voluntear
-import Career from './Career_img.jpg'
+import Career from './Career_img.svg'
 //contact
 import Contact_banner from './Contact_banner.jpg'
 import contact_img2 from './contact_img2.jpg'

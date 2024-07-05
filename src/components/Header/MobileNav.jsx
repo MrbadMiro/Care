@@ -24,11 +24,11 @@ const MobileNav = ({ closeSideMenu }) => {
         </section>
         <div className="flex flex-col text-base gap-2 transition-all">
           <div className="flex">
-            <select id="language" className="bg-[#1EA8DF] px-4 py-2 outline-none">
+            {/* <select id="language" className="bg-[#1EA8DF] px-4 py-2 outline-none">
               <option value="english">English</option>
               <option value="tamil">Tamil</option>
               <option value="sinhala">Sinhala</option>
-            </select>
+            </select> */}
           </div>
           {navLinks.map((d, i) => (
             <SingleNavItem

@@ -38,21 +38,21 @@ const Footer = () => {
 								</div>
 							</div> */}
 							<div>
-								<p className="font-nunito font-extrabold animatecss-backInLeft animat text-white text-[40px] leading-[50px] ">
+								<p className="font-nunito font-extrabold animatecss-backInLeft animat text-white text-[34px]  md:text-[40px] leading-[50px]  md:text-left text-center">
 									Let's Make Difference
 								</p>
 							</div>
 						</div>
 
 						{/* right side */}
-						<div>
+						<div className="flex md:justify-end justify-center">
 							<div className="flex flex-cols-2 gap-[10px] items-center md:justify-end mt-2">
 								<div className="hidden md:flex justify-end">
 									<img src={arrow} className="animate-bounce" alt="" />
 								</div>
 								<div>
 									<Link to="/volunteer">
-										<button className="font-nunito bg-white rounded-full px-[37px] py-[13px] font-bold text-[17px] leading-[30px] tracking-[0.25px] text-[#122F2A]">
+										<button className="font-nunito bg-white rounded-full px-[37px] py-[8px] font-bold text-[17px] leading-[30px] tracking-[0.25px] text-[#122F2A]">
 											Join us now
 										</button>
 									</Link>
@@ -134,7 +134,7 @@ const Footer = () => {
 								<div className="flex flex-cols-2 font-nunito font-normal text-[#BCBCBC] text-[16px]  gap-2 items-center mt-2 ">
 									<CiLocationOn className="text-[#FF5528] text-[17px]" />
 									<div className="flex-col">
-										<p>No11,Modern Market, Valvettithurai,Jaffna,SriLanaka</p>
+										<p>No 11,Modern Market, Valvettithurai,Jaffna,SriLanaka</p>
 									</div>
 								</div>
 								<div className="flex flex-cols-2 font-nunito font-normal text-[#BCBCBC] text-[16px]  gap-2 items-center mt-2 ">

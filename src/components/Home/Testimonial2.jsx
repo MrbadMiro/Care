@@ -53,7 +53,7 @@ const Testimonial2 = () => {
     }, [activeSlide]);
 
     return (
-        <div className="w-full flex flex-col md:px-12 py-24 px-3 relative mt-10">
+        <div className="w-full flex flex-col md:px-12 pt-12 pb-24 px-3 relative mt-10">
             <div className="flex w-full flex-col relative">
                 <div className="w-full flex items-center justify-center gap-2 mb-18">
                     <div className="flex">

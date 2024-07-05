@@ -70,16 +70,16 @@ const Volonteer_form = () => {
 
 						</p>
 					</div> 
-					<div className="grid md:grid-cols-2 gap-2 ">
-						<div className="rounded-md overflow-hidden   "><img src={Hero_imgb1} alt=""  className="object-cover h-[200px] "/></div>
-						<div className="rounded-md overflow-hidden  "><img src={Hero_imgb2} alt=""  className="object-cover h-[200px]"/></div>
+					<div className="grid md:grid-cols-2 gap-2 w-full ">
+						<div className="rounded-md overflow-hidden  w-full "><img src={Hero_imgb1} alt=""  className="object-cover h-[200px] w-full"/></div>
+						<div className="rounded-md overflow-hidden w-full  "><img src={Hero_imgb2} alt=""  className="object-cover h-[200px] w-full"/></div>
 						 
  
 					</div>
 
 				</div>
 				{/* div2 */}
-				<div className="flex flex-col  ">
+				<div className="flex flex-col mt-8  md:mt-0  ">
 				<form className="flex flex-col  gap-4" ref={formRef} onSubmit={handleSubmit}>
 				<input type="hidden" name="formType" value="Form2" />
 					<input

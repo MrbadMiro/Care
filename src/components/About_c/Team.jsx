@@ -82,7 +82,7 @@ const Team = () => {
 								<img
 									src={item.image}
 									alt=""
-									className="h-[300px] rounded-br-[150px] border-b-2  absolute   w-full object-cover "
+									className="h-[300px] rounded-br-[150px] border-b- border-b-white absolute   w-full object-cover "
 
 								/>
 							
