@@ -112,6 +112,7 @@ import Career from './Career_img.svg'
 //contact
 import Contact_banner from './Contact_banner.jpg'
 import contact_img2 from './contact_img2.jpg'
+import contact_img3 from './contact_img3.jpg'
 
 export{
     logo,
@@ -225,6 +226,7 @@ export{
     //contact
     Contact_banner,
     contact_img2,
+    contact_img3,
 
 
 

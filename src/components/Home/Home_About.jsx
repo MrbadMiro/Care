@@ -102,7 +102,7 @@ const Home_About = () => {
 						
 						<div className="Flex items-center justify-center bg-[#1EA8DF] p-[16px] rounded-br-[30px]">
 							<p className="font-caveat font-bold text-white text-[22px] leading-[24px] tracking-[2.2px]">
-								Always Help Us!
+								Our Story
 							</p>
 						</div>
 					</div>
@@ -174,7 +174,7 @@ const Home_About = () => {
 							ease: "easeIn",
 							duration: 0.3,
 						}}
-						className="grid  grid-cols-3 mt-2 w-full justify-between py-5 border-b border-b-[#DDDDDD] ">
+						className="grid   ss:grid-cols-3 mt-2 w-full justify-between py-5 border-b gap-6 border-b-[#DDDDDD] ">
 						<div className="flex flex-col items-center justify-center gap-3 px-[15px]">
 							<img
 								src={About_icon1}

@@ -16,7 +16,7 @@ const Progress = () => {
         navigate("/about");
     };
 	const createSectionStyle = (imageUrl) => ({
-		backgroundImage: `rgba(0,0,0,0.5)), url(${imageUrl})`,
+		backgroundImage: `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)),url(${imageUrl})`,
 		backgroundSize: "cover",
 		backgroundPosition: "center",
 	});
@@ -31,6 +31,7 @@ const Progress = () => {
 				<div
 					className="relative flex items-center justify-center px-[15px] pt-[96px]  pb-8  md:rounded-b-md boxShadow w-full"
 					style={sectionStyle}>
+						
 					<p className=" text-center text-white h-[150px]  ">
 					To unite micro-investors, foster professional administration, and nurture strong leaders, driving social value and trust within our community.
 					</p>

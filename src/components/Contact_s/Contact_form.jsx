@@ -14,10 +14,47 @@ import {
 	About_S2img,
 	About_Simg,
 	contact_img2,
+	contact_img3,
 } from "../../assets";
 import { motion } from "framer-motion";
+import { IoIosCloseCircleOutline } from "react-icons/io";
+
+const Modal = ({ isOpen, onClose, videoUrl }) => {
+	if (!isOpen) return null;
+  
+	return (
+	  <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50">
+		<div className="relative bg-white p-2 rounded-lg">
+		  <button onClick={onClose} className="absolute -top-5 -right-5 text-black">
+			<IoIosCloseCircleOutline className="text-white text-[30px]" />
+		  </button>
+		  <iframe
+			width="560"
+			height="315"
+			src={videoUrl}
+			title="YouTube video player"
+			frameBorder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			referrerPolicy="strict-origin-when-cross-origin"
+			allowFullScreen
+		  ></iframe>
+		</div>
+	  </div>
+	);
+  };
 
 const Contact_form = () => {
+	const [isModalOpen, setIsModalOpen] = useState(false);
+	const [videoUrl, setVideoUrl] = useState("");
+	const openModal = () => {
+		setVideoUrl("https://www.youtube.com/embed/uNLBDyB_OFE");
+		setIsModalOpen(true);
+	  };
+	  
+	  const closeModal = () => {
+		setVideoUrl("");
+		setIsModalOpen(false);
+	  };
 	const [successMessage, setSuccessMessage] = useState(null);
 	const formRef = useRef(null);
 
@@ -61,7 +98,7 @@ const Contact_form = () => {
 					/>
 
 					<div className="hidden md:flex absolute border-10 border-white top-[80px] animate-bounce-slow -left-[4px]">
-						<img src={About_Simg} alt="" className=" object-cover" />
+						<img src={contact_img3} alt="" className=" object-cover h-[200px] w-[200px] rounded-xl border-8" />
 					</div>
 					<div className="hidden md:flex -z-10 absolute border-10 animate-bounce-slow top-[310px] -left-[4px]">
 						<img src={About_S2img} alt="" className="" />
@@ -71,11 +108,12 @@ const Contact_form = () => {
 					</div>
 					<div className=" flex flex-cols-2 z-1 absolute  bottom-0 right-0 sm:right-[10px]">
 						<div className="Flex items-center justify-center bg-[#213F96] p-[16px]">
-							<img src={About_icon4} alt="" />
+							<img src={About_icon4} alt="" onClick={openModal} />
+							<Modal isOpen={isModalOpen} onClose={closeModal} videoUrl={videoUrl} />
 						</div>
 						<div className="Flex items-center justify-center bg-[#1EA8DF] p-[16px] rounded-br-[30px]">
 							<p className="font-caveat font-bold text-white text-[22px] leading-[24px] tracking-[2.2px]">
-								Always Help Us!
+								Our Story
 							</p>
 						</div>
 					</div>
