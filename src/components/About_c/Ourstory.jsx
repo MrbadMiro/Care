@@ -338,7 +338,7 @@ const Ourstory = () => {
 						</div>
 
 						<div className="flex items-center justify-center py-6 ">
-							<Link to="/donate">
+							<Link to="/volunteer">
 								<button className="px-8 py-2 bg-[#213F96]  font-nunito  rounded-full font-normal text-[#ffffff] text-[16px] leading-[28px] " onClick={handleDonateClick}>
 									Join Now
 								</button>

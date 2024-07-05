@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { TeamData } from "../../Data";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 import {
 	about_1,
 	about_2,
@@ -17,18 +20,43 @@ import {
 } from "../../assets";
 
 const Team = () => {
-	const [currentSlide, setCurrentSlide] = useState(0);
-
-	const slideWidth = 100; // Adjust this based on your slide width
-
-	const nextSlide = () => {
-		setCurrentSlide((prev) => (prev + 1) % team.length);
+	var settings = {
+		dots: true,
+		infinite: true,
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		arrows: false,
+		autoplay: true,
+		speed: 2000,
+		autoplaySpeed: 2000,
+		cssEase: "linear",
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1,
+					infinite: true,
+					dots: true,
+				},
+			},
+			{
+				breakpoint: 820,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					initialSlide: 1,
+				},
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+				},
+			},
+		],
 	};
-
-	const prevSlide = () => {
-		setCurrentSlide((prev) => (prev - 1 + team.length) % team.length);
-	};
-
 	return (
 		<div className="w-full md:px-12 px-6 flex flex-col items-center justify-center py-24">
 			<div className="flex items-center gap-2">
@@ -45,28 +73,29 @@ const Team = () => {
 					Meet The Team Member
 				</p>
 			</div>
-			<div className="w-full grid md:grid-cols-3 mt-8 items-center justify-center gap-y-16">
-				{TeamData.map((item, index) => (
-					<div className="flex flex-col items-center justify-center">
-					<div className="flex">
-						<img
-							src={item.image}
-							alt=""
-							className="h-[300px]  w-[300px] object-cover"
-						/>
-					</div>
-					<div className="flex flex-col text-center items-center justify-center mt-4">
-						<p className="font-nunito font-bold text-[#122F2A] text-[18px] md:text-[24px] leading-[20px] mt-[16px]">
-							{item.name}
-						</p>
-						<p className="font-rubik font-normal text-[#636363]  text-[16px] leading-[28px] mt-[16px] md:px-6 h-[60px] ">
-							{item.position}
-						</p>
-					</div>
-				</div>
-				))}
-
-				
+			<div className="w-full  h-fit mt-8 ">
+				<Slider {...settings} className="custom-slider">
+					{TeamData.map((item, index) => (
+						<div className="overflow flex relative flex-col group  items-center boxShadow3 bg-[#F1F6F7]   justify-center">
+							
+							<div className="flex absolute rounded-br-xl   top-0 ">
+								<img
+									src={item.image}
+									alt=""
+									className="h-[300px] rounded-br-[150px] border-b-2    w-[300px] object-cover "
+								/>
+							</div>
+							<div className="flex flex-col text-center items-center justify-center ">
+								<p className="font-nunito font-bold text-[#122F2A] text-[18px] md:text-[20px] leading-[20px] mt-[320px]">
+									{item.name}
+								</p>
+								<p className="font-rubik font-normal text-[#636363]  text-[14px] leading-[20px] mt-[16px]  h-[60px] ">
+									{item.position}
+								</p>
+							</div>
+						</div>
+					))}
+				</Slider>
 			</div>
 		</div>
 	);

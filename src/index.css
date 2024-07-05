@@ -14,44 +14,13 @@ body {
 #slider-boxes {
 	display: flex;
 }
-.custom-slider .slick-slide {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 10px;
-}
-.slick-dots li button:before {
-	color: #d93a70;
-	font-size: 20px;
-	display: flex;
-	flex-direction: column; /* Change to your desired color */
-}
 
-.slick-dots {
-	position: absolute; /* Correcting the 'display:abosolute;' to 'position: absolute;' */
-	top: 200px; /* 'Top' should be lowercase */
-	left: 0px;
-	display: flex;
-	flex-direction: column;
-	z: 5px; /* Correcting 'colum' to 'column' */
+.slick-slide div {
+	margin: 10px;
 }
-
-/* Custom styles for the button hover effect */
-/* .join-button::before {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  transition: top 0.3s ease;
-  z-index: 0;
+.custom-slider .slick-dots li button:before {
+	color: #1f294c; /* Change to your desired color */
 }
-
-.join-button:hover::before {
-  top: 0;
-} */
 
 .boxShadow {
 	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;

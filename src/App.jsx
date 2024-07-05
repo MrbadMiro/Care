@@ -1,4 +1,4 @@
-import { Home_About, Hero, Progress, Services,Event, Partners, Testimonial } from "./components"
+import { Home_About, Hero, Progress, Services,Event, Partners, Testimonial,Testimonial2 } from "./components"
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
@@ -23,7 +23,8 @@ function App() {
         {/* <Services/> */}
         {/* <Event/> */}
         {/* <Partners/> */}
-        <Testimonial/>
+        {/* <Testimonial/> */}
+        <Testimonial2/>
       
      </div> 
 
