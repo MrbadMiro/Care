@@ -33,7 +33,7 @@ const Ourstory = () => {
         navigate("/Careerr");
     };
 	return (
-		<div className="w-full flex flex-col md:px-12 px-6 pt-12 pb-24">
+		<div className="w-full flex flex-col md:px-24 px-6 pt-12 pb-24">
 			<div className="flex justify-center py-12 gap-2  ">
 				<div className="flex items-center ">
 					<img src={A_1_icon} alt="" />
@@ -44,7 +44,7 @@ const Ourstory = () => {
 					WHY CHOOSE US?
 				</p>
 			</div>
-			<div className="grid grid-cols-1 md:grid-cols-3  gap-4 ">
+			<div className="grid grid-cols-1 md:grid-cols-3  gap-4 w-full ">
 				{/* div1 */}
 				<div className="w-full  md:col-span-2     flex-col">
 					{/* <div className="flex 	 overflow-hidden">
@@ -261,7 +261,7 @@ const Ourstory = () => {
 				</div>
 
 				{/* div2 */}
-				<div className=" w-full  px-6 flex flex-col ">
+				<div className=" w-full   flex flex-col ">
 					{/* <div className="w-full bg-[#1EA8DF] rounded-md flex ">
 						<div className=" w-full rounded-md bg-[#F1F6F7] mt-2  py-6">
 							<div className="flex flex-col w-full gap-4">

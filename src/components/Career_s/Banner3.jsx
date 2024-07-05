@@ -14,12 +14,12 @@ const Banner3 = () => {
 			style={sectionStyle}>
 			<div className="flex items-center justify-start flex-col">
 				<div className="flex w-full   ">
-					<p className=" font-nunito font-extrabold text-white text-[65px] leading-[74.4px] tracking-[0.33px]">
+					<p className=" font-nunito text-center font-extrabold text-white text-[65px] leading-[74.4px] tracking-[0.33px]">
 						Become A Volunteer
 					</p>
 				</div>
 
-				<div className="flex w-full  ">
+				<div className="flex w-full justify-center items-center  ">
 					<p className="text-white ml-3 ">Home</p>{" "}
 					<p className="text-white ml-3 flex items-center gap-2 ">
 						{" "}

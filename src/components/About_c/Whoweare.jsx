@@ -20,11 +20,11 @@ const Whoweare = () => {
         navigate("/Careerr");
     };
 	return (
-		<div className="w-full md:px-12 px-6 py-12">
+		<div className="w-full md:px-24 px-6 py-12">
 			<div className="grid md:grid-cols-2 ">
 				{/* 1st div */}
 				<div className="w-full py-12 relative">
-					<img src={Gallery_img5} alt="" className="w-full object-cover h-full " />
+					<img src={Gallery_img5} alt="" className="w-full object-cover h-full p-[20px] " />
 					<img
 						src={about_3}
 						alt=""

@@ -10,7 +10,7 @@ const Banner3 = () => {
 
 	return (
 		<div
-			className="flex flex-col items-center justify-center w-full h-[80vh]"
+			className="flex flex-col items-center justify-center  w-full h-[80vh]"
 			style={sectionStyle}>
 			<div className="flex items-center justify-start flex-col">
 				<div className="flex w-full   ">

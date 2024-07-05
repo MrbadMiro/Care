@@ -19,7 +19,7 @@ const CustomPrevArrow = ({ onClick }) => (
 
 const CustomNextArrow = ({ onClick }) => (
     <div
-        className="absolute right-[-25px] md:right-[96px] top-[50%] rounded-full bg-[#122F2A] p-2 transform -translate-y-1/2 cursor-pointer z-10"
+        className="absolute right-[0px] md:right-[96px] top-[50%] rounded-full bg-[#122F2A] p-2 transform -translate-y-1/2 cursor-pointer z-10"
         onClick={onClick}>
         <FaArrowRight className="text-white text-[20px]" />
     </div>

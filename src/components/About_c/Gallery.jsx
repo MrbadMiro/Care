@@ -18,7 +18,7 @@ const Gallery = () => {
 		(gallery) => gallery.tab === activeTab
 	);
 	return (
-		<div className="flex flex-col md:px-12 px-6 pb-24 items-center justify-center">
+		<div className="flex flex-col md:px-24 px-6 pb-24 items-center justify-center">
 			<div className="flex items-center gap-2 mb-8">
 				<div className="flex items-center ">
 					<img src={A_1_icon} alt="" />
@@ -39,7 +39,7 @@ const Gallery = () => {
 				<div
 					className={`tabs ${
 						activeTab === 2 ? "active-tabs" : ""
-					}  bg-[#213F96] text-white px-4 py-2 w-[170px]`}
+					}  bg-[#213F96] text-white px-4 py-2 w-[170px] flex items-center justify-center`}
 					onClick={() => setActiveTab(2)}>
 					Recent Events
 				</div>

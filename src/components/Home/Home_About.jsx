@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import { IoIosCloseCircleOutline } from "react-icons/io";
 import {
 	Progress_Arrow_img,
 	A_1_icon,
@@ -16,6 +17,31 @@ import {
 	About_man,
 } from "../../assets";
 import { delay, motion } from "framer-motion";
+
+const Modal = ({ isOpen, onClose, videoUrl }) => {
+	if (!isOpen) return null;
+  
+	return (
+	  <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50">
+		<div className="relative bg-white p-2 rounded-lg">
+		  <button onClick={onClose} className="absolute -top-5 -right-5 text-black">
+			<IoIosCloseCircleOutline className="text-white text-[30px]" />
+		  </button>
+		  <iframe
+			width="560"
+			height="315"
+			src={videoUrl}
+			title="YouTube video player"
+			frameBorder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			referrerPolicy="strict-origin-when-cross-origin"
+			allowFullScreen
+		  ></iframe>
+		</div>
+	  </div>
+	);
+  };
+
 const Home_About = () => {
 	const navigate = useNavigate();
 	const handleDonateClick = () => {
@@ -27,6 +53,17 @@ const Home_About = () => {
 	const handleDonateClick3 = () => {
 		navigate("/Careerr");
 	};
+	const [isModalOpen, setIsModalOpen] = useState(false);
+	const [videoUrl, setVideoUrl] = useState("");
+	const openModal = () => {
+		setVideoUrl("https://www.youtube.com/embed/uNLBDyB_OFE");
+		setIsModalOpen(true);
+	  };
+	  
+	  const closeModal = () => {
+		setVideoUrl("");
+		setIsModalOpen(false);
+	  };
 	return (
 		<div className="w-full flex flex-col sm:px-24 px-3 my-24 items-center justify-center">
 			<div className="w-full grid md:grid-cols-2">
@@ -58,8 +95,11 @@ const Home_About = () => {
 					</div>
 					<div className=" flex flex-cols-2 z-1 absolute  bottom-0 right-0 sm:right-[10px]">
 						<div className="Flex items-center justify-center bg-[#213F96] p-[16px]">
-							<img src={About_icon4} alt="" />
+							<img src={About_icon4} alt=""   onClick={openModal} />
+							<Modal isOpen={isModalOpen} onClose={closeModal} videoUrl={videoUrl} />
+							
 						</div>
+						
 						<div className="Flex items-center justify-center bg-[#1EA8DF] p-[16px] rounded-br-[30px]">
 							<p className="font-caveat font-bold text-white text-[22px] leading-[24px] tracking-[2.2px]">
 								Always Help Us!
@@ -142,7 +182,7 @@ const Home_About = () => {
 								className=" object-cover w-[50px] h-[50px]"
 							/>
 							<p className="font-nunito items-center justify-center flex gap-2 font-extrabold text-[#122F2A] text-[14px] leading-[21px] ">
-								Find more about us
+								Find more 
 								<div
 								className="flex items-center justify-center bg-[#1EA8DF] rounded-full w-[18px] h-[18px] "
 								onClick={handleDonateClick}>

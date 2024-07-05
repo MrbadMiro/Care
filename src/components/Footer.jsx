@@ -20,7 +20,7 @@ const Footer = () => {
 		<section className="w-full flex flex-col  ">
 			<div className="flex flex-col  w-ful">
 				{/* upper div */}
-				<div className="bg-[#1EA8DF] w-full md:px-12 px-6   relative ">
+				<div className="bg-[#1EA8DF] w-full md:px-24 px-6   relative ">
 					<img
 						src={footerupimg}
 						alt=""
@@ -63,7 +63,7 @@ const Footer = () => {
 				</div>
 
 				{/* down div */}
-				<div className="w-full md:px-12 px-6 mt" style={sectionStyle}>
+				<div className="w-full md:px-24 px-6 mt" style={sectionStyle}>
 					<div className="flex flex-col">
 						{/* top div */}
 
@@ -134,7 +134,7 @@ const Footer = () => {
 								<div className="flex flex-cols-2 font-nunito font-normal text-[#BCBCBC] text-[16px]  gap-2 items-center mt-2 ">
 									<CiLocationOn className="text-[#FF5528] text-[17px]" />
 									<div className="flex-col">
-										<p>NO.11.Modern Market, Valvettithurai,Jaffna,SriLanaka</p>
+										<p>No11,Modern Market, Valvettithurai,Jaffna,SriLanaka</p>
 									</div>
 								</div>
 								<div className="flex flex-cols-2 font-nunito font-normal text-[#BCBCBC] text-[16px]  gap-2 items-center mt-2 ">

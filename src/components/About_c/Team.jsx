@@ -23,12 +23,12 @@ const Team = () => {
 	var settings = {
 		dots: true,
 		infinite: true,
-		slidesToShow: 4,
+		slidesToShow: 3,
 		slidesToScroll: 1,
 		arrows: false,
 		autoplay: true,
-		speed: 2000,
-		autoplaySpeed: 2000,
+		speed: 4000,
+		autoplaySpeed: 4000,
 		cssEase: "linear",
 		responsive: [
 			{
@@ -58,7 +58,7 @@ const Team = () => {
 		],
 	};
 	return (
-		<div className="w-full md:px-12 px-6 flex flex-col items-center justify-center py-24">
+		<div className="w-full md:px-24 px-6 flex flex-col items-center justify-center py-12">
 			<div className="flex items-center gap-2">
 				<div className="flex items-center ">
 					<img src={A_1_icon} alt="" />
@@ -76,20 +76,21 @@ const Team = () => {
 			<div className="w-full  h-fit mt-8 ">
 				<Slider {...settings} className="custom-slider">
 					{TeamData.map((item, index) => (
-						<div className="overflow flex relative flex-col group  items-center boxShadow3 bg-[#F1F6F7]   justify-center">
+						<div className=" z-10 flex relative flex-col  items-center boxShadow3 bg-[#F1F6F7]   justify-center">
 							
-							<div className="flex absolute rounded-br-xl   top-0 ">
+							
 								<img
 									src={item.image}
 									alt=""
-									className="h-[300px] rounded-br-[150px] border-b-2    w-[300px] object-cover "
+									className="h-[300px] rounded-br-[150px] border-b-2  absolute   w-full object-cover "
+
 								/>
-							</div>
+							
 							<div className="flex flex-col text-center items-center justify-center ">
 								<p className="font-nunito font-bold text-[#122F2A] text-[18px] md:text-[20px] leading-[20px] mt-[320px]">
 									{item.name}
 								</p>
-								<p className="font-rubik font-normal text-[#636363]  text-[14px] leading-[20px] mt-[16px]  h-[60px] ">
+								<p className="font-rubik font-normal text-[#636363]  text-[14px] leading-[20px] mt-[16px]  h-[80px] ">
 									{item.position}
 								</p>
 							</div>

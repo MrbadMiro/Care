@@ -42,7 +42,7 @@ const Contact_form = () => {
 	};
 
 	return (
-		<div className="w-full md:px-12 px-6 py-24">
+		<div className="w-full md:px-24 px-6 py-24">
 			<div className="grid md:grid-cols-2 gap-8 ">
 				<div className="relative flex sm:pl-[100px] sm:pr-[10px]  py">
 					<motion.img
