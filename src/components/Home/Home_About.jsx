@@ -20,27 +20,32 @@ import { delay, motion } from "framer-motion";
 
 const Modal = ({ isOpen, onClose, videoUrl }) => {
 	if (!isOpen) return null;
-  
+
 	return (
-	  <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50">
-		<div className="relative bg-white p-2 rounded-lg">
-		  <button onClick={onClose} className="absolute -top-5 -right-5 text-black">
-			<IoIosCloseCircleOutline className="text-white text-[30px]" />
-		  </button>
-		  <iframe
-			width="560"
-			height="315"
-			src={videoUrl}
-			title="YouTube video player"
-			frameBorder="0"
-			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-			referrerPolicy="strict-origin-when-cross-origin"
-			allowFullScreen
-		  ></iframe>
+		<div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50 ">
+			<div className="relative  p-2 rounded-lg flex w-full ">
+				<div className="flex w-full items-center justify-center relative mx-6 sm:mx-0 ">
+					<div className="w-full relative md:w-[530px] z-50">
+						<button
+							onClick={onClose}
+							className="absolute -top-5 -right-5 text-black">
+							<IoIosCloseCircleOutline className="text-white text-[30px]" />
+						</button>
+						<iframe
+							className="w-full"
+							height="315"
+							src={videoUrl}
+							title="YouTube video player"
+							frameBorder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+							referrerPolicy="strict-origin-when-cross-origin"
+							allowFullScreen></iframe>
+					</div>
+				</div>
+			</div>
 		</div>
-	  </div>
 	);
-  };
+};
 
 const Home_About = () => {
 	const navigate = useNavigate();
@@ -56,7 +61,7 @@ const Home_About = () => {
 	const [isModalOpen, setIsModalOpen] = useState(false);
 	const [videoUrl, setVideoUrl] = useState("");
 	const openModal = () => {
-		setVideoUrl("https://www.youtube.com/embed/uNLBDyB_OFE");
+		setVideoUrl("https://www.youtube.com/embed/eRBkr3NN2-E?si=LxRtNKkNQLCvwOj7");
 		setIsModalOpen(true);
 	  };
 	  
@@ -174,7 +179,7 @@ const Home_About = () => {
 							ease: "easeIn",
 							duration: 0.3,
 						}}
-						className="grid   ss:grid-cols-3 mt-2 w-full justify-between py-5 border-b gap-6 border-b-[#DDDDDD] ">
+						className="grid grid-cols-2  ss:grid-cols-3 mt-2 w-full justify-between py-5 border-b gap-6 border-b-[#DDDDDD] ">
 						<div className="flex flex-col items-center justify-center gap-3 px-[15px]">
 							<img
 								src={About_icon1}
