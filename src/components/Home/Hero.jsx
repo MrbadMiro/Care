@@ -59,13 +59,13 @@ const Hero = () => {
   };
 
   return (
-    <div className="w-full relative h-[100vh] md:h-[110vh] flex">
+    <div className="w-full relative h-[100vh] md:h-[110vh]  flex ">
       {HeroSlider.map((item, i) => (
         <div
           key={i}
           className={`slide-container ${i === index ? "block" : "hidden"} flex w-full`}
         >
-          <div className="w-full h-[100vh] md:h-[110vh] relative overflow-hidden flex items-center">
+          <div className="w-full  h-[100vh] md:h-[110vh] relative overflow-hidden flex items-center">
             <img
               alt=""
               className=" -z-10 h-full w-full absolute zoom-in"
@@ -80,7 +80,7 @@ const Hero = () => {
               alt=""
               className="hidden md:flex absolute bg-opacity-80 left-[35px] bottom-0 w-[205px] animate-wiperAnimation"
             />
-            <div className="flex flex-col w-full my-[200px] z-4 px-6 md:px-12">
+            <div className="flex flex-col w-full my-[200px] z-4 px-6 md:px-24">
               <div className="w-full flex flex-col">
                 <div className="w-full animate-slideContent2">
                   <p className="font-nunito font-extrabold text-white text-[30px] leading-[30px] md:text-[60px] md:leading-[60px] flex flex-row w-full">

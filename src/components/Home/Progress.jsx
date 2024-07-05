@@ -25,7 +25,7 @@ const Progress = () => {
 	const sectionStyle2 = createSectionStyle(Progress_img2);
 	const sectionStyle3 = createSectionStyle(Progress_img3);
 	return (
-		<div className="flex flex-col ss:px-12 px-3 w-full  my-24 md:mt-0">
+		<div className="flex flex-col ss:px-24 px-3 w-full  my-24 md:mt-0">
 			<div className="grid sm:grid-cols-2 md:grid-cols-3 relative md:gap-4 gap-24 w-full ">
 				{/* 1st div */}
 				<div

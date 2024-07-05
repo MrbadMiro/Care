@@ -61,11 +61,11 @@ const Testimonial2 = () => {
                         <img src={A_2_icon} alt="" className="animate-bounce" />
                     </div>
                     <p className="font-caveat text-center font-bold text-[#1EA8DF] text-[22px] leading-[22px] tracking-[2.2px]">
-                        OUR TESTIMONIALS
+                        TESTIMONIALS
                     </p>
                 </div>
                 <div className="w-full mb-12 relative z-1">
-                    <p className="font-nunito text-center font-extrabold text-[#122F2A] mt-2 text-[40px] leading-[50px] tracking-[0.33px]">
+                    <p className="font-nunito text-center font-extrabold text-[#122F2A] mt-6 text-[40px] leading-[50px] tracking-[0.33px]">
                         What They’re Saying
                     </p>
                     <img
@@ -103,7 +103,7 @@ const Testimonial2 = () => {
                                     className="p-8 w-full flex-shrink-0 flex flex-row border rounded-[80px] border-[#DDDDDD] relative py-12"
                                     style={{ minWidth: "100%" }}>
                                     <div className="flex flex-col w-full gap-1">
-                                        <p className="font-nunito text-center mt-2 text-[24px] font-extrabold text-[#122F2A]">
+                                        <p className="font-nunito text-center mt-8 text-[24px] font-extrabold text-[#122F2A]">
                                             {item.name}
                                         </p>
                                         <p className="font-rubik text-center text-[16px] font-normal mt-4 text-[#636363]">

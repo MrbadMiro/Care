@@ -48,19 +48,24 @@ const Navbar = () => {
 
     return (
         <div
-            className={`fixed z-20 top-0 w-full flex md:px-12 px-6 border-b border-b-white border-opacity-20 transition-all duration-300 ${
+            className={`fixed z-20 top-0 w-full flex md:px-24 px-6 border-b border-b-white border-opacity-20 transition-all duration-300 ${
                 isVisible ? "translate-y-0" : "-translate-y-full"
             }`}
             style={{
                 backgroundColor: scrollY > 50 ? "#080229" : "transparent",
             }}
         >
-            <div className="mx-auto flex w-full max-w-7xl justify-between py-5 text-sm text-white font-bold font-nunito">
+            <div className="mx-auto flex w-full  justify-between py-5 text-sm text-white font-bold font-nunito">
                 {/* Left Section */}
-                <div className="flex items-center gap-10">
+                <div className="flex items-center justify-between gap-10">
                     {/* Logo */}
                     <img src={logo} alt="Logo" className="h-[60px]" />
 
+                    
+                </div>
+
+                {/* Right Section */}
+                <div className="flex gap-2">
                     {isSideMenuOpen && <MobileNav closeSideMenu={closeSideMenu} />}
                     {/* Navitems */}
                     <div className="hidden md:flex items-center gap-4 transition-all">
@@ -90,20 +95,16 @@ const Navbar = () => {
                             </div>
                         ))}
                     </div>
-                </div>
-
-                {/* Right Section */}
-                <div className="flex gap-2">
                     {/* <button className="hidden px-4 py-2 bg-[#1EA8DF] text-white font-bold rounded-full md:flex items-center gap-1"  onClick={handleDonateClick}>
                         <FaHeart />
                         Donate Now
                     </button> */}
 
-                    <select id="language" className="hidden md:flex bg-[#1EA8DF] p-2 outline-none ">
+                    {/* <select id="language" className="hidden md:flex bg-[#1EA8DF] p-2 outline-none ">
                         <option  value="english">English</option>
                         <option value="tamil">Tamil</option>
                         <option value="sinhala">Sinhala</option>
-                    </select>
+                    </select> */}
                 </div>
                 <FiMenu
                     className="cursor-pointer text-4xl md:hidden"

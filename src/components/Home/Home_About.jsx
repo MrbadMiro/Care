@@ -28,7 +28,7 @@ const Home_About = () => {
 		navigate("/Careerr");
 	};
 	return (
-		<div className="w-full flex flex-col sm:px-12 px-3 my-24 items-center justify-center">
+		<div className="w-full flex flex-col sm:px-24 px-3 my-24 items-center justify-center">
 			<div className="w-full grid md:grid-cols-2">
 				{/* 1st div */}
 				<div className="relative flex sm:pl-[100px] sm:pr-[10px]  py">
@@ -44,7 +44,7 @@ const Home_About = () => {
 						}}
 						src={About_mimg}
 						alt=""
-						className=" object-cover w-full h-[500px] md:h-[690px] opacity-80 rounded-[30px]  "
+						className=" object-cover w-full h-[500px] md:h-full opacity-80 rounded-[30px]  "
 					/>
 
 					<div className="hidden md:flex absolute border-10 border-white top-[80px] animate-bounce-slow -left-[4px]">
@@ -134,7 +134,7 @@ const Home_About = () => {
 							ease: "easeIn",
 							duration: 0.3,
 						}}
-						className="grid  grid-cols-3 mt-5 w-full justify-between py-5 border-b border-b-[#DDDDDD] ">
+						className="grid  grid-cols-3 mt-2 w-full justify-between py-5 border-b border-b-[#DDDDDD] ">
 						<div className="flex flex-col items-center justify-center gap-3 px-[15px]">
 							<img
 								src={About_icon1}
@@ -208,7 +208,7 @@ const Home_About = () => {
 							ease: "easeIn",
 							duration: 0.1,
 						}}
-						className="flex flex-cols-2 my-10 items-center justify-between ">
+						className="flex flex-cols-2 my-5 items-center justify-between ">
 						<div className="flex flex-cols-2 gap-3 items-center justify-center ">
 							<div className="flex  rounded-full border-dotted border-2 border-[#1EA8DF] p-1 ">
 								<img
