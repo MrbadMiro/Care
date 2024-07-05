@@ -74,6 +74,6 @@ export default {
 	},
 	plugins: [
 		require("tailwindcss-animatecss"),
-		require("tailwindcss-debug-screens"),
+		 
 	],
 };

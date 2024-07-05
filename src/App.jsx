@@ -15,7 +15,7 @@ function App() {
 
 
   return (
-    <div className=" debug-screens ">
+    <div className="  ">
        
         <Hero className=""/>
         <Progress/>
