@@ -16,7 +16,7 @@ const Progress = () => {
         navigate("/about");
     };
 	const createSectionStyle = (imageUrl) => ({
-		backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${imageUrl})`,
+		backgroundImage: `rgba(0,0,0,0.5)), url(${imageUrl})`,
 		backgroundSize: "cover",
 		backgroundPosition: "center",
 	});
@@ -29,9 +29,9 @@ const Progress = () => {
 			<div className="grid sm:grid-cols-2 md:grid-cols-3 relative md:gap-4 gap-24 w-full ">
 				{/* 1st div */}
 				<div
-					className="relative flex items-center justify-center px-[15px] py-24 md:rounded-b-md boxShadow w-full"
-					style={sectionStyle2}>
-					<p className=" text-center text-white  ">
+					className="relative flex items-center justify-center px-[15px] pt-[96px]  pb-8  md:rounded-b-md boxShadow w-full"
+					style={sectionStyle}>
+					<p className=" text-center text-white h-[150px]  ">
 					To unite micro-investors, foster professional administration, and nurture strong leaders, driving social value and trust within our community.
 					</p>
 					<div className="flex items-center justify-center Flex-col  absolute rounded-[58px] bg-[#F1F6F7]  left-1/2 transform -translate-x-1/2  md:-top-10 -top-14  md:py-4  py-8 w-[calc(100%-30px)] md:w-[calc(100%-30px)]">
@@ -67,7 +67,7 @@ const Progress = () => {
 				{/* 2nd div */}
 
 				<div
-					className="relative flex  items-center py-24 md:rounded-b-md justify-center px-[15px] boxShadow w-full"
+					className="relative flex  items-center pt-[96px] pb-8 md:rounded-b-md justify-center px-[15px] boxShadow w-full"
 					style={sectionStyle2}>
 					{/* <img
 						src={Progress_img2}
@@ -106,9 +106,9 @@ const Progress = () => {
 				</div>
 				{/* 3rd div */}
 				<div
-					className="relative flex items-center py-24 md:rounded-b-md justify-center px-[15px] boxShadow sm:mt-10 md:mt-0 w-full"
+					className="relative flex items-center pt-[96px] pb-8 md:rounded-b-md justify-center px-[15px] boxShadow sm:mt-10 md:mt-0 w-full"
 					style={sectionStyle3}>
-					<p className=" text-center text-white mt-2">
+					<p className=" text-center text-white   h-[150px]">
 					Community Engagement | Unified Micro-Investors | Consolidation of Resources | Self-Sufficiency | Leadership Development
 					</p>
 					<div className="absolute rounded-[58px] bg-[#F1F6F7]  left-1/2 transform -translate-x-1/2 md:-top-10 -top-14 md:py-4  py-8   w-[calc(100%-30px)] md:w-[calc(100%-30px)]">

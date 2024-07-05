@@ -145,3 +145,8 @@ html,body {
 .bounce_horizontal {
 	animations: bounce_horizontal 10s linear infinite;
 }
+
+.overflow-hidden {
+	overflow: hidden;
+  }
+  

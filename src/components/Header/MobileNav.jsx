@@ -2,7 +2,7 @@ import SingleNavItem from "./SingleNavItem";
 import { AiOutlineClose } from "react-icons/ai";
 import { navLinks } from "../../Data";
 import { Link, useNavigate } from "react-router-dom";
-import React from "react";
+import React, { useEffect } from "react";
 import { FaHeart } from "react-icons/fa";
 
 const MobileNav = ({ closeSideMenu }) => {
@@ -13,12 +13,25 @@ const MobileNav = ({ closeSideMenu }) => {
     closeSideMenu();
   };
 
+  useEffect(() => {
+    // Add the class to disable scrolling when the component is mounted
+    document.body.classList.add("overflow-hidden");
+
+    // Remove the class when the component is unmounted
+    return () => {
+      document.body.classList.remove("overflow-hidden");
+    };
+  }, []);
+
   return (
     <div className="fixed overflow-y-hidden z-20 left-0 top-0 flex h-[100vh] w-full justify-end bg-black/60 md:hidden">
       <div className="h-full w-[65%] z-50 bg-white px-4 py-4">
         <section className="flex justify-end">
           <AiOutlineClose
-            onClick={closeSideMenu}
+            onClick={() => {
+              closeSideMenu();
+              document.body.classList.remove("overflow-hidden"); // Remove the class when menu is closed
+            }}
             className="cursor-pointer text-black text-4xl"
           />
         </section>
@@ -36,7 +49,10 @@ const MobileNav = ({ closeSideMenu }) => {
               title={d.title}
               to={d.to}
               submenu={d.submenu}
-              closeSideMenu={closeSideMenu}
+              closeSideMenu={() => {
+                closeSideMenu();
+                document.body.classList.remove("overflow-hidden"); // Remove the class when menu is closed
+              }}
             />
           ))}
         </div>
